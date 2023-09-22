@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Melania Srirosari Juita\",\"expiryDate\":\"21 Mar 2023\",\"number\":\"9290255299\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":11913,\"email\":\"lannyjuita12@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"14 Mar 2023\",\"phone\":\"082235489303\",\"isHasExtendedExpiryDate\":true,\"name\":\"Melania Srirosari Juita\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":12733}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Rendy Julian Putra\",\"expiryDate\":\"17 Mar 2023\",\"number\":\"4444034203\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":11677,\"email\":\"rendyjulianputra49@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"10 Mar 2023\",\"phone\":\"081807903515\",\"isHasExtendedExpiryDate\":true,\"name\":\"Rendy Julian Putra\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":12479}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"1,800,000\",\"agentId\":2210,\"billedEntityType\":null,\"billedTo\":\"Tommy Julio\",\"expiryDate\":\"11 Feb 2022\",\"number\":\"1688930763\",\"nik\":null,\"agentUid\":\"RPG8MMXG\",\"storeName\":\"ABC Medan\",\"id\":653,\"email\":\"tommyjulio63@gmail.com\",\"npwp\":null,\"agentName\":\"Desi Permatasari\",\"grossAmount\":\"1,980,000\",\"storeId\":157,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 Feb 2022\",\"phone\":\"081934699655\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tommy Julio\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":653}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MDN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

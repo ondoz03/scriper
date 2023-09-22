@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":35577,\"billedEntityType\":null,\"billedTo\":\"BARU BEAUTY COSMETICS\",\"expiryDate\":\"06 Aug 2023\",\"number\":\"4402948279\",\"nik\":null,\"agentUid\":\"XD5R38MG\",\"storeName\":\"Sniper-JBN\",\"id\":17196,\"email\":\"barubeautycosmetic@gmail.com\",\"npwp\":null,\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"30 Jul 2023\",\"phone\":\"082135305006\",\"isHasExtendedExpiryDate\":true,\"name\":\"Cynthia Jufina\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18557}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35502,\"billedEntityType\":null,\"billedTo\":\"Honeycoherbal\",\"expiryDate\":\"02 Jul 2022\",\"number\":\"5293423938\",\"nik\":null,\"agentUid\":\"R2W9Q902\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":4299,\"email\":\"honeycoherbal@gmail.com\",\"npwp\":null,\"agentName\":\"Asep Priyoto\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Jun 2022\",\"phone\":\"085282208220\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bagus Adhi\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HEBAT2\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":4399}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"1,800,000\",\"agentId\":2210,\"billedEntityType\":null,\"billedTo\":\"Komputer Medan Indonesia\",\"expiryDate\":\"23 Mar 2022\",\"number\":\"0732227036\",\"nik\":null,\"agentUid\":\"RPG8MMXG\",\"storeName\":\"ABC Medan\",\"id\":1358,\"email\":\"hendrik.sandycom@gmail.com\",\"npwp\":null,\"agentName\":\"Desi Permatasari\",\"grossAmount\":\"1,980,000\",\"storeId\":157,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Mar 2022\",\"phone\":\"085270097778\",\"isHasExtendedExpiryDate\":true,\"name\":\"Hendrik\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":1360}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MDN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33208,\"billedEntityType\":null,\"billedTo\":\"Fulki\",\"expiryDate\":\"07 Jun 2022\",\"number\":\"0008466296\",\"nik\":null,\"agentUid\":\"XD5RNKMG\",\"storeName\":\"Accurate Sniper\",\"id\":3539,\"email\":\"finecutbarbier@gmail.com\",\"npwp\":null,\"agentName\":\"Mohamad Ridwan Rusyana\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 May 2022\",\"phone\":\"082216317300\",\"isHasExtendedExpiryDate\":true,\"name\":\"Fulki\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3591}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33208,\"billedEntityType\":null,\"billedTo\":\"Finecut Barbier\",\"expiryDate\":\"29 May 2022\",\"number\":\"7992534226\",\"nik\":null,\"agentUid\":\"XD5RNKMG\",\"storeName\":\"Accurate Sniper\",\"id\":3229,\"email\":\"finecutbarbier@gmail.com\",\"npwp\":null,\"agentName\":\"Mohamad Ridwan Rusyana\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 May 2022\",\"phone\":\"085659133199\",\"isHasExtendedExpiryDate\":true,\"name\":\"Fulki\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3280}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

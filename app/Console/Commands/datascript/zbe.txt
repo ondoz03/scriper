@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":33961,\"billedEntityType\":null,\"billedTo\":\"PT Prima Mega Cemerlang\",\"expiryDate\":\"21 Jun 2023\",\"number\":\"1051117232\",\"nik\":null,\"agentUid\":\"4D9LXME2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":15768,\"email\":\"sherinlizbethlie@gmail.com\",\"npwp\":null,\"agentName\":\"PT Rapihin Inti Indonesia\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"14 Jun 2023\",\"phone\":\"081213637337\",\"isHasExtendedExpiryDate\":true,\"name\":\"sherin\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":16868}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

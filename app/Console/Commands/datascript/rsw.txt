@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,840,000\",\"agentId\":35618,\"billedEntityType\":null,\"billedTo\":\"Bakersworld Indonesia\",\"expiryDate\":\"11 May 2023\",\"number\":\"8299712871\",\"nik\":null,\"agentUid\":\"PD13RN4G\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":13962,\"email\":\"putrih@bakersworld-indonesia.com\",\"npwp\":null,\"agentName\":\"Jeri Louis\",\"grossAmount\":\"4,262,400\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 May 2023\",\"phone\":\"081806819103\",\"isHasExtendedExpiryDate\":true,\"name\":\"Putri Hanifah\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14870},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":14871},{\"amount\":240000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":14872}],\"shippingAddress\":null,\"taxAmount\":\"422,400\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"},{\"amountBeforeTax\":\"2,800,000\",\"agentId\":35107,\"billedEntityType\":null,\"billedTo\":\"PT SUKSES MANIS BERJAYA\",\"expiryDate\":\"24 May 2022\",\"number\":\"5808606768\",\"nik\":null,\"agentUid\":\"XD6319KD\",\"storeName\":\"Accurate Mate\",\"id\":3055,\"email\":\"Bittersweetoffice@gmail.com\",\"npwp\":null,\"agentName\":\"Dinny Nadia Putri\",\"grossAmount\":\"3,108,000\",\"storeId\":2700,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"17 May 2022\",\"phone\":\"087805665041\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT SUKSES MANIS BERJAYA\",\"detailList\":[{\"amount\":2800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + Setup Awal 1 hari\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + Setup Awal 1 hari\",\"id\":3105}],\"shippingAddress\":null,\"taxAmount\":\"308,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AM\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

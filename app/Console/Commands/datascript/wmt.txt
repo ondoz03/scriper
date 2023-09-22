@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2108,\"billedEntityType\":null,\"billedTo\":\"PT. Wijaya Mandiri Tintex\",\"expiryDate\":\"23 Nov 2022\",\"number\":\"5900499681\",\"nik\":null,\"agentUid\":\"5XD5W1Q2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":8055,\"email\":\"acc.wmt1973@gmail.com\",\"npwp\":null,\"agentName\":\"Hizkia Sulaeman\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Nov 2022\",\"phone\":\"081297708822\",\"isHasExtendedExpiryDate\":true,\"name\":\"Rose Ibu\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS1\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8379}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

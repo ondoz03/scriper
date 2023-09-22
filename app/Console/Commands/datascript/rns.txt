@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"29,000,000\",\"agentId\":2200,\"billedEntityType\":\"PT\",\"billedTo\":\"PT. SINAR TAMAN PLASTINDO\",\"expiryDate\":\"12 Dec 2022\",\"number\":\"5517097151\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":8633,\"email\":\"internstp123@gmail.com\",\"npwp\":\"028441343652001\",\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"32,190,000\",\"storeId\":156,\"billedAddress\":\"JL SUNANDAR PRIYO SUDARMO NO.31 RT.003 RW.003 BLIMBING, BLIMBING KOTA MALANG JAWA TIMUR\",\"billedZipCode\":\"-\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"05 Dec 2022\",\"phone\":\"081231130092\",\"isHasExtendedExpiryDate\":true,\"name\":\"APRILLINA YUDIANTO\",\"detailList\":[{\"amount\":26000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) dan Add-on Manufaktur dengan 5 pengguna tambahan selama 1 tahun. BONUS: Voucher Implementasi AOL senilai Rp 6.000.000,-\",\"promotionCode\":null,\"description\":\"Accurate Online + Add-on Manufaktur (1 tahun) + 5 Pengguna Tambahan + Voucher Implementasi Rp 6.000.000,-\",\"id\":8991},{\"amount\":1800000,\"quantity\":2,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":8992},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 cabang 1 tahun\",\"id\":8993}],\"shippingAddress\":null,\"invoice\":{\"number\":\"92122348086\",\"couponAmount\":0,\"createTime\":\"05\/12\/2022 09:43:52\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":357859},\"taxAmount\":\"3,190,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

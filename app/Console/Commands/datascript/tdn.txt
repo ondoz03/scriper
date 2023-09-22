@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,600,000\",\"agentId\":2162,\"billedEntityType\":null,\"billedTo\":\"PT Hana MirantI Indonesia\",\"expiryDate\":\"28 Mar 2023\",\"number\":\"1976925868\",\"nik\":null,\"agentUid\":\"3EDPE1Z2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":12566,\"email\":\"ap@bitdna.id\",\"npwp\":null,\"agentName\":\"Saripin\",\"grossAmount\":\"2,886,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Mar 2023\",\"phone\":\"081280047477\",\"isHasExtendedExpiryDate\":true,\"name\":\"Aryo Prakarsa\",\"detailList\":[{\"amount\":2600000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 4 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"THRLEBARANHEMAT\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 4 Pengguna Tambahan\",\"id\":13385}],\"shippingAddress\":null,\"taxAmount\":\"286,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2162,\"billedEntityType\":\"PT\",\"billedTo\":\"HANA MIRANTI INDONESIA\",\"expiryDate\":\"28 Mar 2023\",\"number\":\"7435780640\",\"nik\":null,\"agentUid\":\"3EDPE1Z2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":12522,\"email\":\"ap@bitdna.id\",\"npwp\":\"539519975016000\",\"agentName\":\"Saripin\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":\"JL KARANG TENGAH RAYA RUKO BONA INDAH PLAZA, LANTAI 3F, A2\/A1, LEBAK BULUS, CILANDAK, KOTA\\nADM. JAKARTA SELATAN\",\"billedZipCode\":\"12440\",\"billedProvince\":\"Jakarta\",\"createTime\":\"21 Mar 2023\",\"phone\":\"081280047477\",\"isHasExtendedExpiryDate\":true,\"name\":\"Aryo Prakarsa\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":13347}],\"shippingAddress\":null,\"invoice\":{\"number\":\"98488846741\",\"couponAmount\":0,\"createTime\":\"27\/03\/2023 17:38:10\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6DEE4E1253\",\"id\":409005},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":35577,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"HEPI MEAL MAGELANG\",\"expiryDate\":\"21 Jul 2023\",\"number\":\"4084469610\",\"nik\":\"3308042504770003\",\"agentUid\":\"XD5R38MG\",\"storeName\":\"Sniper-JBN\",\"id\":16905,\"email\":\"juliiayuyun@gmail.com\",\"npwp\":null,\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":\"Jl Magelang Km 20 Krakitan Rt 4,Rw 5 Sucen Salam Magelang Jawa Tengah \",\"billedZipCode\":\"56484\",\"billedProvince\":\"Jawa Tengah\",\"createTime\":\"14 Jul 2023\",\"phone\":\"087719232227\",\"isHasExtendedExpiryDate\":true,\"name\":\"Yuyun Zuliana Herawati\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18120}],\"shippingAddress\":null,\"invoice\":{\"number\":\"80936991960\",\"couponAmount\":0,\"createTime\":\"14\/07\/2023 21:34:58\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6LGG9E5P73\",\"id\":461996},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36655,\"billedEntityType\":null,\"billedTo\":\"MQ BIKE\",\"expiryDate\":\"07 Jan 2023\",\"number\":\"8412439709\",\"nik\":null,\"agentUid\":\"RD3E570D\",\"storeName\":\"Accurate Sniper\",\"id\":9221,\"email\":\"marketingmqbike@gmail.com\",\"npwp\":null,\"agentName\":\"Jovan Nurdiansyah\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Dec 2022\",\"phone\":\"081221216661\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ahmad\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS5\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9683}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36655,\"billedEntityType\":null,\"billedTo\":\"MQ BIKE\",\"expiryDate\":\"19 Dec 2022\",\"number\":\"0424688225\",\"nik\":null,\"agentUid\":\"RD3E570D\",\"storeName\":\"Accurate Sniper\",\"id\":8868,\"email\":\"marketingmqbike@gmail.com\",\"npwp\":null,\"agentName\":\"Jovan Nurdiansyah\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 Dec 2022\",\"phone\":\"081221216661\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ahmad\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS4\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9268}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

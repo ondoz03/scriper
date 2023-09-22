@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35621,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Revo Print Shop\",\"expiryDate\":\"21 Sep 2022\",\"number\":\"2824629820\",\"nik\":\"3674050702770004\",\"agentUid\":\"P2VPEMX2\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":6446,\"email\":\"bunga@revoprintshop.com\",\"npwp\":null,\"agentName\":\"Petruk Semar\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":\"Jl. Pahlawan Seribu Blok RG No.16,\\nRT.006 \/ RW.001 BSD Sektor IV,\\nDesa\/Kelurahan Lengkong Wetan,\\nKec. Serpong, Kota Tangerang\\nSelatan, Provinsi Banten\\n\",\"billedZipCode\":\"15310\",\"billedProvince\":\"Banten\",\"createTime\":\"14 Sep 2022\",\"phone\":\"087888506985\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bunga\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6752}],\"shippingAddress\":null,\"invoice\":{\"number\":\"51307633975\",\"couponAmount\":0,\"createTime\":\"14\/09\/2022 16:29:41\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":324660},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"UTS-HQ\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35621,\"billedEntityType\":null,\"billedTo\":\"Revo Print Shop\",\"expiryDate\":\"21 Sep 2022\",\"number\":\"8373389283\",\"nik\":null,\"agentUid\":\"P2VPEMX2\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":6445,\"email\":\"edi.prasetyo@revoprintshop.com\",\"npwp\":null,\"agentName\":\"Petruk Semar\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"14 Sep 2022\",\"phone\":\"087888506985\",\"isHasExtendedExpiryDate\":true,\"name\":\"Edi Prasetyo\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6751}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

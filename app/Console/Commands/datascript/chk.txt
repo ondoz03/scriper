@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38308,\"billedEntityType\":null,\"billedTo\":\"PT. Voltech kreasi engineering\",\"expiryDate\":\"10 Aug 2023\",\"number\":\"7003827823\",\"nik\":null,\"agentUid\":\"XD5WWZV2\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":17291,\"email\":\"accounting@voltechkreasi.com\",\"npwp\":null,\"agentName\":\"Elfrida Pangaribuan\",\"grossAmount\":\"2,664,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"03 Aug 2023\",\"phone\":\"08998780585\",\"isHasExtendedExpiryDate\":true,\"name\":\"Siti Nur Khodijah\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18614}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+

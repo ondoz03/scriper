@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":11513,\"billedEntityType\":null,\"billedTo\":\" CV CITRA JAYA\",\"expiryDate\":\"19 May 2023\",\"number\":\"1779847610\",\"nik\":null,\"agentUid\":\"K7GJ340D\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":14188,\"email\":\"habilferi6@gmail.com\",\"npwp\":null,\"agentName\":\"Erapuji\",\"grossAmount\":\"2,664,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 May 2023\",\"phone\":\"085839171776\",\"isHasExtendedExpiryDate\":true,\"name\":\"Feri\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":15152}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+

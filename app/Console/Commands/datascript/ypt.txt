@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":39260,\"billedEntityType\":\"UD\",\"billedTo\":\"Krypton Hardware\",\"expiryDate\":\"16 Sep 2023\",\"number\":\"1358571480\",\"nik\":\"3578295907830003\",\"agentUid\":\"72YPX7W2\",\"storeName\":\"Sniper-JBN\",\"id\":18823,\"email\":\"krypton_hardware89@yahoo.com\",\"npwp\":null,\"agentName\":\"Ganjar Santoso Ghiffari\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":\"Jl Kendalsari Selatan Ruko PCE-R3 Penjaringan, Rungkut, Surabaya\",\"billedZipCode\":\"60297\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"09 Sep 2023\",\"phone\":\"087701785979\",\"isHasExtendedExpiryDate\":true,\"name\":\"Paul Newman Chandrawan\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20183}],\"shippingAddress\":null,\"invoice\":{\"number\":\"95195248276\",\"couponAmount\":0,\"createTime\":\"13\/09\/2023 13:25:54\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3744LY2M96\",\"id\":494039},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2163,\"billedEntityType\":null,\"billedTo\":\"PT KISABA MAKMUR BATAM\",\"expiryDate\":\"19 Jul 2022\",\"number\":\"0129037826\",\"nik\":null,\"agentUid\":\"P9D78J62\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":4702,\"email\":\"companyptkmb@gmail.com\",\"npwp\":null,\"agentName\":\"Agus Fadhil \",\"grossAmount\":\"2,220,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 Jul 2022\",\"phone\":\"081339761014\",\"isHasExtendedExpiryDate\":true,\"name\":\"Leonardo\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":4802}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

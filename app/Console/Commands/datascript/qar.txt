@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"22,000,000\",\"agentId\":36608,\"billedEntityType\":null,\"billedTo\":\"PT. Petra Sejahtera Abadi\",\"expiryDate\":\"22 Nov 2022\",\"number\":\"1669297719\",\"nik\":null,\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":8018,\"email\":\"sodiqardianto@gmail.com\",\"npwp\":null,\"agentName\":\"Wendi Surahman\",\"grossAmount\":\"24,420,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"15 Nov 2022\",\"phone\":\"083865836382\",\"isHasExtendedExpiryDate\":true,\"name\":\"sodiq ardianto\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS1\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8342},{\"amount\":20000000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Manufaktur 1 tahun\",\"id\":8343}],\"shippingAddress\":null,\"taxAmount\":\"2,420,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"20,000,000\",\"agentId\":36608,\"billedEntityType\":null,\"billedTo\":\"PT. Petra Sejahtera Abadi\",\"expiryDate\":\"22 Nov 2022\",\"number\":\"9999004376\",\"nik\":null,\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":8017,\"email\":\"sodiqardianto@gmail.com\",\"npwp\":null,\"agentName\":\"Wendi Surahman\",\"grossAmount\":\"22,200,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"15 Nov 2022\",\"phone\":\"083865836382\",\"isHasExtendedExpiryDate\":true,\"name\":\"sodiq ardianto\",\"detailList\":[{\"amount\":20000000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":\"HARBOLNAS1\",\"description\":\"Paket Add-on Manufaktur 1 tahun\",\"id\":8341}],\"shippingAddress\":null,\"taxAmount\":\"2,200,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

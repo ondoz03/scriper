@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":29764,\"billedEntityType\":null,\"billedTo\":\"PT Inter Kreativ Lift Indonesia\",\"expiryDate\":\"29 Jun 2022\",\"number\":\"5971300381\",\"nik\":null,\"agentUid\":\"P213PY3D\",\"storeName\":\"ABC Pusat\",\"id\":3987,\"email\":\"finance@kreativlift.co.id\",\"npwp\":null,\"agentName\":\"PT. Mitra Mandiri Digital Teknologi\",\"grossAmount\":\"2,220,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 Jun 2022\",\"phone\":\"087782222682\",\"isHasExtendedExpiryDate\":true,\"name\":\"Rohana Hung\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HEBAT1\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":4038}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"}]}");
+
+

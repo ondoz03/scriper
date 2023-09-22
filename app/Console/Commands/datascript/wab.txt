@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":18926,\"billedEntityType\":null,\"billedTo\":\"Percobaan Sistem \",\"expiryDate\":\"31 Aug 2023\",\"number\":\"9473877219\",\"nik\":null,\"agentUid\":\"5GL0LQE2\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":18071,\"email\":\"accounting@deltawibawabersama.com\",\"npwp\":null,\"agentName\":\"Erik Indriyanto\",\"grossAmount\":\"2,664,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Aug 2023\",\"phone\":\"089677802108\",\"isHasExtendedExpiryDate\":true,\"name\":\"Accounting Delta Wibawa Bersama\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19430}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":11513,\"billedEntityType\":null,\"billedTo\":\"Ibu Mia\",\"expiryDate\":\"18 Aug 2023\",\"number\":\"2447713337\",\"nik\":null,\"agentUid\":\"K7GJ340D\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":17509,\"email\":\"accwab@gmail.com\",\"npwp\":null,\"agentName\":\"Erapuji\",\"grossAmount\":\"2,664,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"11 Aug 2023\",\"phone\":\"087731229445\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Mia\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18856}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35108,\"billedEntityType\":null,\"billedTo\":\"PT Swabina Karya Indonesia\",\"expiryDate\":\"14 Jul 2022\",\"number\":\"1069910960\",\"nik\":null,\"agentUid\":\"XD5R79PG\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":4593,\"email\":\"hari@swabina.co.id\",\"npwp\":null,\"agentName\":\"Ana Mariana\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Jul 2022\",\"phone\":\"085691145074\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT Swabina Karya Indonesia\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":4696}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

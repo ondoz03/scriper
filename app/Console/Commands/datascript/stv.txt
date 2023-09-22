@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33208,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Adalogam\",\"expiryDate\":\"30 Jun 2022\",\"number\":\"3833264064\",\"nik\":\"3171024306860003\",\"agentUid\":\"XD5RNKMG\",\"storeName\":\"Accurate Sniper\",\"id\":4220,\"email\":\"itine.stv@gmail.com\",\"npwp\":null,\"agentName\":\"Mohamad Ridwan Rusyana\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":\"Taman kopo indah V ruko pinewood no 23\",\"billedZipCode\":\"40225\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"23 Jun 2022\",\"phone\":\"081910507890\",\"isHasExtendedExpiryDate\":true,\"name\":\"Christine\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HEBAT1\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":4320}],\"shippingAddress\":null,\"invoice\":{\"number\":\"17247883805\",\"couponAmount\":0,\"createTime\":\"28\/06\/2022 10:39:19\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"31DDLR49R6\",\"id\":294701},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

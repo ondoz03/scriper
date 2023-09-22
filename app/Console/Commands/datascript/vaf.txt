@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Keti Eva Fadilah\",\"expiryDate\":\"23 Mar 2023\",\"number\":\"5356446831\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":12198,\"email\":\"ketievafadilah@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Mar 2023\",\"phone\":\"085730735675\",\"isHasExtendedExpiryDate\":true,\"name\":\"Keti Eva Fadilah\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":13063}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":6901,\"billedEntityType\":null,\"billedTo\":\"CV VAFS GEMILANG SUKSES\",\"expiryDate\":\"19 Dec 2022\",\"number\":\"2848475018\",\"nik\":null,\"agentUid\":\"4JDQXVV2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":8972,\"email\":\"vafsgemilangsukses88@gmail.com\",\"npwp\":null,\"agentName\":\"Bapak\\tharyadi indra jaya\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 Dec 2022\",\"phone\":\"085107636377\",\"isHasExtendedExpiryDate\":true,\"name\":\"Admin VAFS\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS4\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9334}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"1,900,000\",\"agentId\":6901,\"billedEntityType\":null,\"billedTo\":\"PT. VAFS GEMILANG SUKSES\",\"expiryDate\":\"05 Mar 2022\",\"number\":\"6052667682\",\"nik\":null,\"agentUid\":\"4JDQXVV2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":993,\"email\":\"vafsgemilangsukses88@gmail.com\",\"npwp\":null,\"agentName\":\"Bapak\\tharyadi indra jaya\",\"grossAmount\":\"2,090,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Feb 2022\",\"phone\":\"082287937933\",\"isHasExtendedExpiryDate\":true,\"name\":\"Admin VAFS\",\"detailList\":[{\"amount\":1900000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"BERES\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 1 Pengguna Tambahan\",\"id\":994}],\"shippingAddress\":null,\"taxAmount\":\"190,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

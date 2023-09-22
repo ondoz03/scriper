@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":31471,\"billedEntityType\":null,\"billedTo\":\"PT. Mutuagung Lestari\",\"expiryDate\":\"07 Aug 2023\",\"number\":\"2594228208\",\"nik\":null,\"agentUid\":\"R2W90832\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":17250,\"email\":\"accounting@mutucertification.com\",\"npwp\":null,\"agentName\":\"ACIS Indonesia ( CV ANEKA CIPTA INFORMASI SOLUSINDO )\",\"grossAmount\":\"2,664,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Jul 2023\",\"phone\":\"082260936440\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT. Mutuagung Lestari\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18562}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":36608,\"billedEntityType\":null,\"billedTo\":\"PT Mutuagung Lestari\",\"expiryDate\":\"28 Jun 2023\",\"number\":\"6388569050\",\"nik\":null,\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":15992,\"email\":\"drusharjadi@mutucertification.com\",\"npwp\":null,\"agentName\":\"Wendi\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Jun 2023\",\"phone\":\"081398896916\",\"isHasExtendedExpiryDate\":true,\"name\":\"Dedy Rusharjadi\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17151}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

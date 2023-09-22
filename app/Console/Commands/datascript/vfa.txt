@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":30712,\"billedEntityType\":null,\"billedTo\":\"Maiyudi\",\"expiryDate\":\"28 Sep 2023\",\"number\":\"9224960290\",\"nik\":null,\"agentUid\":\"MGKNWJ0G\",\"storeName\":\"ABC Pusat\",\"id\":19153,\"email\":\"cvfatihjayaagro@gmail.com\",\"npwp\":null,\"agentName\":\"vasko edo gultom\",\"grossAmount\":\"2,664,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Sep 2023\",\"phone\":\"08167959526\",\"isHasExtendedExpiryDate\":true,\"name\":\"Maiyudi\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20526}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2163,\"billedEntityType\":\"CV\",\"billedTo\":\"FAMILY JAYA PLASTIK\",\"expiryDate\":\"09 Sep 2022\",\"number\":\"9651578361\",\"nik\":null,\"agentUid\":\"P9D78J62\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":6237,\"email\":\"cvfamilyjayaplastik@gmail.com\",\"npwp\":\"654298728323000\",\"agentName\":\"Agus Fadhil \",\"grossAmount\":\"2,220,000\",\"storeId\":155,\"billedAddress\":\"KIMAJA - KOTA BANDAR LAMPUNG\",\"billedZipCode\":\"35132\",\"billedProvince\":\"Lampung\",\"createTime\":\"02 Sep 2022\",\"phone\":\"0817892639\",\"isHasExtendedExpiryDate\":true,\"name\":\"Wendy Wiranata\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB300\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6438}],\"shippingAddress\":null,\"invoice\":{\"number\":\"86201531585\",\"couponAmount\":0,\"createTime\":\"08\/09\/2022 12:29:01\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"69PPE8BN13\",\"id\":322366},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

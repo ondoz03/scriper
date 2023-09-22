@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":2163,\"billedEntityType\":null,\"billedTo\":\"PT MBP\",\"expiryDate\":\"27 Jan 2022\",\"number\":\"8550187420\",\"nik\":null,\"agentUid\":\"P9D78J62\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":50,\"email\":\"bcl.mart@gmail.com\",\"npwp\":null,\"agentName\":\"Agus Fadhil \",\"grossAmount\":\"1,980,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"20 Jan 2022\",\"phone\":\"082219519595\",\"isHasExtendedExpiryDate\":true,\"name\":\"Rosi Permata Sari\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":50}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+

@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":14415,\"billedEntityType\":null,\"billedTo\":\"Godiva Caraka Konsultama\",\"expiryDate\":\"03 Oct 2022\",\"number\":\"9201628620\",\"nik\":null,\"agentUid\":\"4G91MNPD\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":6757,\"email\":\"admin@gck-consulting.com\",\"npwp\":null,\"agentName\":\"Bimo\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Sep 2022\",\"phone\":\"082114601499\",\"isHasExtendedExpiryDate\":true,\"name\":\"Gabriel Christianto\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7008}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

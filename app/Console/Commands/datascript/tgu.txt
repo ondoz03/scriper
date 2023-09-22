@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33210,\"billedEntityType\":null,\"billedTo\":\"PT. Inovasi Mulia Kreasindotex\",\"expiryDate\":\"25 Apr 2022\",\"number\":\"0876178597\",\"nik\":null,\"agentUid\":\"PG8X39K2\",\"storeName\":\"Accurate Sniper\",\"id\":2441,\"email\":\"gatotguang5@gmail.com\",\"npwp\":null,\"agentName\":\"Fauzan\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"18 Apr 2022\",\"phone\":\"081367382748\",\"isHasExtendedExpiryDate\":true,\"name\":\"Gatot\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"UNTUNG\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":2491}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"26,000,000\",\"agentId\":33210,\"billedEntityType\":null,\"billedTo\":\"PT INOVASI MULIA KREASINDOTEX\",\"expiryDate\":\"15 Apr 2022\",\"number\":\"7543146818\",\"nik\":null,\"agentUid\":\"PG8X39K2\",\"storeName\":\"Accurate Sniper\",\"id\":2352,\"email\":\"gatotguang5@gmail.com\",\"npwp\":null,\"agentName\":\"Fauzan\",\"grossAmount\":\"28,860,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"08 Apr 2022\",\"phone\":\"081367382748\",\"isHasExtendedExpiryDate\":true,\"name\":\"Gatot\",\"detailList\":[{\"amount\":26000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) dan Add-on Manufaktur dengan 5 pengguna tambahan selama 1 tahun. BONUS: Voucher Implementasi AOL senilai Rp 6.000.000,-\",\"promotionCode\":null,\"description\":\"Accurate Online + Add-on Manufaktur (1 tahun) + 5 Pengguna Tambahan + Voucher Implementasi Rp 6.000.000,-\",\"id\":2404}],\"shippingAddress\":null,\"taxAmount\":\"2,860,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

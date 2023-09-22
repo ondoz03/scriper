@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"4,440,000\",\"agentId\":2107,\"billedEntityType\":null,\"billedTo\":\"PT Reka Kreasi Makmur Abadi \",\"expiryDate\":\"26 Sep 2023\",\"number\":\"9225165883\",\"nik\":null,\"agentUid\":\"PXD6EMQD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":19121,\"email\":\"finance.mgr@hq.peakwineconnoisseurs.com\",\"npwp\":null,\"agentName\":\"Rendy Laksmana\",\"grossAmount\":\"4,928,400\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Sep 2023\",\"phone\":\"081382858888\",\"isHasExtendedExpiryDate\":true,\"name\":\"Grace Hakim\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20475},{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Accurate POS 1 outlet 1 tahun\",\"id\":20476},{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":20477},{\"amount\":240000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Device Accurate POS 1 tahun (untuk 1 device)\",\"id\":20478}],\"shippingAddress\":null,\"taxAmount\":\"488,400\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2162,\"billedEntityType\":null,\"billedTo\":\"PT. Rumah Sakit Arun Medica\",\"expiryDate\":\"15 Aug 2023\",\"number\":\"8784871844\",\"nik\":null,\"agentUid\":\"3EDPE1Z2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":17388,\"email\":\"rumahsakitarunmedica@gmail.com\",\"npwp\":null,\"agentName\":\"Saripin\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"08 Aug 2023\",\"phone\":\"085361468636\",\"isHasExtendedExpiryDate\":true,\"name\":\"Rumah Sakit Arun Lhokseumawe \",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18722}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

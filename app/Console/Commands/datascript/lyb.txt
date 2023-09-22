@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2167,\"billedEntityType\":null,\"billedTo\":\"Darumurti Khrisna Pratama\",\"expiryDate\":\"09 Dec 2022\",\"number\":\"6596670912\",\"nik\":null,\"agentUid\":\"7PGV5PNG\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":8624,\"email\":\"officialuwinflybali@gmail.com\",\"npwp\":null,\"agentName\":\"Rika Angraini\",\"grossAmount\":\"2,220,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"02 Dec 2022\",\"phone\":\"08113999906\",\"isHasExtendedExpiryDate\":true,\"name\":\"Darumurti Khrisna Pratama\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS4\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":8979}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+

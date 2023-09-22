@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Pipih Nurapiah\",\"expiryDate\":\"31 Aug 2022\",\"number\":\"4223452868\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":5874,\"email\":\"pipihnurapiah6@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,442,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Aug 2022\",\"phone\":\"08889944026\",\"isHasExtendedExpiryDate\":true,\"name\":\"Pipih Nurapiah\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6040}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

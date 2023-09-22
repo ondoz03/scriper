@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,600,000\",\"agentId\":38005,\"billedEntityType\":\"PT\",\"billedTo\":\"PT Tiara Zuppa Juara\",\"expiryDate\":\"24 Jul 2023\",\"number\":\"6286440533\",\"nik\":\"3207171912900001\",\"agentUid\":\"WGRYP5MD\",\"storeName\":\"Sniper-JBN\",\"id\":16879,\"email\":\"tiarazuppa90@gmail.com\",\"npwp\":null,\"agentName\":\"Luqman Kurniawan\",\"grossAmount\":\"3,996,000\",\"storeId\":2950,\"billedAddress\":\"Jl. Cisintok Kadumulya No.2, Cihanjuang, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat\",\"billedZipCode\":\"40559\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"17 Jul 2023\",\"phone\":\"081224114589\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tarsum\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18167},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":18168}],\"shippingAddress\":null,\"invoice\":{\"number\":\"85240685945\",\"couponAmount\":0,\"createTime\":\"17\/07\/2023 19:27:39\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3KNN8RNDR6\",\"id\":463249},\"taxAmount\":\"396,000\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"51,000,000\",\"agentId\":36355,\"billedEntityType\":null,\"billedTo\":\"PT Karang Pilang Agung\",\"expiryDate\":\"19 Jul 2023\",\"number\":\"0775184275\",\"nik\":null,\"agentUid\":\"RD3NY04D\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":16773,\"email\":\"id.bizup@gmail.com\",\"npwp\":null,\"agentName\":\"PT Cipta Talenta Optima\",\"grossAmount\":\"56,610,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 Jul 2023\",\"phone\":\"081217685485\",\"isHasExtendedExpiryDate\":true,\"name\":\"KPA\",\"detailList\":[{\"amount\":25000000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Aktivasi Private Cloud\",\"id\":17976},{\"amount\":26000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) dan Add-on Manufaktur dengan 5 pengguna tambahan selama 1 tahun. BONUS: Voucher Implementasi AOL senilai Rp 6.000.000,-\",\"promotionCode\":null,\"description\":\"Accurate Online + Add-on Manufaktur (1 tahun) + 5 Pengguna Tambahan + Voucher Implementasi Rp 6.000.000,-\",\"id\":17977}],\"shippingAddress\":null,\"taxAmount\":\"5,610,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

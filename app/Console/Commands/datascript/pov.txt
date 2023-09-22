@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38609,\"billedEntityType\":null,\"billedTo\":\"PT Perkasa Objektive Visitama\",\"expiryDate\":\"01 Sep 2023\",\"number\":\"2296820422\",\"nik\":null,\"agentUid\":\"RG3EEY4G\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":18099,\"email\":\"admin@povcreative-id.com\",\"npwp\":null,\"agentName\":\"Hibar Satria\",\"grossAmount\":\"2,664,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Aug 2023\",\"phone\":\"087886141586\",\"isHasExtendedExpiryDate\":true,\"name\":\"Cicilia Chandra\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19513}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+

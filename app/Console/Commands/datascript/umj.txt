@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":20603,\"billedEntityType\":\"CV\",\"billedTo\":\"CALVIN FELLY\",\"expiryDate\":\"05 Aug 2023\",\"number\":\"7767016265\",\"nik\":null,\"agentUid\":\"5DL03XKG\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":17191,\"email\":\"harumjayasejahtera@gmail.com\",\"npwp\":\"610890436041000\",\"agentName\":\"Sholeh Patiraja\",\"grossAmount\":\"2,664,000\",\"storeId\":100,\"billedAddress\":\"PERUM PREMIER MANSION - KOTA ADM. JAKARTA UTARA\",\"billedZipCode\":\"14450\",\"billedProvince\":\"Jakarta\",\"createTime\":\"29 Jul 2023\",\"phone\":\"081283680628\",\"isHasExtendedExpiryDate\":true,\"name\":\"Calvin\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18552}],\"shippingAddress\":null,\"invoice\":{\"number\":\"78709940546\",\"couponAmount\":0,\"createTime\":\"29\/07\/2023 10:59:39\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6KNN8RM1M3\",\"id\":468940},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

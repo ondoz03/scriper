@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2210,\"billedEntityType\":null,\"billedTo\":\"Vincent\",\"expiryDate\":\"01 Aug 2022\",\"number\":\"2118855185\",\"nik\":null,\"agentUid\":\"RPG8MMXG\",\"storeName\":\"ABC Medan\",\"id\":5060,\"email\":\"hrdphpmedan@gmail.com\",\"npwp\":null,\"agentName\":\"Desi Permatasari\",\"grossAmount\":\"2,220,000\",\"storeId\":157,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Jul 2022\",\"phone\":\"082267054640\",\"isHasExtendedExpiryDate\":true,\"name\":\"hrd phpmedan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"SERBU\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5210}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MDN\"}]}");
+
+

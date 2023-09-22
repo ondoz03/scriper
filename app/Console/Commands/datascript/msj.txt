@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":37050,\"billedEntityType\":null,\"billedTo\":\"Central Kabel\",\"expiryDate\":\"08 Mar 2023\",\"number\":\"2228968165\",\"nik\":null,\"agentUid\":\"P20YL1KD\",\"storeName\":\"ABC Pusat\",\"id\":11077,\"email\":\"alamsjae@gmail.com\",\"npwp\":null,\"agentName\":\"Jihan Raisa Fitria\",\"grossAmount\":\"2,220,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"01 Mar 2023\",\"phone\":\"081311197689\",\"isHasExtendedExpiryDate\":true,\"name\":\"Eddy\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11843}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"}]}");
+
+

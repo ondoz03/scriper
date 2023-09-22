@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38380,\"billedEntityType\":null,\"billedTo\":\"PT GLOBAL OLAH ANDALAN\",\"expiryDate\":\"21 Aug 2023\",\"number\":\"9339837061\",\"nik\":null,\"agentUid\":\"NGX88L3D\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":17802,\"email\":\"admin@ptgoa.com\",\"npwp\":null,\"agentName\":\"James Vincent \",\"grossAmount\":\"2,664,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"14 Aug 2023\",\"phone\":\"08111619787\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT GLOBAL OLAH ANDALAN\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19155}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

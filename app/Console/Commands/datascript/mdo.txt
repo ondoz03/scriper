@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36250,\"billedEntityType\":null,\"billedTo\":\"PT Mina Jaya Nusantara\",\"expiryDate\":\"02 Nov 2022\",\"number\":\"2843606017\",\"nik\":null,\"agentUid\":\"P20N59N2\",\"storeName\":\"Accurate Sniper\",\"id\":7574,\"email\":\"ramdoni@minajaya.com\",\"npwp\":null,\"agentName\":\"Andi Ade Pratama\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Oct 2022\",\"phone\":\"085811590693\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ramdoni\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7878}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

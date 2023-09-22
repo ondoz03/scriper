@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36608,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"fleur florist\",\"expiryDate\":\"22 Dec 2022\",\"number\":\"2929853359\",\"nik\":\"7371112112940005\",\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":9020,\"email\":\"fleurfloristadm@gmail.com\",\"npwp\":null,\"agentName\":\"Wendi Surahman\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":\"JL.Hertasning Blok E10\/6D\",\"billedZipCode\":\"90222\",\"billedProvince\":\"Sulawesi Selatan\",\"createTime\":\"15 Dec 2022\",\"phone\":\"0811444944\",\"isHasExtendedExpiryDate\":true,\"name\":\"Fleur Florist\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS5\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9425}],\"shippingAddress\":null,\"invoice\":{\"number\":\"73304509514\",\"couponAmount\":0,\"createTime\":\"15\/12\/2022 20:27:28\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"69PPENYM43\",\"id\":362928},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

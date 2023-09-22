@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30037,\"billedEntityType\":\"PT\",\"billedTo\":\"MUAQ BERKAH SEJAHTERA\",\"expiryDate\":\"14 Dec 2022\",\"number\":\"0353277668\",\"nik\":null,\"agentUid\":\"7GYM4YWG\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":8708,\"email\":\"muaqbeauty@gmail.com\",\"npwp\":\"914689781015000\",\"agentName\":\"irna wulandri\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":\"EIGHTYEIGHT@KASABLANKA OFFICE TOWER A LANTAI 10 UNIT E KAV. 88\",\"billedZipCode\":\"12870\",\"billedProvince\":\"Jakarta\",\"createTime\":\"07 Dec 2022\",\"phone\":\"081977932324\",\"isHasExtendedExpiryDate\":true,\"name\":\"Muaq\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS4\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9108}],\"shippingAddress\":null,\"invoice\":{\"number\":\"64113384587\",\"couponAmount\":0,\"createTime\":\"07\/12\/2022 15:35:29\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3X2297DRN3\",\"id\":359250},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

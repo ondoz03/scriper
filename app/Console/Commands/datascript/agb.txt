@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38308,\"billedEntityType\":null,\"billedTo\":\"TB AGUNG BAROKAH\",\"expiryDate\":\"03 Sep 2023\",\"number\":\"0695059947\",\"nik\":null,\"agentUid\":\"XD5WWZV2\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":18165,\"email\":\"agbar.panunggalan@gmail.com\",\"npwp\":null,\"agentName\":\"Elfrida Pangaribuan\",\"grossAmount\":\"2,664,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"27 Aug 2023\",\"phone\":\"082225896020\",\"isHasExtendedExpiryDate\":true,\"name\":\"Adi\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19530}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":2350,\"billedEntityType\":\"PT\",\"billedTo\":\"PT. JEJAK IMANI BERKAH BERSAMA\",\"expiryDate\":\"05 Sep 2022\",\"number\":\"7406391642\",\"nik\":null,\"agentUid\":\"VP207P7G\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":6157,\"email\":\"Azzukhrufh20@gmail.com\",\"npwp\":\"705615524017000\",\"agentName\":\"Handry Liem\",\"grossAmount\":\"2,442,000\",\"storeId\":156,\"billedAddress\":\"JL. RAYA SILIWANGI NO. 4 RT. 001 RW. 002\\nPONDOK BENDA PAMULANG\\nKOTA TANGERANG SELATAN BANTEN\",\"billedZipCode\":\"15417\",\"billedProvince\":\"Banten\",\"createTime\":\"29 Aug 2022\",\"phone\":\"087778924765\",\"isHasExtendedExpiryDate\":true,\"name\":\"Azzukhrufh\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback500Rb\",\"promotionCode\":\"MERDEKA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6357}],\"shippingAddress\":null,\"invoice\":{\"number\":\"85687965736\",\"couponAmount\":0,\"createTime\":\"29\/08\/2022 15:44:17\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":318257},\"taxAmount\":\"242,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":13852,\"billedEntityType\":null,\"billedTo\":\"Sri Sumarlina\",\"expiryDate\":\"30 May 2022\",\"number\":\"0000975423\",\"nik\":null,\"agentUid\":\"VDN7KV82\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":3244,\"email\":\"asmnestle.sampang@gmail.com\",\"npwp\":null,\"agentName\":\"PT. Ultima Tekno Solusindo\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 May 2022\",\"phone\":\"081999139800\",\"isHasExtendedExpiryDate\":true,\"name\":\"Sri Sumarlina\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3295}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

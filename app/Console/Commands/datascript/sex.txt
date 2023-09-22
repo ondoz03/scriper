@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35618,\"billedEntityType\":null,\"billedTo\":\"PT. Dharma Celebes Express\",\"expiryDate\":\"02 Nov 2022\",\"number\":\"6973728788\",\"nik\":null,\"agentUid\":\"PD13RN4G\",\"storeName\":\"Accurate Sniper\",\"id\":7579,\"email\":\"dharmacelebesexpress@gmail.com\",\"npwp\":null,\"agentName\":\"Jeri Louis\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Oct 2022\",\"phone\":\"082195712395\",\"isHasExtendedExpiryDate\":true,\"name\":\"Charles Kwesal\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7883}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

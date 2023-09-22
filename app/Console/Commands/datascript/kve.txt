@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33913,\"billedEntityType\":null,\"billedTo\":\"Bapak Firman\",\"expiryDate\":\"13 Apr 2022\",\"number\":\"0631361044\",\"nik\":null,\"agentUid\":\"7GJR8R52\",\"storeName\":\"Accurate Sniper\",\"id\":2127,\"email\":\"klinikverenamedika@gmail.com\",\"npwp\":null,\"agentName\":\"Raden Hartantyo W\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"06 Apr 2022\",\"phone\":\"08999861086\",\"isHasExtendedExpiryDate\":true,\"name\":\"FIRMAN SIDIK\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2177}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35653,\"billedEntityType\":null,\"billedTo\":\"RK KONSULTING\",\"expiryDate\":\"07 Feb 2023\",\"number\":\"0168696436\",\"nik\":null,\"agentUid\":\"X2638KE2\",\"storeName\":\"Sniper-Sumatera\",\"id\":10110,\"email\":\"rkconsulting.adm@gmail.com\",\"npwp\":null,\"agentName\":\"romi sepriadi chandra\",\"grossAmount\":\"2,220,000\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Jan 2023\",\"phone\":\"081285612402\",\"isHasExtendedExpiryDate\":true,\"name\":\"Admin RK\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10748}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"},{\"amountBeforeTax\":\"1,800,000\",\"agentId\":33550,\"billedEntityType\":null,\"billedTo\":\"Perhimpunan Pemilik Penghuni\",\"expiryDate\":\"23 Mar 2022\",\"number\":\"9174417419\",\"nik\":null,\"agentUid\":\"P20N64Q2\",\"storeName\":\"Accurate Sniper\",\"id\":1411,\"email\":\"fa.transparkcibubur@gmail.com\",\"npwp\":null,\"agentName\":\"Pungkar Paresea\",\"grossAmount\":\"1,980,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Mar 2022\",\"phone\":\"081286608401\",\"isHasExtendedExpiryDate\":true,\"name\":\"Krizz\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":1412}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"YAFET WIJAYA HARTBIAN\",\"expiryDate\":\"07 Mar 2023\",\"number\":\"5973018844\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":11025,\"email\":\"yafet@safeway.co.id\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"28 Feb 2023\",\"phone\":\"081234657890\",\"isHasExtendedExpiryDate\":true,\"name\":\"YAFET WIJAYA HARTBIAN\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11793}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30713,\"billedEntityType\":null,\"billedTo\":\"Pondok Daun\",\"expiryDate\":\"07 Nov 2022\",\"number\":\"9225438418\",\"nik\":null,\"agentUid\":\"7GJRQZN2\",\"storeName\":\"Accurate Sniper\",\"id\":7617,\"email\":\"bersinartb@gmail.com\",\"npwp\":null,\"agentName\":\"Ifan Djuliawan Fadillah\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Oct 2022\",\"phone\":\"081280307269\",\"isHasExtendedExpiryDate\":true,\"name\":\"Yoel\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7925}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2163,\"billedEntityType\":null,\"billedTo\":\"Pikmii Baby shop\",\"expiryDate\":\"02 Aug 2022\",\"number\":\"9417017630\",\"nik\":null,\"agentUid\":\"P9D78J62\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":5117,\"email\":\"toysmartbjm@yahoo.co.id\",\"npwp\":null,\"agentName\":\"Agus Fadhil \",\"grossAmount\":\"2,220,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Jul 2022\",\"phone\":\"081254526070\",\"isHasExtendedExpiryDate\":true,\"name\":\"Alvin\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"SERBU\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5270}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

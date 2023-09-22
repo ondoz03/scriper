@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2153,\"billedEntityType\":null,\"billedTo\":\"-\",\"expiryDate\":\"19 Sep 2023\",\"number\":\"0386371877\",\"nik\":null,\"agentUid\":\"PX26ZLQ2\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":18841,\"email\":\"cvblessfood.direksi@gmail.com\",\"npwp\":null,\"agentName\":\"Raditya Fardiansyah\",\"grossAmount\":\"2,664,000\",\"storeId\":151,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 Sep 2023\",\"phone\":\"089687988135\",\"isHasExtendedExpiryDate\":true,\"name\":\"Blessfood\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20205}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GLX\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":37407,\"billedEntityType\":null,\"billedTo\":\"PT. Bintang Raya Juarsa Indonesia\",\"expiryDate\":\"15 Aug 2023\",\"number\":\"3859640125\",\"nik\":null,\"agentUid\":\"XD6EL6KD\",\"storeName\":\"Sniper-Sumatera\",\"id\":17385,\"email\":\"baksorusukjossfinance@gmail.com\",\"npwp\":null,\"agentName\":\"Deny Riski Pratama\",\"grossAmount\":\"2,664,000\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"08 Aug 2023\",\"phone\":\"082295559995\",\"isHasExtendedExpiryDate\":true,\"name\":\"Isa Juarsa\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18716}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2163,\"billedEntityType\":null,\"billedTo\":\"PT.OSS\",\"expiryDate\":\"02 Apr 2022\",\"number\":\"2487482981\",\"nik\":null,\"agentUid\":\"P9D78J62\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":1628,\"email\":\"ossfinancemks@gmail.com\",\"npwp\":null,\"agentName\":\"Agus Fadhil \",\"grossAmount\":\"2,200,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Mar 2022\",\"phone\":\"081343831034\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Aisyah\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"GREGET\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 1 Pengguna Tambahan\",\"id\":1680}],\"shippingAddress\":null,\"taxAmount\":\"200,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

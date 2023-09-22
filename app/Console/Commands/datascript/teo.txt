@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33208,\"billedEntityType\":\"CV\",\"billedTo\":\"MAMA MATTEO MANDIRI\",\"expiryDate\":\"25 Nov 2022\",\"number\":\"3473169325\",\"nik\":null,\"agentUid\":\"XD5RNKMG\",\"storeName\":\"Accurate Sniper\",\"id\":8134,\"email\":\"mamamatteo.id@gmail.com\",\"npwp\":\"419949771429000\",\"agentName\":\"Mohamad Ridwan Rusyana\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":\"JALAN ARCAMANIK ENDAH RUKO III - KOTA BANDUNG\",\"billedZipCode\":\"40293\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"18 Nov 2022\",\"phone\":\"081395553625\",\"isHasExtendedExpiryDate\":true,\"name\":\"Melisa Tanuwidjaya\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS1\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8514}],\"shippingAddress\":null,\"invoice\":{\"number\":\"42506548475\",\"couponAmount\":0,\"createTime\":\"19\/11\/2022 17:12:08\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3X2291N723\",\"id\":351444},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

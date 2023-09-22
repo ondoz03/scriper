@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2200,\"billedEntityType\":null,\"billedTo\":\"IFFA\",\"expiryDate\":\"21 Dec 2022\",\"number\":\"2217567174\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":9009,\"email\":\"nurcholiqfatusazizah@gmail.com\",\"npwp\":null,\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"14 Dec 2022\",\"phone\":\"081246305912\",\"isHasExtendedExpiryDate\":true,\"name\":\"IFFA\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS5\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9412}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2350,\"billedEntityType\":\"Koperasi\",\"billedTo\":\"U Konveksi\",\"expiryDate\":\"16 May 2022\",\"number\":\"0540958216\",\"nik\":\"1106123009600001\",\"agentUid\":\"VP207P7G\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":2910,\"email\":\"ukonveksi22@gmail.com\",\"npwp\":null,\"agentName\":\"Handry Liem\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":\"Jl. Teuku Nyak Arief No.6, Lamgugob, Kec. Syiah Kuala, Kota Banda Aceh, Provinsi Aceh 24415\",\"billedZipCode\":\"24415\",\"billedProvince\":\"Aceh\",\"createTime\":\"09 May 2022\",\"phone\":\"082165825869\",\"isHasExtendedExpiryDate\":true,\"name\":\"Fajri Jaqfar\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2960}],\"shippingAddress\":null,\"invoice\":{\"number\":\"45609257507\",\"couponAmount\":0,\"createTime\":\"09\/05\/2022 19:37:40\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3KNNR8KR26\",\"id\":274512},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

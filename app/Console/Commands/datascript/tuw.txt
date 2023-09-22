@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":29631,\"billedEntityType\":\"PT\",\"billedTo\":\"PT. ESTU WIJAYA GEMILANG\",\"expiryDate\":\"29 Jun 2022\",\"number\":\"7325105154\",\"nik\":null,\"agentUid\":\"XG5RPXL2\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":4026,\"email\":\"estuwijaya.office@gmail.com\",\"npwp\":\"658465489004000\",\"agentName\":\"Maya Amalia\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":\"GREEN SEDAYU BIZPARK BLOK GS 7 NO.53, CAKUNG TIMUR, CAKUNG, JAKARTA TIMUR \",\"billedZipCode\":\"13910\",\"billedProvince\":\"Jakarta\",\"createTime\":\"22 Jun 2022\",\"phone\":\"08176974448\",\"isHasExtendedExpiryDate\":true,\"name\":\"SATRIYO SIGIT WIJANARKO\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HEBAT1\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":4081}],\"shippingAddress\":null,\"invoice\":{\"number\":\"62092949047\",\"couponAmount\":0,\"createTime\":\"22\/06\/2022 13:30:35\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":292576},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2107,\"billedEntityType\":null,\"billedTo\":\"KSO PLNE-APCA Tirta Engineering \",\"expiryDate\":\"11 May 2023\",\"number\":\"7395138456\",\"nik\":null,\"agentUid\":\"PXD6EMQD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":13916,\"email\":\"mkadarisman@plne.co.id \",\"npwp\":null,\"agentName\":\"Rendy Laksmana\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 May 2023\",\"phone\":\"08122021301\",\"isHasExtendedExpiryDate\":true,\"name\":\"M. Kadarisman\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14823}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

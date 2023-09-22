@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":12541,\"billedEntityType\":null,\"billedTo\":\"PT PRATAMA PRASADHA LESTARI\",\"expiryDate\":\"28 Mar 2022\",\"number\":\"0999714086\",\"nik\":null,\"agentUid\":\"PG161WY2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":1526,\"email\":\"happydentaltmb@gmail.com\",\"npwp\":null,\"agentName\":\"PT Solusi Akuntansi Indonesia\",\"grossAmount\":\"1,980,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Mar 2022\",\"phone\":\"087884394381\",\"isHasExtendedExpiryDate\":true,\"name\":\"FADILLIANSYAH ASRINGGA ABESS\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":1527}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

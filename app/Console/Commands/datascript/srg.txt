@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":35577,\"billedEntityType\":null,\"billedTo\":\"CV SUMBER REJEKI GROUP\",\"expiryDate\":\"07 Sep 2022\",\"number\":\"1769048756\",\"nik\":null,\"agentUid\":\"XD5R38MG\",\"storeName\":\"Accurate Sniper\",\"id\":6215,\"email\":\"alatberat.srg@gmail.com\",\"npwp\":null,\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"2,442,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Aug 2022\",\"phone\":\"082135435758\",\"isHasExtendedExpiryDate\":true,\"name\":\"Adelia Wibowo\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback500Rb\",\"promotionCode\":\"MERDEKA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6416}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

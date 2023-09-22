@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":18926,\"billedEntityType\":null,\"billedTo\":\"PT. Bahtera Motor\",\"expiryDate\":\"26 May 2022\",\"number\":\"8078388407\",\"nik\":null,\"agentUid\":\"5GL0LQE2\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":3078,\"email\":\"sofnizahar@bahteramotor.com\",\"npwp\":null,\"agentName\":\"Erik Indriyanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 May 2022\",\"phone\":\"081212341029\",\"isHasExtendedExpiryDate\":true,\"name\":\"Sofni Zahar\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3129}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

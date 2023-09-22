@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":35506,\"billedEntityType\":null,\"billedTo\":\"Soyfan\",\"expiryDate\":\"02 Sep 2022\",\"number\":\"9723747248\",\"nik\":null,\"agentUid\":\"VGNNJNLG\",\"storeName\":\"Accurate Sniper\",\"id\":6055,\"email\":\"sofyan.nurkamal@gmail.com\",\"npwp\":null,\"agentName\":\"Gabriela Esther Alfania Zebua\",\"grossAmount\":\"2,442,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Aug 2022\",\"phone\":\"081222115550\",\"isHasExtendedExpiryDate\":true,\"name\":\"Soyfan\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6225}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

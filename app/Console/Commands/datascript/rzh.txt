@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":32701,\"billedEntityType\":null,\"billedTo\":\"Caffee Kota 77\",\"expiryDate\":\"15 Aug 2023\",\"number\":\"4373509802\",\"nik\":null,\"agentUid\":\"JDQKY77D\",\"storeName\":\"Sniper-KalSul\",\"id\":17391,\"email\":\"jmantares11@gmail.com\",\"npwp\":null,\"agentName\":\"Farid Ridhoni\",\"grossAmount\":\"2,664,000\",\"storeId\":3000,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"08 Aug 2023\",\"phone\":\"085930445833\",\"isHasExtendedExpiryDate\":true,\"name\":\"Mirzha\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18726}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-KLS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

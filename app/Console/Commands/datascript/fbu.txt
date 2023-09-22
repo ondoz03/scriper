@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36608,\"billedEntityType\":null,\"billedTo\":\"Toko Kerupuk\",\"expiryDate\":\"25 Apr 2023\",\"number\":\"8016241447\",\"nik\":null,\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":13603,\"email\":\"yusufbudimann@gmail.com\",\"npwp\":null,\"agentName\":\"Wendi Surahman\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"18 Apr 2023\",\"phone\":\"0811981492\",\"isHasExtendedExpiryDate\":true,\"name\":\"Yusuf budiman\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14453}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

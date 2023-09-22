@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"6,000,000\",\"agentId\":31552,\"billedEntityType\":null,\"billedTo\":\"Bp Marwazi\",\"expiryDate\":\"28 Feb 2023\",\"number\":\"8247339510\",\"nik\":null,\"agentUid\":\"VDNN5P0D\",\"storeName\":\"Accurate Mate\",\"id\":10915,\"email\":\"accfinkimvin@gmail.com\",\"npwp\":null,\"agentName\":\"Erlina setiyawati Susanto\",\"grossAmount\":\"6,660,000\",\"storeId\":2700,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Feb 2023\",\"phone\":\"087876368536\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bp Marwazi\",\"detailList\":[{\"amount\":6000000,\"quantity\":3,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11666}],\"shippingAddress\":null,\"taxAmount\":\"660,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AM\"}]}");
+
+

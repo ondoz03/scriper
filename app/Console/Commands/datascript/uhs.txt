@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":37003,\"billedEntityType\":null,\"billedTo\":\"PT. ASA SEJAHTERA AUTOPART\",\"expiryDate\":\"23 Feb 2023\",\"number\":\"9187939980\",\"nik\":null,\"agentUid\":\"5DL7ZXWD\",\"storeName\":\"Sniper-KalSul\",\"id\":10610,\"email\":\"impecylin@gmail.com\",\"npwp\":null,\"agentName\":\"Dwi Risnawati\",\"grossAmount\":\"2,220,000\",\"storeId\":3000,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Feb 2023\",\"phone\":\"081350587878\",\"isHasExtendedExpiryDate\":true,\"name\":\"muhsi\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11363}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-KLS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":37003,\"billedEntityType\":null,\"billedTo\":\"PT. ASA SEJAHTERA AUTOPARTS\",\"expiryDate\":\"23 Feb 2023\",\"number\":\"6583140703\",\"nik\":null,\"agentUid\":\"5DL7ZXWD\",\"storeName\":\"Sniper-KalSul\",\"id\":10561,\"email\":\"dwi.risnawati@cpssoft.com\",\"npwp\":null,\"agentName\":\"Dwi Risnawati\",\"grossAmount\":\"2,220,000\",\"storeId\":3000,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Feb 2023\",\"phone\":\"081350587878\",\"isHasExtendedExpiryDate\":true,\"name\":\"MUHSI\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11311}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-KLS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2107,\"billedEntityType\":null,\"billedTo\":\"PT. Warung islami Bogor\",\"expiryDate\":\"02 Dec 2022\",\"number\":\"4085299378\",\"nik\":null,\"agentUid\":\"PXD6EMQD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":8344,\"email\":\"teguhsantoso@warungislamibogor.com\",\"npwp\":null,\"agentName\":\"Rendy Laksmana\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Nov 2022\",\"phone\":\"08985457436\",\"isHasExtendedExpiryDate\":true,\"name\":\"Teguh Santoso\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS2\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8697}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

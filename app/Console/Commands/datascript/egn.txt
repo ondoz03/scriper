@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":13852,\"billedEntityType\":null,\"billedTo\":\"Rajeg Net Web\",\"expiryDate\":\"20 May 2022\",\"number\":\"5619514919\",\"nik\":null,\"agentUid\":\"VDN7KV82\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":3009,\"email\":\"rajegnetweb@gmail.com\",\"npwp\":null,\"agentName\":\"PT. Ultima Tekno Solusindo\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"13 May 2022\",\"phone\":\"081291640988\",\"isHasExtendedExpiryDate\":true,\"name\":\"EKO\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":3059}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"UTS-HQ\"}]}");
+
+

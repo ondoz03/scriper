@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":32506,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Edward\",\"expiryDate\":\"30 Jun 2022\",\"number\":\"1878244142\",\"nik\":\"1607010411690001\",\"agentUid\":\"VGNNX1EG\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":4111,\"email\":\"invigroup.accurate@gmail.com\",\"npwp\":null,\"agentName\":\"Ahmad Chairul Achyar\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":\"Jakarta\",\"billedZipCode\":\"12470\",\"billedProvince\":\"Jakarta\",\"createTime\":\"23 Jun 2022\",\"phone\":\"082375458188\",\"isHasExtendedExpiryDate\":true,\"name\":\"Vivin\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HEBAT1\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":4211}],\"shippingAddress\":null,\"invoice\":{\"number\":\"69496102972\",\"couponAmount\":0,\"createTime\":\"23\/06\/2022 15:39:28\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6EGGKL5976\",\"id\":293050},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

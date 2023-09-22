@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"552,000,000\",\"agentId\":37704,\"billedEntityType\":null,\"billedTo\":\"WONG SOLO GROUP\",\"expiryDate\":\"12 Sep 2023\",\"number\":\"3754978522\",\"nik\":null,\"agentUid\":\"PD0YN8RG\",\"storeName\":\"Sniper-JBN\",\"id\":18661,\"email\":\"abdlatiful99@gmail.com\",\"npwp\":null,\"agentName\":\"Benedictus Dwi Haksa Tirta Karitas\",\"grossAmount\":\"612,720,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Sep 2023\",\"phone\":\"08998924323\",\"isHasExtendedExpiryDate\":true,\"name\":\"ABDUL LATIF\",\"detailList\":[{\"amount\":552000000,\"quantity\":230,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20015}],\"shippingAddress\":null,\"taxAmount\":\"60,720,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+

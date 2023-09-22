@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2200,\"billedEntityType\":null,\"billedTo\":\"KARNO GUSTIAWAN\",\"expiryDate\":\"02 Aug 2023\",\"number\":\"5451597898\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":17215,\"email\":\"karno.gustiawan@bankneo.co.id\",\"npwp\":null,\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"2,664,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Jul 2023\",\"phone\":\"08118090123\",\"isHasExtendedExpiryDate\":true,\"name\":\"KARNO GUSTIAWAN\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18469}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+

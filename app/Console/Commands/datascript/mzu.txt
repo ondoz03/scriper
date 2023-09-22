@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,700,901\",\"agentId\":37157,\"billedEntityType\":null,\"billedTo\":\"HERY MOTOR\",\"expiryDate\":\"28 Jul 2023\",\"number\":\"9870169384\",\"nik\":null,\"agentUid\":\"NDX85XL2\",\"storeName\":\"Sniper-JBN\",\"id\":17027,\"email\":\"herymuhammadzamzuri@gmail.com\",\"npwp\":null,\"agentName\":\"Andry Wicaksono Adi\",\"grossAmount\":\"2,998,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Jul 2023\",\"phone\":\"081226390830\",\"isHasExtendedExpiryDate\":true,\"name\":\"Hery Susiadi\",\"detailList\":[{\"amount\":2700901,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSMEDAN\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":18286}],\"shippingAddress\":null,\"taxAmount\":\"297,099\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+

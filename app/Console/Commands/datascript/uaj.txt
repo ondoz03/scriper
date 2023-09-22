@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36406,\"billedEntityType\":null,\"billedTo\":\"tukuaja harapan gemilang\",\"expiryDate\":\"23 Nov 2022\",\"number\":\"1144390824\",\"nik\":null,\"agentUid\":\"VGNNWY4G\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":8025,\"email\":\"chaterine.tukuaja@gmail.com\",\"npwp\":null,\"agentName\":\"Dimas Fernando\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Nov 2022\",\"phone\":\"0817788030\",\"isHasExtendedExpiryDate\":true,\"name\":\"tukuaja harapan gemilang\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":8400}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

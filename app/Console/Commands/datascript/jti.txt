@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"4,400,000\",\"agentId\":30713,\"billedEntityType\":null,\"billedTo\":\"Ferdiansyah\",\"expiryDate\":\"24 Aug 2022\",\"number\":\"5109233787\",\"nik\":null,\"agentUid\":\"7GJRQZN2\",\"storeName\":\"Accurate Sniper\",\"id\":5674,\"email\":\"ferdiansyah@jtiid.com\",\"npwp\":null,\"agentName\":\"Ifan Djuliawan Fadillah\",\"grossAmount\":\"4,884,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"17 Aug 2022\",\"phone\":\"087809453614\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ferdiansyah\",\"detailList\":[{\"amount\":4400000,\"quantity\":2,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"aol-14m-2u-Cashback 1Jt\",\"id\":5780}],\"shippingAddress\":null,\"taxAmount\":\"484,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Asep tatang\",\"expiryDate\":\"21 Sep 2023\",\"number\":\"9153140106\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":18904,\"email\":\"asept@freshbox.id\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,664,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"14 Sep 2023\",\"phone\":\"081321431260\",\"isHasExtendedExpiryDate\":true,\"name\":\"Asep tatang\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20225}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"3,300,000\",\"agentId\":2101,\"billedEntityType\":null,\"billedTo\":\"paulus\",\"expiryDate\":\"27 Jul 2023\",\"number\":\"2025661487\",\"nik\":null,\"agentUid\":\"4JDQ953D\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":17000,\"email\":\"paulus.shbgroup@gmail.com\",\"npwp\":null,\"agentName\":\"ichsan\",\"grossAmount\":\"3,663,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"20 Jul 2023\",\"phone\":\"082157586899\",\"isHasExtendedExpiryDate\":true,\"name\":\"paulus\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18195},{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":18196}],\"shippingAddress\":null,\"taxAmount\":\"363,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

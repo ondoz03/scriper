@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33208,\"billedEntityType\":null,\"billedTo\":\"PT. Taka Global Utama\",\"expiryDate\":\"13 Jul 2022\",\"number\":\"0446008839\",\"nik\":null,\"agentUid\":\"XD5RNKMG\",\"storeName\":\"Accurate Sniper\",\"id\":4582,\"email\":\"robiiah.alma@gmail.com\",\"npwp\":null,\"agentName\":\"Mohamad Ridwan Rusyana\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"06 Jul 2022\",\"phone\":\"085798695602\",\"isHasExtendedExpiryDate\":true,\"name\":\"Robii'ah Alma'uunah\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":4684}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

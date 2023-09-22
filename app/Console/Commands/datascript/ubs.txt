@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"20,000,000\",\"agentId\":11609,\"billedEntityType\":null,\"billedTo\":\"Ibu Tanti\",\"expiryDate\":\"19 Apr 2023\",\"number\":\"0821864905\",\"nik\":null,\"agentUid\":\"ZRG3668G\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":13390,\"email\":\"mathlubsentosakhoza@gmail.com\",\"npwp\":null,\"agentName\":\"Kamal\",\"grossAmount\":\"22,200,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 Apr 2023\",\"phone\":\"087702282816\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Tanti\",\"detailList\":[{\"amount\":20000000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Manufaktur 1 tahun\",\"id\":14302}],\"shippingAddress\":null,\"taxAmount\":\"2,200,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35581,\"billedEntityType\":null,\"billedTo\":\"selvina\",\"expiryDate\":\"03 Aug 2022\",\"number\":\"2085832505\",\"nik\":null,\"agentUid\":\"MGKN84MG\",\"storeName\":\"Accurate Sniper\",\"id\":5095,\"email\":\"s.ougesa@verihubs.com\",\"npwp\":null,\"agentName\":\"Muhamad Rafli Pahlevi\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"27 Jul 2022\",\"phone\":\"08998240452\",\"isHasExtendedExpiryDate\":true,\"name\":\"selvina\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"SERBU\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5247}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":34108,\"billedEntityType\":null,\"billedTo\":\"Aldino\",\"expiryDate\":\"27 Apr 2022\",\"number\":\"5000447873\",\"nik\":null,\"agentUid\":\"XD5R6P1G\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":2603,\"email\":\"pttubsby@gmail.com\",\"npwp\":null,\"agentName\":\"Alfi Abdullah Afif\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"20 Apr 2022\",\"phone\":\"081216161739\",\"isHasExtendedExpiryDate\":true,\"name\":\"Aldino\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"UNTUNG\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":2655}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

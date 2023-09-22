@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35617,\"billedEntityType\":null,\"billedTo\":\"Noij Sport weare\",\"expiryDate\":\"20 Jan 2023\",\"number\":\"4438728889\",\"nik\":null,\"agentUid\":\"9G7JXRVD\",\"storeName\":\"Sniper-JBN\",\"id\":9726,\"email\":\"noijsportwear@gmail.com\",\"npwp\":null,\"agentName\":\"Kevin Lastario Putra Manusama\",\"grossAmount\":\"2,220,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"13 Jan 2023\",\"phone\":\"082335482118\",\"isHasExtendedExpiryDate\":true,\"name\":\"NOIJ\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10281}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+

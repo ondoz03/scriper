@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35606,\"billedEntityType\":null,\"billedTo\":\"PT Kedaulatan Pangan Pertiwi\",\"expiryDate\":\"16 Mar 2023\",\"number\":\"4427754223\",\"nik\":null,\"agentUid\":\"VGNNJENG\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":11559,\"email\":\"wdaniel00007@gmail.com\",\"npwp\":null,\"agentName\":\"Riski Aryanto\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"09 Mar 2023\",\"phone\":\"0881037958427\",\"isHasExtendedExpiryDate\":true,\"name\":\"Daniel\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":12361}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Nwdates official\",\"expiryDate\":\"15 Mar 2023\",\"number\":\"9538338349\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":11502,\"email\":\"nwdates@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"08 Mar 2023\",\"phone\":\"081389007443\",\"isHasExtendedExpiryDate\":true,\"name\":\"Nwdates official\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":12310}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38006,\"billedEntityType\":\"PT\",\"billedTo\":\"SAUDAGAR NIKEL NUSANTARA\",\"expiryDate\":\"19 Jul 2023\",\"number\":\"6654408879\",\"nik\":null,\"agentUid\":\"VGNKN01G\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":16771,\"email\":\"generalfinance.snn@gmail.com\",\"npwp\":\"390575942017000\",\"agentName\":\"Adi Riyanto\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":\"THE VERANDA CIBIS PARK, LANTAI GROUND, JALAN TB S\",\"billedZipCode\":\"12560\",\"billedProvince\":\"Jakarta\",\"createTime\":\"12 Jul 2023\",\"phone\":\"081288993049\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bapak Acep Hidayat\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17974}],\"shippingAddress\":null,\"invoice\":{\"number\":\"41624794339\",\"couponAmount\":0,\"createTime\":\"12\/07\/2023 15:49:24\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3X22K9D5D3\",\"id\":461051},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":35252,\"billedEntityType\":null,\"billedTo\":\"JUNAIDI\",\"expiryDate\":\"24 Aug 2022\",\"number\":\"7510853947\",\"nik\":null,\"agentUid\":\"VDNN4P9D\",\"storeName\":\"Accurate Sniper\",\"id\":5668,\"email\":\"junvasco2021@gmail.com\",\"npwp\":null,\"agentName\":\"Muhammad ridwan\",\"grossAmount\":\"2,442,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"17 Aug 2022\",\"phone\":\"081386855000\",\"isHasExtendedExpiryDate\":true,\"name\":\"JUNAIDI\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"aol-14m-2u-Cashback 1Jt\",\"id\":5774}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35252,\"billedEntityType\":null,\"billedTo\":\"MEGAVASTECH PRATAMA\",\"expiryDate\":\"29 Jul 2022\",\"number\":\"5001413433\",\"nik\":null,\"agentUid\":\"VDNN4P9D\",\"storeName\":\"Accurate Sniper\",\"id\":4910,\"email\":\"junvasco2021@gmail.com\",\"npwp\":null,\"agentName\":\"Muhammad ridwan\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 Jul 2022\",\"phone\":\"081386855000\",\"isHasExtendedExpiryDate\":true,\"name\":\"JUNAIDI\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"SERBU\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5020}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

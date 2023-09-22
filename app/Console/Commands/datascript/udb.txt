@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36703,\"billedEntityType\":\"CV\",\"billedTo\":\"BANUA JAYA\",\"expiryDate\":\"17 Dec 2022\",\"number\":\"7585164378\",\"nik\":null,\"agentUid\":\"5DL7ZVKD\",\"storeName\":\"Accurate Sniper\",\"id\":8740,\"email\":\"udbanua@gmail.com\",\"npwp\":\"661208330721000\",\"agentName\":\"Edy Suchmawan Saputra\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":\"JL  JEND A. YANI NO. 62 RT. 03 RW. - \\n KEL. KARANG JATI KEC. BALIKPAPAN TENGAH BALIKPAPAN - KALIMANTAN TIMUR\",\"billedZipCode\":\"76123\",\"billedProvince\":\"Kalimantan Timur\",\"createTime\":\"10 Dec 2022\",\"phone\":\"0811539369\",\"isHasExtendedExpiryDate\":true,\"name\":\"Arifin Salim\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS4\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9147}],\"shippingAddress\":null,\"invoice\":{\"number\":\"74002172677\",\"couponAmount\":0,\"createTime\":\"10\/12\/2022 13:18:01\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6EGGK21B16\",\"id\":360439},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Sky what\",\"expiryDate\":\"06 Jun 2023\",\"number\":\"6815204625\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":15070,\"email\":\"centerskym199@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,664,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"30 May 2023\",\"phone\":\"088286901481\",\"isHasExtendedExpiryDate\":true,\"name\":\"Sky what\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":16043}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":11513,\"billedEntityType\":null,\"billedTo\":\"Friska Handayani\",\"expiryDate\":\"17 Apr 2023\",\"number\":\"5385828097\",\"nik\":null,\"agentUid\":\"K7GJ340D\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":13308,\"email\":\"frskhndn@gmail.com\",\"npwp\":null,\"agentName\":\"Erapuji\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"10 Apr 2023\",\"phone\":\"085771258496\",\"isHasExtendedExpiryDate\":true,\"name\":\"Friska Handayani\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14173}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35259,\"billedEntityType\":null,\"billedTo\":\"Super Skin\",\"expiryDate\":\"28 Dec 2022\",\"number\":\"8763058568\",\"nik\":null,\"agentUid\":\"7DJR167G\",\"storeName\":\"Accurate Sniper\",\"id\":9108,\"email\":\"ingkedewi@superskinme.com\",\"npwp\":null,\"agentName\":\"Agatha Mawar\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Dec 2022\",\"phone\":\"08983748515\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ingke\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS5\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9518}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

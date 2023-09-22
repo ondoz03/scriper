@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2353,\"billedEntityType\":\"CV\",\"billedTo\":\"CV. NEW LEADER\",\"expiryDate\":\"16 Jan 2023\",\"number\":\"8114684084\",\"nik\":null,\"agentUid\":\"PX26ZP02\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":9602,\"email\":\"cicilia@newleader.co.id\",\"npwp\":\"312443989526000\",\"agentName\":\"Yopi Arsopian\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":\"JL MUH. YAMIN NO.82 RT. 002 RW. 003 JAYENGAN-SERENGAN - KOTA SURAKARTA\",\"billedZipCode\":\"57152\",\"billedProvince\":\"Jawa Tengah\",\"createTime\":\"09 Jan 2023\",\"phone\":\"081321576404\",\"isHasExtendedExpiryDate\":true,\"name\":\"Cicilia\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10102}],\"shippingAddress\":null,\"invoice\":{\"number\":\"48208701937\",\"couponAmount\":0,\"createTime\":\"12\/01\/2023 13:16:31\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3499ERX9L6\",\"id\":375648},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,800,000\",\"agentId\":36608,\"billedEntityType\":null,\"billedTo\":\"Bpk Andrew\",\"expiryDate\":\"10 Apr 2023\",\"number\":\"2858343699\",\"nik\":null,\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":13131,\"email\":\"adrwhoras@gmail.com\",\"npwp\":null,\"agentName\":\"Wendi Surahman\",\"grossAmount\":\"4,218,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"03 Apr 2023\",\"phone\":\"081340300372\",\"isHasExtendedExpiryDate\":true,\"name\":\"Andrew\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14015},{\"amount\":1800000,\"quantity\":2,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":14016}],\"shippingAddress\":null,\"taxAmount\":\"418,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"3,200,000\",\"agentId\":36608,\"billedEntityType\":null,\"billedTo\":\"Bpk Andrew\",\"expiryDate\":\"10 Apr 2023\",\"number\":\"9809417255\",\"nik\":null,\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":13130,\"email\":\"adrwhoras@gmail.com\",\"npwp\":null,\"agentName\":\"Wendi Surahman\",\"grossAmount\":\"3,552,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"03 Apr 2023\",\"phone\":\"081340300372\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bpk Andrew\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14013},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":14014}],\"shippingAddress\":null,\"taxAmount\":\"352,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

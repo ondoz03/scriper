@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":37218,\"billedEntityType\":null,\"billedTo\":\"PT Mega Gravika Internasional\",\"expiryDate\":\"07 Aug 2023\",\"number\":\"8069858183\",\"nik\":null,\"agentUid\":\"PD106X7G\",\"storeName\":\"Sniper-Sumatera\",\"id\":17248,\"email\":\"asbjdbcj@gmail.com\",\"npwp\":null,\"agentName\":\"Siwa Jay Prakash\",\"grossAmount\":\"2,664,000\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Jul 2023\",\"phone\":\"0819198301\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT Mega Gravika Internasional\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18512}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"}]}");
+
+

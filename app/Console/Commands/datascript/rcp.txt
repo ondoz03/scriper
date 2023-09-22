@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,840,000\",\"agentId\":38358,\"billedEntityType\":null,\"billedTo\":\"PT Ramdays Cendani Prima\",\"expiryDate\":\"08 Aug 2023\",\"number\":\"2739530529\",\"nik\":null,\"agentUid\":\"MDK773E2\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":17266,\"email\":\"warehouse.rcp@gmail.com\",\"npwp\":null,\"agentName\":\"Suci Nuraisah\",\"grossAmount\":\"4,262,400\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"01 Aug 2023\",\"phone\":\"081213186689\",\"isHasExtendedExpiryDate\":true,\"name\":\"Vina\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18583},{\"amount\":1440000,\"quantity\":6,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":18584}],\"shippingAddress\":null,\"taxAmount\":\"422,400\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2353,\"billedEntityType\":null,\"billedTo\":\"TruClimate\",\"expiryDate\":\"12 Jul 2023\",\"number\":\"8610194375\",\"nik\":null,\"agentUid\":\"PX26ZP02\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":16605,\"email\":\"putri@truclimate.earth\",\"npwp\":null,\"agentName\":\"Yopi Arsopian\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Jul 2023\",\"phone\":\"08121004275\",\"isHasExtendedExpiryDate\":true,\"name\":\"Putri\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17711}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

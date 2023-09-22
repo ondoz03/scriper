@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":35577,\"billedEntityType\":null,\"billedTo\":\"PT. STUPONT SUKSES MAKMUR\",\"expiryDate\":\"13 Sep 2023\",\"number\":\"6161017563\",\"nik\":null,\"agentUid\":\"XD5R38MG\",\"storeName\":\"Sniper-JBN\",\"id\":18750,\"email\":\"stupontlaundryequipment@gmail.com\",\"npwp\":null,\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"06 Sep 2023\",\"phone\":\"081336866769\",\"isHasExtendedExpiryDate\":true,\"name\":\"Primadiantono\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20100}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"9,000,000\",\"agentId\":36600,\"billedEntityType\":null,\"billedTo\":\"CV. PANCA ARSA SEJAHTERA\",\"expiryDate\":\"26 Jan 2023\",\"number\":\"7081555915\",\"nik\":null,\"agentUid\":\"VGEEP61G\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":9857,\"email\":\"arsagroupofficial@gmail.com\",\"npwp\":null,\"agentName\":\"Mohammad Fadillah\",\"grossAmount\":\"9,990,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Jan 2023\",\"phone\":\"08174712420\",\"isHasExtendedExpiryDate\":true,\"name\":\"Fadil\",\"detailList\":[{\"amount\":9000000,\"quantity\":10,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Accurate POS 1 outlet 1 tahun\",\"id\":10460}],\"shippingAddress\":null,\"taxAmount\":\"990,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2163,\"billedEntityType\":null,\"billedTo\":\"PT. Herucakra Perdana Mandirk\",\"expiryDate\":\"02 Apr 2022\",\"number\":\"5338516502\",\"nik\":null,\"agentUid\":\"P9D78J62\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":1677,\"email\":\"pandawasuport@gmail.com\",\"npwp\":null,\"agentName\":\"Agus Fadhil \",\"grossAmount\":\"2,200,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Mar 2022\",\"phone\":\"085721078962\",\"isHasExtendedExpiryDate\":true,\"name\":\"Amir Mahmud\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"GREGET\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 1 Pengguna Tambahan\",\"id\":1727}],\"shippingAddress\":null,\"taxAmount\":\"200,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

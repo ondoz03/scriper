@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,840,000\",\"agentId\":2353,\"billedEntityType\":null,\"billedTo\":\"Ibu Annisa Meldya\",\"expiryDate\":\"07 Feb 2022\",\"number\":\"9744561570\",\"nik\":null,\"agentUid\":\"PX26ZP02\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":339,\"email\":\"zhangkawadistributor@gmail.xom\",\"npwp\":null,\"agentName\":\"Yopi Arsopian\",\"grossAmount\":\"2,024,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Jan 2022\",\"phone\":\"081285868089\",\"isHasExtendedExpiryDate\":true,\"name\":\"Annisa Meldya\",\"detailList\":[{\"amount\":1840000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"IMLEK\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":340}],\"shippingAddress\":null,\"taxAmount\":\"184,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

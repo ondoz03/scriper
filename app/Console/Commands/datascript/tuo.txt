@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35259,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Jituo Dimsum\",\"expiryDate\":\"08 Sep 2022\",\"number\":\"2041461882\",\"nik\":\"3305210505890001\",\"agentUid\":\"7DJR167G\",\"storeName\":\"Accurate Sniper\",\"id\":6231,\"email\":\"Jituodimsum@gmail.com\",\"npwp\":null,\"agentName\":\"Agatha Mawar\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":\"Jl Mayjen Sutoyo 32 Kebumen\",\"billedZipCode\":\"54311\",\"billedProvince\":\"Jawa Tengah\",\"createTime\":\"01 Sep 2022\",\"phone\":\"081287567781\",\"isHasExtendedExpiryDate\":true,\"name\":\"Joko Fitra\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6432}],\"shippingAddress\":null,\"invoice\":{\"number\":\"83826069330\",\"couponAmount\":0,\"createTime\":\"01\/09\/2022 16:23:21\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3R9975ER16\",\"id\":319735},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

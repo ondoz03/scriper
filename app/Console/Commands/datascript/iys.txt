@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":34108,\"billedEntityType\":null,\"billedTo\":\"Dahlia\",\"expiryDate\":\"19 Dec 2022\",\"number\":\"4515920929\",\"nik\":null,\"agentUid\":\"XD5R6P1G\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":8840,\"email\":\"dahlia.tiys@gmail.com\",\"npwp\":null,\"agentName\":\"Alfi Abdullah Afif\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 Dec 2022\",\"phone\":\"081293417067\",\"isHasExtendedExpiryDate\":true,\"name\":\"Dahlia\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS4\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9302}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

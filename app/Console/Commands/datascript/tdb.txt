@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":17410,\"billedEntityType\":null,\"billedTo\":\"PT. Sekawan Karsa Mulia\",\"expiryDate\":\"30 Nov 2022\",\"number\":\"1732927725\",\"nik\":null,\"agentUid\":\"PG85JEWG\",\"storeName\":\"ABC Kota\",\"id\":8303,\"email\":\"f2winata@gmail.com\",\"npwp\":null,\"agentName\":\"Andry\",\"grossAmount\":\"2,220,000\",\"storeId\":152,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 Nov 2022\",\"phone\":\"081513008171\",\"isHasExtendedExpiryDate\":true,\"name\":\"ITDB\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS2\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8655}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-LTC\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

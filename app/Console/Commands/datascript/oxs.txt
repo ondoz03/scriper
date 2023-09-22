@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":6900,\"billedEntityType\":null,\"billedTo\":\"tboxsamarinda\",\"expiryDate\":\"01 Oct 2022\",\"number\":\"2454813788\",\"nik\":null,\"agentUid\":\"WVGEK3PG\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":6727,\"email\":\"lmargareta@tboxsamarinda.com\",\"npwp\":null,\"agentName\":\"CV. Mega Mandiri Komputindo\",\"grossAmount\":\"2,220,000\",\"storeId\":151,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Sep 2022\",\"phone\":\"082352450005\",\"isHasExtendedExpiryDate\":true,\"name\":\"Lely M\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6984}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GLX\"}]}");
+
+

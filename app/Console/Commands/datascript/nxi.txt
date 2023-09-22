@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,300,000\",\"agentId\":34300,\"billedEntityType\":null,\"billedTo\":\"PT SWANG\",\"expiryDate\":\"22 Apr 2023\",\"number\":\"7151789461\",\"nik\":null,\"agentUid\":\"VGE7RY1D\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":13489,\"email\":\"misu_xinxin@yahoo.com\",\"npwp\":null,\"agentName\":\"Ananda PE\",\"grossAmount\":\"3,663,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"15 Apr 2023\",\"phone\":\"085889902189\",\"isHasExtendedExpiryDate\":true,\"name\":\"MISU\",\"detailList\":[{\"amount\":3300000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 5 pengguna tambahan selama 1 tahun + 3 bulan\",\"promotionCode\":\"THRLEBARANBERKAH\",\"description\":\"Accurate Online (1 tahun + 3 bulan) + 5 Pengguna Tambahan\",\"id\":14404}],\"shippingAddress\":null,\"taxAmount\":\"363,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

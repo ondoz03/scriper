@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35621,\"billedEntityType\":\"CV\",\"billedTo\":\"ARLUX PUTRA MANDIRI\",\"expiryDate\":\"22 Jul 2022\",\"number\":\"7504406655\",\"nik\":null,\"agentUid\":\"P2VPEMX2\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":4855,\"email\":\"arluxputramandiri@gmail.com\",\"npwp\":\"317737906036000\",\"agentName\":\"Petruk Semar\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":\"JL BIDAR RAYA - KAB. TANGERANG\",\"billedZipCode\":\"15810\",\"billedProvince\":\"Banten\",\"createTime\":\"15 Jul 2022\",\"phone\":\"0817245340\",\"isHasExtendedExpiryDate\":true,\"name\":\"Arlux Putra Mandiri\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":4955}],\"shippingAddress\":null,\"invoice\":{\"number\":\"06817404858\",\"couponAmount\":0,\"createTime\":\"15\/07\/2022 18:29:54\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3PYYE7MDN6\",\"id\":301412},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

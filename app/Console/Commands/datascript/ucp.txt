@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35653,\"billedEntityType\":null,\"billedTo\":\"ibu zania netti - Mandau Citra Perkasa PT\",\"expiryDate\":\"28 Nov 2022\",\"number\":\"5772191383\",\"nik\":null,\"agentUid\":\"X2638KE2\",\"storeName\":\"Accurate Sniper\",\"id\":8210,\"email\":\"mandaucp@gmail.com\",\"npwp\":null,\"agentName\":\"romi sepriadi chandra\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Nov 2022\",\"phone\":\"082172727889\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT.MANDAU CITRA PERKASA\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS2\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8540}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35653,\"billedEntityType\":null,\"billedTo\":\"PT MANDAU CITRA PERKASA \",\"expiryDate\":\"13 Oct 2022\",\"number\":\"0556483185\",\"nik\":null,\"agentUid\":\"X2638KE2\",\"storeName\":\"Accurate Sniper\",\"id\":7111,\"email\":\"mandaucp@gmail.com\",\"npwp\":null,\"agentName\":\"romi sepriadi chandra\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"06 Oct 2022\",\"phone\":\"082172727889\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT.MANDAU CITRA PERKASA\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7361}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35653,\"billedEntityType\":null,\"billedTo\":\"PT.MANDAU CITRA PERKASA\",\"expiryDate\":\"14 Sep 2022\",\"number\":\"0134243151\",\"nik\":null,\"agentUid\":\"X2638KE2\",\"storeName\":\"Accurate Sniper\",\"id\":6340,\"email\":\"mandaucp@gmail.com\",\"npwp\":null,\"agentName\":\"romi sepriadi chandra\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Sep 2022\",\"phone\":\"085271726602\",\"isHasExtendedExpiryDate\":true,\"name\":\"IBU ZARNIA NETTI\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6544}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

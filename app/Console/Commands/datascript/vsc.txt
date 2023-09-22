@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2200,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"DELTAVISION\",\"expiryDate\":\"13 Jul 2023\",\"number\":\"3691350025\",\"nik\":\"3372056907990008\",\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":16620,\"email\":\"deltavscctv@gmail.com\",\"npwp\":null,\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"2,664,000\",\"storeId\":156,\"billedAddress\":\"KOMPLEK HARCO MANGGA DUA PLAZA, BLOK N 10, JL. MANGGA DUA RAYA, MANGGA DUA SELATAN, SAWAH BESAR, JAKARTA PUSAT, DKI JAKARTA, 10730\",\"billedZipCode\":\"10730\",\"billedProvince\":\"Jakarta\",\"createTime\":\"06 Jul 2023\",\"phone\":\"085788666070\",\"isHasExtendedExpiryDate\":true,\"name\":\"ROSALINE\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17731}],\"shippingAddress\":null,\"invoice\":{\"number\":\"23739798761\",\"couponAmount\":0,\"createTime\":\"06\/07\/2023 11:41:58\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6BPP8G4E96\",\"id\":457603},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

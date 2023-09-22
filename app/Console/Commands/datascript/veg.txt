@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36001,\"billedEntityType\":null,\"billedTo\":\"PT. MIDIO FOTOGRAFI INDONESIA\",\"expiryDate\":\"28 Nov 2022\",\"number\":\"5957002214\",\"nik\":null,\"agentUid\":\"JDQK5V8D\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":8146,\"email\":\"vegatantra@gmail.com\",\"npwp\":null,\"agentName\":\"Larasati\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Nov 2022\",\"phone\":\"081316714185\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bapak Vega Tantra\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS2\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8526}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

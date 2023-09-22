@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":2353,\"billedEntityType\":null,\"billedTo\":\"IMAM\",\"expiryDate\":\"25 Aug 2022\",\"number\":\"7197901655\",\"nik\":null,\"agentUid\":\"PX26ZP02\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":5708,\"email\":\"dokumencdp@gmail.com\",\"npwp\":null,\"agentName\":\"Yopi Arsopian\",\"grossAmount\":\"2,442,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"18 Aug 2022\",\"phone\":\"082269749793\",\"isHasExtendedExpiryDate\":true,\"name\":\"IMAM\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":5865}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

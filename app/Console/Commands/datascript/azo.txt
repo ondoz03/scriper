@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":30771,\"billedEntityType\":null,\"billedTo\":\"abc\",\"expiryDate\":\"14 Jun 2023\",\"number\":\"7452159502\",\"nik\":null,\"agentUid\":\"R2W9W4X2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":15476,\"email\":\"corazon@gmail.com\",\"npwp\":null,\"agentName\":\"Cindy Aprilya\",\"grossAmount\":\"2,664,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Jun 2023\",\"phone\":\"081991919191\",\"isHasExtendedExpiryDate\":true,\"name\":\"abong\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":16536}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+

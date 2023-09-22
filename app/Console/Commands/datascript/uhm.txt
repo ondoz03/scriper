@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":30712,\"billedEntityType\":null,\"billedTo\":\"Rindy Ana Setiawati\",\"expiryDate\":\"28 Sep 2023\",\"number\":\"9229261774\",\"nik\":null,\"agentUid\":\"MGKNWJ0G\",\"storeName\":\"ABC Pusat\",\"id\":19095,\"email\":\"tujuhmitra.saudara07@gmail.com\",\"npwp\":null,\"agentName\":\"vasko edo gultom\",\"grossAmount\":\"2,664,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Sep 2023\",\"phone\":\"085219498624\",\"isHasExtendedExpiryDate\":true,\"name\":\"Rindy Ana Setiawati\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20561}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

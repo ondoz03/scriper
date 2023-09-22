@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":29764,\"billedEntityType\":null,\"billedTo\":\"yudi.liftco@gmail.com\",\"expiryDate\":\"12 Feb 2022\",\"number\":\"1128678379\",\"nik\":null,\"agentUid\":\"P213PY3D\",\"storeName\":\"ABC Pusat\",\"id\":664,\"email\":\"yudi.liftco@gmail.com\",\"npwp\":null,\"agentName\":\"PT. Mitra Mandiri Digital Teknologi\",\"grossAmount\":\"1,980,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Feb 2022\",\"phone\":\"082234417102\",\"isHasExtendedExpiryDate\":true,\"name\":\"yudi\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":664}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"}]}");
+
+

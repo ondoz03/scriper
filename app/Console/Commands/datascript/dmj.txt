@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35583,\"billedEntityType\":null,\"billedTo\":\"JSIT Publishing\",\"expiryDate\":\"20 Feb 2023\",\"number\":\"8476363805\",\"nik\":null,\"agentUid\":\"7DYMLEMD\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":10439,\"email\":\"admjsitpublishing@gmail.com\",\"npwp\":null,\"agentName\":\"Joseph Bram Pesah Latuary\",\"grossAmount\":\"2,220,000\",\"storeId\":151,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"13 Feb 2023\",\"phone\":\"081214306180\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Febry\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11144}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GLX\"}]}");
+
+

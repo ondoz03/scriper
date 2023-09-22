@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":31471,\"billedEntityType\":null,\"billedTo\":\"PT. Mutuagung Lestari\",\"expiryDate\":\"07 Aug 2023\",\"number\":\"2594228208\",\"nik\":null,\"agentUid\":\"R2W90832\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":17250,\"email\":\"accounting@mutucertification.com\",\"npwp\":null,\"agentName\":\"ACIS Indonesia ( CV ANEKA CIPTA INFORMASI SOLUSINDO )\",\"grossAmount\":\"2,664,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Jul 2023\",\"phone\":\"082260936440\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT. Mutuagung Lestari\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18562}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"},{\"amountBeforeTax\":\"1,800,000\",\"agentId\":2210,\"billedEntityType\":null,\"billedTo\":\"PT. SHAFIRA CORPORATION\",\"expiryDate\":\"11 Feb 2022\",\"number\":\"3329969896\",\"nik\":null,\"agentUid\":\"RPG8MMXG\",\"storeName\":\"ABC Medan\",\"id\":656,\"email\":\"dwiayuagustin30@gmail.com\",\"npwp\":null,\"agentName\":\"Desi Permatasari\",\"grossAmount\":\"1,980,000\",\"storeId\":157,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 Feb 2022\",\"phone\":\"085840881296\",\"isHasExtendedExpiryDate\":true,\"name\":\"DWI AYU AGUSTIN\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":656}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MDN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

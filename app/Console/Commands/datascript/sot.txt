@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":34700,\"billedEntityType\":null,\"billedTo\":\"PT Herso Ticep Indonesia\",\"expiryDate\":\"03 Jun 2022\",\"number\":\"9319821096\",\"nik\":null,\"agentUid\":\"VGE7YK4D\",\"storeName\":\"Accurate Sniper\",\"id\":3336,\"email\":\"arif@hersoticep.com\",\"npwp\":null,\"agentName\":\"Putri rihandani\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"27 May 2022\",\"phone\":\"085659559024\",\"isHasExtendedExpiryDate\":true,\"name\":\"Arif\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3387}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2108,\"billedEntityType\":null,\"billedTo\":\"Yasotex Mandiri PT\",\"expiryDate\":\"03 Jun 2022\",\"number\":\"1344466608\",\"nik\":null,\"agentUid\":\"5XD5W1Q2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":3333,\"email\":\"accyasotex@gmail.com\",\"npwp\":null,\"agentName\":\"Hizkia Sulaeman\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"27 May 2022\",\"phone\":\"081323194383\",\"isHasExtendedExpiryDate\":true,\"name\":\"Erwin\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3384}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":32861,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"wahyu\",\"expiryDate\":\"11 Apr 2023\",\"number\":\"3987946617\",\"nik\":\"3671012808900001\",\"agentUid\":\"4D9L8LP2\",\"storeName\":\"ABC Pusat\",\"id\":13251,\"email\":\"wachyumtu@gmail.com\",\"npwp\":null,\"agentName\":\"Wachyu Hidayat\",\"grossAmount\":\"2,220,000\",\"storeId\":159,\"billedAddress\":\"Jl. Raya Serang KM 18.8\",\"billedZipCode\":\"15710\",\"billedProvince\":\"Banten\",\"createTime\":\"04 Apr 2023\",\"phone\":\"08129172004\",\"isHasExtendedExpiryDate\":true,\"name\":\"wahyu\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14101}],\"shippingAddress\":null,\"invoice\":{\"number\":\"49416057193\",\"couponAmount\":0,\"createTime\":\"04\/04\/2023 10:05:43\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":412724},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-PUS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30711,\"billedEntityType\":null,\"billedTo\":\"Sum Ting Wong Kitchen & Brew Bar\",\"expiryDate\":\"01 Jun 2022\",\"number\":\"8161344299\",\"nik\":null,\"agentUid\":\"NGXZL572\",\"storeName\":\"Accurate Sniper\",\"id\":3283,\"email\":\"ops.sumtingwong@gmail.com\",\"npwp\":null,\"agentName\":\"Rizka Yuninda Cahya\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 May 2022\",\"phone\":\"081280768882\",\"isHasExtendedExpiryDate\":true,\"name\":\"Taufan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3337}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

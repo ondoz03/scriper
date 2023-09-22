@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38366,\"billedEntityType\":null,\"billedTo\":\"Putra Adi\",\"expiryDate\":\"22 Jun 2023\",\"number\":\"4577509980\",\"nik\":null,\"agentUid\":\"X2M7701D\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":15835,\"email\":\"putra@horologystory.com\",\"npwp\":null,\"agentName\":\"Randy Danielo Pantow\",\"grossAmount\":\"2,664,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"15 Jun 2023\",\"phone\":\"081285959881\",\"isHasExtendedExpiryDate\":true,\"name\":\"Putra Adi\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":16942}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2210,\"billedEntityType\":null,\"billedTo\":\"VAES\",\"expiryDate\":\"04 Sep 2023\",\"number\":\"3945725730\",\"nik\":null,\"agentUid\":\"RPG8MMXG\",\"storeName\":\"ABC Medan\",\"id\":18301,\"email\":\"vinnakho@gmail.com\",\"npwp\":null,\"agentName\":\"Desi Permatasari\",\"grossAmount\":\"2,664,000\",\"storeId\":157,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"28 Aug 2023\",\"phone\":\"085275550499\",\"isHasExtendedExpiryDate\":true,\"name\":\"Vaes\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19653}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MDN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

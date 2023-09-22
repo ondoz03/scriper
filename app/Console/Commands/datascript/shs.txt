@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,600,000\",\"agentId\":33913,\"billedEntityType\":null,\"billedTo\":\"Kaos Hasby\",\"expiryDate\":\"01 Apr 2023\",\"number\":\"3127478115\",\"nik\":null,\"agentUid\":\"7GJR8R52\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":12805,\"email\":\"hasbyashshiddiqy96@gmail.com\",\"npwp\":null,\"agentName\":\"Raden Hartantyo Wicaksono\",\"grossAmount\":\"2,886,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Mar 2023\",\"phone\":\"082338850552\",\"isHasExtendedExpiryDate\":true,\"name\":\"Hasby\",\"detailList\":[{\"amount\":2600000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 4 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"THRLEBARANHEMAT\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 4 Pengguna Tambahan\",\"id\":13616}],\"shippingAddress\":null,\"taxAmount\":\"286,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

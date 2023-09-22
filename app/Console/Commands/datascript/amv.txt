@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"4,800,000\",\"agentId\":33206,\"billedEntityType\":null,\"billedTo\":\"The circle\",\"expiryDate\":\"02 Aug 2023\",\"number\":\"9292295492\",\"nik\":null,\"agentUid\":\"VGNN9LLG\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":17218,\"email\":\"office.astanasamvitasatya@gmail.com\",\"npwp\":null,\"agentName\":\"Marchello Alfa Sahelangi\",\"grossAmount\":\"5,328,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Jul 2023\",\"phone\":\"0818635995\",\"isHasExtendedExpiryDate\":true,\"name\":\"Kania\",\"detailList\":[{\"amount\":4800000,\"quantity\":2,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18472}],\"shippingAddress\":null,\"taxAmount\":\"528,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+

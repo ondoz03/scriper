@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36406,\"billedEntityType\":null,\"billedTo\":\"Nocturnal Blazze\",\"expiryDate\":\"16 Dec 2022\",\"number\":\"1566242586\",\"nik\":null,\"agentUid\":\"VGNNWY4G\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":8775,\"email\":\"aflak@nocturnalblazze.com\",\"npwp\":null,\"agentName\":\"Dimas Fernando\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"09 Dec 2022\",\"phone\":\"085935228485\",\"isHasExtendedExpiryDate\":true,\"name\":\"Aflakulloh Al Muwaffaq\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS4\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9175}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+

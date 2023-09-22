@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"900,000\",\"agentId\":18926,\"billedEntityType\":null,\"billedTo\":\"Vuyansen\",\"expiryDate\":\"30 May 2022\",\"number\":\"7699221495\",\"nik\":null,\"agentUid\":\"5GL0LQE2\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":3250,\"email\":\"fuyansen162@gmail.com\",\"npwp\":null,\"agentName\":\"Erik Indriyanto\",\"grossAmount\":\"999,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 May 2022\",\"phone\":\"082132528804\",\"isHasExtendedExpiryDate\":true,\"name\":\"vuyansen\",\"detailList\":[{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Accurate POS 1 outlet 1 tahun\",\"id\":3304}],\"shippingAddress\":null,\"taxAmount\":\"99,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,700,000\",\"agentId\":2200,\"billedEntityType\":null,\"billedTo\":\"PT. ZEALS DIGITAL ASIA\",\"expiryDate\":\"31 Aug 2023\",\"number\":\"9098958979\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":18105,\"email\":\"finance@zeals.asia\",\"npwp\":null,\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"2,997,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Aug 2023\",\"phone\":\"085765435680\",\"isHasExtendedExpiryDate\":true,\"name\":\"ANGEL\",\"detailList\":[{\"amount\":2700000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSBEKASI\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":19456}],\"shippingAddress\":null,\"taxAmount\":\"297,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"ane\",\"expiryDate\":\"07 Jun 2023\",\"number\":\"3208812635\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":15132,\"email\":\"inandeszeane@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,664,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 May 2023\",\"phone\":\"081222340658\",\"isHasExtendedExpiryDate\":true,\"name\":\"ane\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":16159}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"zea hartono\",\"expiryDate\":\"18 Apr 2023\",\"number\":\"4645738063\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":13378,\"email\":\"zeahartono31@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"11 Apr 2023\",\"phone\":\"088225820824\",\"isHasExtendedExpiryDate\":true,\"name\":\"zea hartono\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14240}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

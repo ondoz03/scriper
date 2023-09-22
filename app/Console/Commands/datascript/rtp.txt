@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,600,000\",\"agentId\":36953,\"billedEntityType\":null,\"billedTo\":\"MUDA ART PROJECT\",\"expiryDate\":\"12 Sep 2023\",\"number\":\"0984812648\",\"nik\":null,\"agentUid\":\"X26EX4W2\",\"storeName\":\"Sniper-Sumatera\",\"id\":18709,\"email\":\"mudaartproject@gmail.com\",\"npwp\":null,\"agentName\":\"Rizki Fadly\",\"grossAmount\":\"3,996,000\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Sep 2023\",\"phone\":\"083199626868\",\"isHasExtendedExpiryDate\":true,\"name\":\"YETTY\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20063},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":20064}],\"shippingAddress\":null,\"taxAmount\":\"396,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"},{\"amountBeforeTax\":\"6,300,000\",\"agentId\":2353,\"billedEntityType\":\"PT\",\"billedTo\":\"ARDASH SUMBAR INDONESIA\",\"expiryDate\":\"16 Feb 2022\",\"number\":\"6936728740\",\"nik\":null,\"agentUid\":\"PX26ZP02\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":640,\"email\":\"sumbarsmartphone@gmail.com\",\"npwp\":\"918548439205000\",\"agentName\":\"Yopi Arsopian\",\"grossAmount\":\"6,930,000\",\"storeId\":153,\"billedAddress\":\"JALAN SUTAN SYAHRIR - KOTA PADANG\",\"billedZipCode\":\"25216\",\"billedProvince\":\"Sumatra Barat\",\"createTime\":\"09 Feb 2022\",\"phone\":\"085156689829\",\"isHasExtendedExpiryDate\":true,\"name\":\"Sumbar Smartphone\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":641},{\"amount\":4500000,\"quantity\":5,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":642}],\"shippingAddress\":null,\"invoice\":{\"number\":\"26996202399\",\"couponAmount\":0,\"createTime\":\"10\/02\/2022 11:08:11\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3KNNR2K4D6\",\"id\":239914},\"taxAmount\":\"630,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

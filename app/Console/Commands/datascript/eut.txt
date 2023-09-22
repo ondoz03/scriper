@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,900,000\",\"agentId\":34162,\"billedEntityType\":null,\"billedTo\":\" Gloria Axendo Internusa\",\"expiryDate\":\"02 Mar 2022\",\"number\":\"3256468554\",\"nik\":null,\"agentUid\":\"EDP1P8WG\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":924,\"email\":\"neuttron_23@live.com\",\"npwp\":null,\"agentName\":\"Kharisma bimo aji seno\",\"grossAmount\":\"2,090,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 Feb 2022\",\"phone\":\"087871200056\",\"isHasExtendedExpiryDate\":true,\"name\":\"wiliam chandra\",\"detailList\":[{\"amount\":1900000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"BERES\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 1 Pengguna Tambahan\",\"id\":928}],\"shippingAddress\":null,\"taxAmount\":\"190,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+

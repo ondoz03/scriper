@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36406,\"billedEntityType\":null,\"billedTo\":\"PT. DAYA AGUNG BESTARI\",\"expiryDate\":\"11 Jan 2023\",\"number\":\"6378119694\",\"nik\":null,\"agentUid\":\"VGNNWY4G\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":9418,\"email\":\"wina@dabestconsultant.com\",\"npwp\":null,\"agentName\":\"Dimas Fernando\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 Jan 2023\",\"phone\":\"081220000250\",\"isHasExtendedExpiryDate\":true,\"name\":\"Wina Yuanita\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":9869}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2162,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Liungist Clothing\",\"expiryDate\":\"23 Nov 2022\",\"number\":\"9196555048\",\"nik\":\"3173026603930009\",\"agentUid\":\"3EDPE1Z2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":8054,\"email\":\"liungistclothing1@gmail.com\",\"npwp\":null,\"agentName\":\"Saripin\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":\"jalan laksa 2 no 56, rt 013 rw 002, tambora, jakarta barat\",\"billedZipCode\":\"11250\",\"billedProvince\":\"Jakarta\",\"createTime\":\"16 Nov 2022\",\"phone\":\"082298888180\",\"isHasExtendedExpiryDate\":true,\"name\":\"Andy\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS1\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8378}],\"shippingAddress\":null,\"invoice\":{\"number\":\"34780015598\",\"couponAmount\":0,\"createTime\":\"16\/11\/2022 18:27:20\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3499EM4NY6\",\"id\":350226},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

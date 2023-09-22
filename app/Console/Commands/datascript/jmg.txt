@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33155,\"billedEntityType\":null,\"billedTo\":\"PT. LABORA\",\"expiryDate\":\"04 Nov 2022\",\"number\":\"5060682029\",\"nik\":null,\"agentUid\":\"RD3N04WD\",\"storeName\":\"Accurate Sniper\",\"id\":7594,\"email\":\"onlineprjmgr@laboramed.com\",\"npwp\":null,\"agentName\":\"Armia\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"28 Oct 2022\",\"phone\":\"0819701779\",\"isHasExtendedExpiryDate\":true,\"name\":\"Mulya\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7899}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

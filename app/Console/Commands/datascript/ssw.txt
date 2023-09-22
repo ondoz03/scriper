@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,720,000\",\"agentId\":33913,\"billedEntityType\":null,\"billedTo\":\"PT Oscar Mitra Sukses Sejahtera Tbk\",\"expiryDate\":\"16 Feb 2023\",\"number\":\"2999541207\",\"nik\":null,\"agentUid\":\"7GJR8R52\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":10367,\"email\":\"prikanti.isswandhani@advancegroup.com\",\"npwp\":null,\"agentName\":\"Raden Hartantyo Wicaksono\",\"grossAmount\":\"3,019,200\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"09 Feb 2023\",\"phone\":\"087873875824\",\"isHasExtendedExpiryDate\":true,\"name\":\"Richard Cesar Mapajaya\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11083},{\"amount\":720000,\"quantity\":3,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":11084}],\"shippingAddress\":null,\"taxAmount\":\"299,200\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

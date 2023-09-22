@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":2202,\"billedEntityType\":null,\"billedTo\":\"PT Global Distribusi Pusaka\",\"expiryDate\":\"06 Sep 2022\",\"number\":\"1459399689\",\"nik\":null,\"agentUid\":\"ZR2WP4KD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":6260,\"email\":\"hendra.h@gdn-commerce.com\",\"npwp\":null,\"agentName\":\"Anto\",\"grossAmount\":\"2,442,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"30 Aug 2022\",\"phone\":\"087877044833\",\"isHasExtendedExpiryDate\":true,\"name\":\"Hendra\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback500Rb\",\"promotionCode\":\"MERDEKA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6461}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

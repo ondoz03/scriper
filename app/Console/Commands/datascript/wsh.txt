@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Fitri Crawshaw\",\"expiryDate\":\"25 Aug 2022\",\"number\":\"5243956159\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":5757,\"email\":\"fitri.crawshaw78@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,442,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"18 Aug 2022\",\"phone\":\"081809983913\",\"isHasExtendedExpiryDate\":true,\"name\":\"Fitri Crawshaw\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":5920}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"1,840,000\",\"agentId\":11519,\"billedEntityType\":\"PT\",\"billedTo\":\"PASTI CUAN BERSAMA\",\"expiryDate\":\"31 Jan 2022\",\"number\":\"9489086752\",\"nik\":null,\"agentUid\":\"L5DZ49P2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":164,\"email\":\"wshopoffice@gmail.com\",\"npwp\":\"530445923047000\",\"agentName\":\"Fredy Accurate\",\"grossAmount\":\"2,024,000\",\"storeId\":100,\"billedAddress\":\"RUKO BEACH BOULEVARD BLOK G NO.26, GOLF ISLAND, P\",\"billedZipCode\":\"14460\",\"billedProvince\":\"Jakarta\",\"createTime\":\"24 Jan 2022\",\"phone\":\"081908880090\",\"isHasExtendedExpiryDate\":true,\"name\":\"WSHOP OFFICE\",\"detailList\":[{\"amount\":1840000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"IMLEK\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":164}],\"shippingAddress\":null,\"invoice\":{\"number\":\"31417032332\",\"couponAmount\":0,\"createTime\":\"24\/01\/2022 15:26:16\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6Y99457XP6\",\"id\":234558},\"taxAmount\":\"184,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":20463,\"billedEntityType\":\"PT\",\"billedTo\":\"KODJARI TATA ANGKUTAN\",\"expiryDate\":\"23 Mar 2022\",\"number\":\"0614661868\",\"nik\":null,\"agentUid\":\"9D76LL5G\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":1359,\"email\":\"kodjari.adm@gmail.com\",\"npwp\":\"847239647404000\",\"agentName\":\"Hasnan Hadafi\",\"grossAmount\":\"1,980,000\",\"storeId\":151,\"billedAddress\":\"JL. KH. ABDULLAH BIN NUH - KOTA BOGOR\",\"billedZipCode\":\"16112\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"16 Mar 2022\",\"phone\":\"082116554061\",\"isHasExtendedExpiryDate\":true,\"name\":\"Zova\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":1361}],\"shippingAddress\":null,\"invoice\":{\"number\":\"86333860766\",\"couponAmount\":0,\"createTime\":\"19\/03\/2022 15:07:08\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":253620},\"taxAmount\":\"180,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-GLX\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

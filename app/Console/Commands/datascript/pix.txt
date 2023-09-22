@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":2202,\"billedEntityType\":null,\"billedTo\":\"Ibu Yossi\",\"expiryDate\":\"12 Feb 2022\",\"number\":\"4984101952\",\"nik\":null,\"agentUid\":\"ZR2WP4KD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":607,\"email\":\"admin@Walpix.co.id\",\"npwp\":null,\"agentName\":\"Anto\",\"grossAmount\":\"1,980,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Feb 2022\",\"phone\":\"0811997774\",\"isHasExtendedExpiryDate\":true,\"name\":\"Yossi\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":607}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

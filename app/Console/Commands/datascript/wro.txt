@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"4,000,000\",\"agentId\":30713,\"billedEntityType\":\"PT\",\"billedTo\":\"Ghosun Army Car Showroom\",\"expiryDate\":\"08 Oct 2022\",\"number\":\"2552679947\",\"nik\":\"3674064610900016\",\"agentUid\":\"7GJRQZN2\",\"storeName\":\"Accurate Sniper\",\"id\":6859,\"email\":\"ghosunarmycar@gmail.com\",\"npwp\":null,\"agentName\":\"Ifan Djuliawan Fadillah\",\"grossAmount\":\"4,440,000\",\"storeId\":2650,\"billedAddress\":\"Jalan Binamarga Jakarta Timur\",\"billedZipCode\":\"13840\",\"billedProvince\":\"Jakarta\",\"createTime\":\"01 Oct 2022\",\"phone\":\"08119109220\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ghosun Army Car Showroom\",\"detailList\":[{\"amount\":4000000,\"quantity\":2,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7162}],\"shippingAddress\":null,\"invoice\":{\"number\":\"27507621023\",\"couponAmount\":0,\"createTime\":\"01\/10\/2022 18:10:17\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":331295},\"taxAmount\":\"440,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"4,000,000\",\"agentId\":30713,\"billedEntityType\":null,\"billedTo\":\"Ghosun Army Car\",\"expiryDate\":\"26 Sep 2022\",\"number\":\"0735694545\",\"nik\":null,\"agentUid\":\"7GJRQZN2\",\"storeName\":\"Accurate Sniper\",\"id\":6583,\"email\":\"ghosunarmycar@gmail.com\",\"npwp\":null,\"agentName\":\"Ifan Djuliawan Fadillah\",\"grossAmount\":\"4,440,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Sep 2022\",\"phone\":\"08119109220\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ghosun Army Car Showroom\",\"detailList\":[{\"amount\":4000000,\"quantity\":2,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6835}],\"shippingAddress\":null,\"taxAmount\":\"440,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

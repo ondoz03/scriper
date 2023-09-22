@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":450,\"billedEntityType\":null,\"billedTo\":\"PT Bevander Inovasi Sukses Abadi\",\"expiryDate\":\"05 Apr 2022\",\"number\":\"2228434221\",\"nik\":null,\"agentUid\":\"VP20MVDW\",\"storeName\":\"ABC Pusat\",\"id\":1647,\"email\":\"acc.cmcdigital@gmail.com\",\"npwp\":null,\"agentName\":\"Dudi\",\"grossAmount\":\"2,200,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"29 Mar 2022\",\"phone\":\"081383892488\",\"isHasExtendedExpiryDate\":true,\"name\":\"Calvin\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"GREGET\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 1 Pengguna Tambahan\",\"id\":1751}],\"shippingAddress\":null,\"taxAmount\":\"200,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"}]}");
+
+

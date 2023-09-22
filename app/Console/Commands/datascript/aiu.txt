@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,700,000\",\"agentId\":18154,\"billedEntityType\":null,\"billedTo\":\"PT. Thaiunion Kharisma Lestari\",\"expiryDate\":\"01 Sep 2023\",\"number\":\"8559499714\",\"nik\":null,\"agentUid\":\"X254JLLD\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":18141,\"email\":\"purchasing2.tukl@thaiunion.com\",\"npwp\":null,\"agentName\":\"ivan tandywijaya\",\"grossAmount\":\"2,997,000\",\"storeId\":151,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Aug 2023\",\"phone\":\"0811355441\",\"isHasExtendedExpiryDate\":true,\"name\":\"Irma\",\"detailList\":[{\"amount\":2700000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSBEKASI\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":19496}],\"shippingAddress\":null,\"taxAmount\":\"297,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GLX\"}]}");
+
+

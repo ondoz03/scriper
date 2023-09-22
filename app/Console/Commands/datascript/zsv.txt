@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":18926,\"billedEntityType\":\"PT\",\"billedTo\":\"EZSVS TECHNOLOGY INDONESIA\",\"expiryDate\":\"10 Jan 2023\",\"number\":\"8906258434\",\"nik\":null,\"agentUid\":\"5GL0LQE2\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":9366,\"email\":\"jesvia@ezsvs.com\",\"npwp\":\"902859255416000\",\"agentName\":\"Erik Indriyanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":\"JL HOS COKROAMINOTO BLOK C8 NO 35 RT 001 RW 006 - KOTA TANGERANG\",\"billedZipCode\":\"15156\",\"billedProvince\":\"Banten\",\"createTime\":\"03 Jan 2023\",\"phone\":\"081360991741\",\"isHasExtendedExpiryDate\":true,\"name\":\"Jesvia\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":9819}],\"shippingAddress\":null,\"invoice\":{\"number\":\"28814416582\",\"couponAmount\":0,\"createTime\":\"09\/01\/2023 11:27:24\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":373905},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

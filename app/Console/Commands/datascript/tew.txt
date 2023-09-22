@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2203,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Mx\",\"expiryDate\":\"06 May 2023\",\"number\":\"7121294798\",\"nik\":\"0000000000000000\",\"agentUid\":\"W5DL57K2\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":13767,\"email\":\"Stewartsujanto@gmail.com\",\"npwp\":null,\"agentName\":\"Rizalsyah\",\"grossAmount\":\"2,220,000\",\"storeId\":155,\"billedAddress\":\"Angke\",\"billedZipCode\":\"000000\",\"billedProvince\":\"Jakarta\",\"createTime\":\"29 Apr 2023\",\"phone\":\"087728395743\",\"isHasExtendedExpiryDate\":true,\"name\":\"Stewart\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14669}],\"shippingAddress\":null,\"invoice\":{\"number\":\"97960818300\",\"couponAmount\":0,\"createTime\":\"29\/04\/2023 20:35:30\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6544B7GXG3\",\"id\":424239},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

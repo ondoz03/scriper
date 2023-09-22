@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30713,\"billedEntityType\":\"PT\",\"billedTo\":\"TRAINERS MANAGEMENT INDONESIA\",\"expiryDate\":\"13 Jun 2022\",\"number\":\"9334778111\",\"nik\":null,\"agentUid\":\"7GJRQZN2\",\"storeName\":\"Accurate Sniper\",\"id\":3591,\"email\":\"tmi.update@gmail.com\",\"npwp\":\"839481678413000\",\"agentName\":\"Ifan Djuliawan Fadillah\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":\"RUKO DELTA CIKARANG SQUARE BLOK B NO.12 JL. KENAR\",\"billedZipCode\":\"17530\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"06 Jun 2022\",\"phone\":\"083811955650\",\"isHasExtendedExpiryDate\":true,\"name\":\"Henny\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":3643}],\"shippingAddress\":null,\"invoice\":{\"number\":\"04076996961\",\"couponAmount\":0,\"createTime\":\"07\/06\/2022 15:12:01\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3DEE2GK956\",\"id\":286589},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":13171,\"billedEntityType\":\"Koperasi\",\"billedTo\":\"BUPDA\",\"expiryDate\":\"01 Apr 2022\",\"number\":\"5505927616\",\"nik\":\"3671060806870000\",\"agentUid\":\"R2W66X12\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":1611,\"email\":\"bupda.astagina@gmail.com\",\"npwp\":null,\"agentName\":\"Erry Haryadi\",\"grossAmount\":\"2,200,000\",\"storeId\":158,\"billedAddress\":\"Jln. Kargo Permai No 45 A Denpasar \",\"billedZipCode\":\"80116\",\"billedProvince\":\"Bali\",\"createTime\":\"25 Mar 2022\",\"phone\":\"0811387438\",\"isHasExtendedExpiryDate\":true,\"name\":\"Pananta\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"GREGET\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 1 Pengguna Tambahan\",\"id\":1661}],\"shippingAddress\":null,\"invoice\":{\"number\":\"96688101883\",\"couponAmount\":0,\"createTime\":\"25\/03\/2022 11:12:31\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":256054},\"taxAmount\":\"200,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

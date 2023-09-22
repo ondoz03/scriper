@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36658,\"billedEntityType\":null,\"billedTo\":\"PT PANDEKA CIPTA KREASI\",\"expiryDate\":\"16 Jan 2023\",\"number\":\"9927150239\",\"nik\":null,\"agentUid\":\"MDK7M4Q2\",\"storeName\":\"Sniper-JBN\",\"id\":9561,\"email\":\"arkyshabib@gmail.com\",\"npwp\":null,\"agentName\":\"Pramadya Setyo Puji Raharjo\",\"grossAmount\":\"2,220,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"09 Jan 2023\",\"phone\":\"081312290930\",\"isHasExtendedExpiryDate\":true,\"name\":\"Habib\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10067}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33154,\"billedEntityType\":null,\"billedTo\":\"Arky Ristiandicta\",\"expiryDate\":\"16 Aug 2022\",\"number\":\"6970074871\",\"nik\":null,\"agentUid\":\"X25RNQJD\",\"storeName\":\"Accurate Sniper\",\"id\":5531,\"email\":\"arky@selindo.com\",\"npwp\":null,\"agentName\":\"Dea Weningsari\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"09 Aug 2022\",\"phone\":\"085775163421\",\"isHasExtendedExpiryDate\":true,\"name\":\"Arky Ristiandicta\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":5682}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

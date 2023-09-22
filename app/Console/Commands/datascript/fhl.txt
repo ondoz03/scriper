@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":18926,\"billedEntityType\":null,\"billedTo\":\"Fhlip\",\"expiryDate\":\"06 Sep 2022\",\"number\":\"2796481907\",\"nik\":null,\"agentUid\":\"5GL0LQE2\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":6201,\"email\":\"fhlip.manalu@icreate.id\",\"npwp\":null,\"agentName\":\"Erik Indriyanto\",\"grossAmount\":\"2,442,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"30 Aug 2022\",\"phone\":\"082274833747\",\"isHasExtendedExpiryDate\":true,\"name\":\"fhlip.manalu@icreate.id\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback500Rb\",\"promotionCode\":\"MERDEKA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6401}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

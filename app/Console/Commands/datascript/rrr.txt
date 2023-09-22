@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":35621,\"billedEntityType\":null,\"billedTo\":\"Bakarrr Tegal\",\"expiryDate\":\"07 Sep 2022\",\"number\":\"8393293685\",\"nik\":null,\"agentUid\":\"P2VPEMX2\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":6211,\"email\":\"bakarrr.tegal@gmail.com\",\"npwp\":null,\"agentName\":\"Petruk Semar\",\"grossAmount\":\"2,442,000\",\"storeId\":2200,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Aug 2022\",\"phone\":\"08112677477\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bakarrr Tegal\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback500Rb\",\"promotionCode\":\"MERDEKA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6412}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"UTS-HQ\"},{\"amountBeforeTax\":\"2,200,000\",\"agentId\":35621,\"billedEntityType\":null,\"billedTo\":\"Bakarrr Pekalongan\",\"expiryDate\":\"07 Sep 2022\",\"number\":\"0636793570\",\"nik\":null,\"agentUid\":\"P2VPEMX2\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":6210,\"email\":\"bakarrr.pekalongan@gmail.com\",\"npwp\":null,\"agentName\":\"Petruk Semar\",\"grossAmount\":\"2,442,000\",\"storeId\":2200,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Aug 2022\",\"phone\":\"08112677477\",\"isHasExtendedExpiryDate\":true,\"name\":\"bakar pekalongan\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback500Rb\",\"promotionCode\":\"MERDEKA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6411}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

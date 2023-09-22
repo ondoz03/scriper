@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36406,\"billedEntityType\":null,\"billedTo\":\"ANUGERAH BAHAGIUA MOTORINDO\",\"expiryDate\":\"02 Mar 2023\",\"number\":\"9951704424\",\"nik\":null,\"agentUid\":\"VGNNWY4G\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":10892,\"email\":\"kenraf004@gmail.com\",\"npwp\":null,\"agentName\":\"Dimas Fernando\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 Feb 2023\",\"phone\":\"08128583323\",\"isHasExtendedExpiryDate\":true,\"name\":\"ANUGERAH BAHAGIUA MOTORINDO\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11646}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+

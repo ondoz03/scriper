@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":20503,\"billedEntityType\":\"PT\",\"billedTo\":\"SIDO MULYO PROJECT\",\"expiryDate\":\"05 Oct 2022\",\"number\":\"3097084038\",\"nik\":null,\"agentUid\":\"5DL03QYG\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":6820,\"email\":\"smproject@sidomulyo.co.id\",\"npwp\":\"609186432642000\",\"agentName\":\"Naimma\",\"grossAmount\":\"2,220,000\",\"storeId\":151,\"billedAddress\":\"JALAN RAYA NGASINAN, RUKO PARAGON PLAZA NOMOR: 27\",\"billedZipCode\":\"61174\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"28 Sep 2022\",\"phone\":\"088808888880\",\"isHasExtendedExpiryDate\":true,\"name\":\"Leonardo Alexander Wibowo\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB300\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7071}],\"shippingAddress\":null,\"invoice\":{\"number\":\"16410531555\",\"couponAmount\":0,\"createTime\":\"29\/09\/2022 14:11:45\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6DEE28BEK3\",\"id\":330422},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-GLX\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

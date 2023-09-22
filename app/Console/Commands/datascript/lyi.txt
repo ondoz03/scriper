@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36195,\"billedEntityType\":null,\"billedTo\":\"PT. Wiratama Roda Karya Indonesia \",\"expiryDate\":\"17 Feb 2023\",\"number\":\"7710749523\",\"nik\":null,\"agentUid\":\"5GLPM4JD\",\"storeName\":\"Sniper-Sumatera\",\"id\":10418,\"email\":\"trullyinme@gmail.com\",\"npwp\":null,\"agentName\":\"Deny Agusprasetyo Reza\",\"grossAmount\":\"2,220,000\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"10 Feb 2023\",\"phone\":\"085261034113\",\"isHasExtendedExpiryDate\":true,\"name\":\"YANNI KUSNO\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11121}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"}]}");
+
+

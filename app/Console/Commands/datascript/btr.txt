@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":7251,\"billedEntityType\":null,\"billedTo\":\"PT NusaTel\",\"expiryDate\":\"11 Apr 2022\",\"number\":\"3038137408\",\"nik\":null,\"agentUid\":\"LWDRKL4G\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":2107,\"email\":\"btrikat@gmail.com\",\"npwp\":null,\"agentName\":\"Endi Sudianto\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 Apr 2022\",\"phone\":\"081210107519\",\"isHasExtendedExpiryDate\":true,\"name\":\"Adi Simpati\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2157}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+

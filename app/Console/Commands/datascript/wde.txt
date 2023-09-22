@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"4,000,000\",\"agentId\":33913,\"billedEntityType\":\"PT\",\"billedTo\":\"CROWDE MEMBANGUN BANGSA\",\"expiryDate\":\"04 Apr 2022\",\"number\":\"2098406471\",\"nik\":null,\"agentUid\":\"7GJR8R52\",\"storeName\":\"Accurate Sniper\",\"id\":1634,\"email\":\"andrew@crowde.co\",\"npwp\":\"810876854017000\",\"agentName\":\"Raden Hartantyo W\",\"grossAmount\":\"4,400,000\",\"storeId\":2650,\"billedAddress\":\"JL TEBET RAYA NO. 34 - KOTA ADM. JAKARTA SELATAN\",\"billedZipCode\":\"12820\",\"billedProvince\":\"Jakarta\",\"createTime\":\"28 Mar 2022\",\"phone\":\"082210311192\",\"isHasExtendedExpiryDate\":true,\"name\":\"andrew@crowde.co\",\"detailList\":[{\"amount\":4000000,\"quantity\":2,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"GREGET\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 1 Pengguna Tambahan\",\"id\":1686}],\"shippingAddress\":null,\"invoice\":{\"number\":\"81383519258\",\"couponAmount\":0,\"createTime\":\"28\/03\/2022 17:24:47\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3BPP2G52G3\",\"id\":256997},\"taxAmount\":\"400,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

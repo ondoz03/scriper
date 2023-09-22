@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":12541,\"billedEntityType\":\"CV\",\"billedTo\":\"PANEN BARU\",\"expiryDate\":\"26 May 2022\",\"number\":\"4392012255\",\"nik\":null,\"agentUid\":\"PG161WY2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":3068,\"email\":\"fin.mgr@cvputranusa.com\",\"npwp\":\"014959415315000\",\"agentName\":\"PT Solusi Akuntansi Indonesia\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":\"JL KOBA - KAB. BANGKA TENGAH\",\"billedZipCode\":\"33171\",\"billedProvince\":\"Kepulauan Bangka Belitung\",\"createTime\":\"19 May 2022\",\"phone\":\"081285321000\",\"isHasExtendedExpiryDate\":true,\"name\":\"Roberto\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3118}],\"shippingAddress\":null,\"invoice\":{\"number\":\"72324865987\",\"couponAmount\":0,\"createTime\":\"23\/05\/2022 09:14:56\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6499EB1PY3\",\"id\":280392},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":12541,\"billedEntityType\":null,\"billedTo\":\"CV Panen Baru\",\"expiryDate\":\"17 May 2022\",\"number\":\"8923792408\",\"nik\":null,\"agentUid\":\"PG161WY2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":2871,\"email\":\"fin.mgr@cvputranusa.com\",\"npwp\":null,\"agentName\":\"PT Solusi Akuntansi Indonesia\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"10 May 2022\",\"phone\":\"081285321000\",\"isHasExtendedExpiryDate\":true,\"name\":\"Roberto\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2921}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,700,901\",\"agentId\":2200,\"billedEntityType\":null,\"billedTo\":\"YAYASAN SAYAP IBU\",\"expiryDate\":\"26 Jul 2023\",\"number\":\"2243216802\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":16891,\"email\":\"pusat@yayasansayapibu.or.id\",\"npwp\":null,\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"2,998,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Jul 2023\",\"phone\":\"081818196190\",\"isHasExtendedExpiryDate\":true,\"name\":\"FAIZ\",\"detailList\":[{\"amount\":2700901,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSMEDAN\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":18186}],\"shippingAddress\":null,\"taxAmount\":\"297,099\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2353,\"billedEntityType\":null,\"billedTo\":\"HASHIRE.ID\",\"expiryDate\":\"28 Jul 2023\",\"number\":\"9292910472\",\"nik\":null,\"agentUid\":\"PX26ZP02\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":17011,\"email\":\"casseycallistachou@gmail.com\",\"npwp\":null,\"agentName\":\"Yopi Arsopian\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Jul 2023\",\"phone\":\"087856888889\",\"isHasExtendedExpiryDate\":true,\"name\":\"Casey\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18263}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"1,800,000\",\"agentId\":33450,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"My precious eyelash hand nails\",\"expiryDate\":\"07 Apr 2022\",\"number\":\"8207204442\",\"nik\":\"5102056601880004\",\"agentUid\":\"P20N6EZ2\",\"storeName\":\"Accurate Sniper\",\"id\":1858,\"email\":\"mypreciouseyelashandnails@gmail.com\",\"npwp\":null,\"agentName\":\"egasaputra\",\"grossAmount\":\"1,980,000\",\"storeId\":2650,\"billedAddress\":\"Jl.Tunggul Ametung VIII no.2 Ubung Kaja , Denpasar Utara\",\"billedZipCode\":\"80116\",\"billedProvince\":\"Bali\",\"createTime\":\"31 Mar 2022\",\"phone\":\"0811388331\",\"isHasExtendedExpiryDate\":true,\"name\":\"Indri\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":1908}],\"shippingAddress\":null,\"invoice\":{\"number\":\"51675072769\",\"couponAmount\":0,\"createTime\":\"31\/03\/2022 18:50:04\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6BPP2GDRE6\",\"id\":258411},\"taxAmount\":\"180,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

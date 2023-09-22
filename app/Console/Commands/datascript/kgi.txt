@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":34053,\"billedEntityType\":null,\"billedTo\":\"Pak jery\",\"expiryDate\":\"30 Aug 2023\",\"number\":\"3223191285\",\"nik\":null,\"agentUid\":\"X26359V2\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":17896,\"email\":\"kgi.jkrt@gmail.com\",\"npwp\":null,\"agentName\":\"Syahdef zuhdy\",\"grossAmount\":\"2,220,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 Aug 2023\",\"phone\":\"082124091478\",\"isHasExtendedExpiryDate\":true,\"name\":\"Jery\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 4 bulan\",\"promotionCode\":null,\"description\":\"Paket khusus BCA BLUE berlangganan Accurate Online (1 tahun + 4 bulan)\",\"id\":19332}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+

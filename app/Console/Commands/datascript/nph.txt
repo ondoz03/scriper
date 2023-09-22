@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,800,000\",\"agentId\":11513,\"billedEntityType\":null,\"billedTo\":\"INTAN\",\"expiryDate\":\"29 Mar 2022\",\"number\":\"1559398264\",\"nik\":null,\"agentUid\":\"K7GJ340D\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":1536,\"email\":\"intanph96@gmail.com\",\"npwp\":null,\"agentName\":\"Erapuji\",\"grossAmount\":\"3,080,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 Mar 2022\",\"phone\":\"081279527621\",\"isHasExtendedExpiryDate\":true,\"name\":\"Intan Putri Hasyim\",\"detailList\":[{\"amount\":2800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + Setup Awal 1 hari\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + Setup Awal 1 hari\",\"id\":1537}],\"shippingAddress\":null,\"taxAmount\":\"280,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+

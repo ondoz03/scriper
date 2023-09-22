@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"25,000,000\",\"agentId\":2156,\"billedEntityType\":null,\"billedTo\":\"PT WSMS KELAPA GADING\",\"expiryDate\":\"15 Aug 2023\",\"number\":\"8140534003\",\"nik\":null,\"agentUid\":\"RPD8M59D\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":17380,\"email\":\"vincentwishingstar@gmail.com\",\"npwp\":null,\"agentName\":\"Ferika Adi Setiawan\",\"grossAmount\":\"27,750,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"08 Aug 2023\",\"phone\":\"087852238826\",\"isHasExtendedExpiryDate\":true,\"name\":\"Vincent Leonardo\",\"detailList\":[{\"amount\":25000000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Aktivasi Private Cloud\",\"id\":18711}],\"shippingAddress\":null,\"taxAmount\":\"2,750,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+

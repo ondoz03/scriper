@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":7803,\"billedEntityType\":null,\"billedTo\":\"Pinar Nalalita\",\"expiryDate\":\"28 Jun 2022\",\"number\":\"4475877524\",\"nik\":null,\"agentUid\":\"W5DL9Q6G\",\"storeName\":\"ABC Pusat\",\"id\":3984,\"email\":\"maximumlife.consultant@gmail.com\",\"npwp\":null,\"agentName\":\"Vina Yuniati\",\"grossAmount\":\"2,220,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Jun 2022\",\"phone\":\"081224422363\",\"isHasExtendedExpiryDate\":true,\"name\":\"Pinar Nalalita\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":4035}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"},{\"amountBeforeTax\":\"1,840,000\",\"agentId\":13852,\"billedEntityType\":\"PT\",\"billedTo\":\"PT UML INDONESIA\",\"expiryDate\":\"31 Jan 2022\",\"number\":\"7688364246\",\"nik\":\"3515082912660001\",\"agentUid\":\"VDN7KV82\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":202,\"email\":\"ptumlindonesia.acc@gmail.com\",\"npwp\":null,\"agentName\":\"PT. Ultima Tekno Solusindo\",\"grossAmount\":\"2,024,000\",\"storeId\":2200,\"billedAddress\":\"Perum Kraton Residence Jalan Lilium Barat No 21 RT 21 RW 02 Kraton Krian Sidoarjo\",\"billedZipCode\":\"61262\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"24 Jan 2022\",\"phone\":\"082244331043\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT UML INDONESIA\",\"detailList\":[{\"amount\":1840000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"IMLEK\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":202}],\"shippingAddress\":null,\"invoice\":{\"number\":\"17751304256\",\"couponAmount\":0,\"createTime\":\"24\/01\/2022 08:55:44\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":234337},\"taxAmount\":\"184,000\",\"status\":\"PROCESSED\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

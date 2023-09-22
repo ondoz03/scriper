@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,700,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"SRI NANDA AYUNI PULUNGAN\",\"expiryDate\":\"01 Sep 2023\",\"number\":\"0817285101\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":18077,\"email\":\"staff1.hdp@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,997,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Aug 2023\",\"phone\":\"087774274266\",\"isHasExtendedExpiryDate\":true,\"name\":\"SRI NANDA AYUNI PULUNGAN\",\"detailList\":[{\"amount\":2700000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSBEKASI\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":19441}],\"shippingAddress\":null,\"taxAmount\":\"297,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

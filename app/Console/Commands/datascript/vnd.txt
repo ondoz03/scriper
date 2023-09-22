@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":20503,\"billedEntityType\":null,\"billedTo\":\"Toko Surya Mitra\",\"expiryDate\":\"07 Jan 2023\",\"number\":\"8167737289\",\"nik\":null,\"agentUid\":\"5DL03QYG\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":9267,\"email\":\"dvnd.08@gmail.com\",\"npwp\":null,\"agentName\":\"Naimma\",\"grossAmount\":\"2,220,000\",\"storeId\":151,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Dec 2022\",\"phone\":\"082237388889\",\"isHasExtendedExpiryDate\":true,\"name\":\"Devina\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS5\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9639}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GLX\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

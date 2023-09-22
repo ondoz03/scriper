@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":10950,\"billedEntityType\":null,\"billedTo\":\"LPS Indonesia\",\"expiryDate\":\"02 Feb 2023\",\"number\":\"1073216940\",\"nik\":null,\"agentUid\":\"VP20KQN2\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":9965,\"email\":\"rama.surya@lpsindonesia.com\",\"npwp\":null,\"agentName\":\"Ade Muthia\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Jan 2023\",\"phone\":\"082125696638\",\"isHasExtendedExpiryDate\":true,\"name\":\"Rama Surya\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10581}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+

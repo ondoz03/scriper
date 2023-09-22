@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":12541,\"billedEntityType\":null,\"billedTo\":\"Ibu Widi\",\"expiryDate\":\"01 Sep 2022\",\"number\":\"2910435133\",\"nik\":null,\"agentUid\":\"PG161WY2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":5921,\"email\":\"widi@golinklogistics.com\",\"npwp\":null,\"agentName\":\"PT Solusi Akuntansi Indonesia\",\"grossAmount\":\"2,442,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Aug 2022\",\"phone\":\"082138209169\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Widi\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6081}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

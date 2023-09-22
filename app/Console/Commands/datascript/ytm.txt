@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38057,\"billedEntityType\":null,\"billedTo\":\"Tanas Mas Heritage\",\"expiryDate\":\"05 Sep 2023\",\"number\":\"5489963307\",\"nik\":null,\"agentUid\":\"NDX8ZW12\",\"storeName\":\"Sniper-JBN\",\"id\":18267,\"email\":\"tonnytmh@gmail.com\",\"npwp\":null,\"agentName\":\"Verdian Tri Yuniar\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"29 Aug 2023\",\"phone\":\"08122157152\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tonny\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19621}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"9,600,000\",\"agentId\":38057,\"billedEntityType\":null,\"billedTo\":\"Tanas Mas Heritage\",\"expiryDate\":\"05 Sep 2023\",\"number\":\"5966609300\",\"nik\":null,\"agentUid\":\"NDX8ZW12\",\"storeName\":\"Sniper-JBN\",\"id\":18312,\"email\":\"tonnytmh@gmail.com\",\"npwp\":null,\"agentName\":\"Verdian Tri Yuniar\",\"grossAmount\":\"10,656,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"29 Aug 2023\",\"phone\":\"08122157152\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tonny\",\"detailList\":[{\"amount\":9600000,\"quantity\":4,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19668}],\"shippingAddress\":null,\"taxAmount\":\"1,056,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"9,600,000\",\"agentId\":38057,\"billedEntityType\":null,\"billedTo\":\"Tanas Mas Heritage\",\"expiryDate\":\"05 Sep 2023\",\"number\":\"3617408737\",\"nik\":null,\"agentUid\":\"NDX8ZW12\",\"storeName\":\"Sniper-JBN\",\"id\":18311,\"email\":\"tonnytmh@gmail.com\",\"npwp\":null,\"agentName\":\"Verdian Tri Yuniar\",\"grossAmount\":\"10,656,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"29 Aug 2023\",\"phone\":\"08122157152\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bapak Tonny\",\"detailList\":[{\"amount\":9600000,\"quantity\":4,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19667}],\"shippingAddress\":null,\"taxAmount\":\"1,056,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

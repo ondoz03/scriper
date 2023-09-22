@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,900,000\",\"agentId\":31509,\"billedEntityType\":\"CV\",\"billedTo\":\"CENTRAL UTAMA ABADI NAWATAMA\",\"expiryDate\":\"21 Jan 2023\",\"number\":\"6722565587\",\"nik\":null,\"agentUid\":\"RG3NVWYG\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":9728,\"email\":\"cvcentralutamaabadinawatama@gmail.com\",\"npwp\":\"656082880525000\",\"agentName\":\"Mifta\",\"grossAmount\":\"3,219,000\",\"storeId\":151,\"billedAddress\":\"SOLO - JOGJA - KAB. KLATEN\",\"billedZipCode\":\"57436\",\"billedProvince\":\"Jawa Tengah\",\"createTime\":\"14 Jan 2023\",\"phone\":\"089664216787\",\"isHasExtendedExpiryDate\":true,\"name\":\"Nico\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10284},{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":10285}],\"shippingAddress\":null,\"invoice\":{\"number\":\"12580471942\",\"couponAmount\":0,\"createTime\":\"14\/01\/2023 13:27:20\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6PYYELR9Y3\",\"id\":376548},\"taxAmount\":\"319,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-GLX\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

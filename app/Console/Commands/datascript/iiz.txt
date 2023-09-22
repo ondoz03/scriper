@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":34609,\"billedEntityType\":null,\"billedTo\":\"sheny adi putra\",\"expiryDate\":\"05 Sep 2022\",\"number\":\"9239292704\",\"nik\":null,\"agentUid\":\"RG3NMZ8G\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":6102,\"email\":\"newhaiizera2022@gmail.com\",\"npwp\":null,\"agentName\":\"Fatha Firmansyah\",\"grossAmount\":\"2,442,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"29 Aug 2022\",\"phone\":\"08112480811\",\"isHasExtendedExpiryDate\":true,\"name\":\"sheny adi putra\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback500Rb\",\"promotionCode\":\"MERDEKA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6302}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+

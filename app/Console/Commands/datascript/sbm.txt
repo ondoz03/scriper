@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2167,\"billedEntityType\":null,\"billedTo\":\"249 store\",\"expiryDate\":\"13 Jan 2023\",\"number\":\"7308628635\",\"nik\":null,\"agentUid\":\"7PGV5PNG\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":9467,\"email\":\"siti_nurfajarini@sbm-itb.ac.id\",\"npwp\":null,\"agentName\":\"Rika Angraini\",\"grossAmount\":\"2,220,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"06 Jan 2023\",\"phone\":\"089619164733\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tika\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":9974}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":11513,\"billedEntityType\":null,\"billedTo\":\"Luthfi Septiandy\",\"expiryDate\":\"14 Apr 2022\",\"number\":\"0401294679\",\"nik\":null,\"agentUid\":\"K7GJ340D\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":2252,\"email\":\"luthfi_septiandy@sbm-itb.ac.id\",\"npwp\":null,\"agentName\":\"Erapuji\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Apr 2022\",\"phone\":\"085722399126\",\"isHasExtendedExpiryDate\":true,\"name\":\"Luthfi Septiandy\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2302}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2200,\"billedEntityType\":null,\"billedTo\":\"DAUD SILALAHI AND LAWENCON ASSOCIATES\",\"expiryDate\":\"29 May 2023\",\"number\":\"7285598651\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":14429,\"email\":\"admin.jakarta@dslalawfirm.com\",\"npwp\":null,\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"2,664,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 May 2023\",\"phone\":\"08128046116\",\"isHasExtendedExpiryDate\":true,\"name\":\"NANIN\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":15388}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2200,\"billedEntityType\":null,\"billedTo\":\"DAUD SILALAHI AND LAWENCON ASSOCIATES\",\"expiryDate\":\"29 May 2023\",\"number\":\"9500490248\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":14425,\"email\":\"admin.jakarta@dslalawfirm.com\",\"npwp\":null,\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"2,664,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 May 2023\",\"phone\":\"08128046116\",\"isHasExtendedExpiryDate\":true,\"name\":\"NANIN\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":15381}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

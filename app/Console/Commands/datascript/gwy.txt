@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":33908,\"billedEntityType\":null,\"billedTo\":\"Agung Wirayogi\",\"expiryDate\":\"22 Feb 2022\",\"number\":\"3122947024\",\"nik\":null,\"agentUid\":\"XD5R6RYG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":864,\"email\":\"agungwy@gmail.com\",\"npwp\":null,\"agentName\":\"Oriza Syativa Gogot Vandia\",\"grossAmount\":\"1,980,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"15 Feb 2022\",\"phone\":\"081316477140\",\"isHasExtendedExpiryDate\":true,\"name\":\"Agung Wirayogi\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":865}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+

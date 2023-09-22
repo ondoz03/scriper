@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":37407,\"billedEntityType\":null,\"billedTo\":\"PT. Molis Maju Sejahtera\",\"expiryDate\":\"05 Sep 2023\",\"number\":\"8242701955\",\"nik\":null,\"agentUid\":\"XD6EL6KD\",\"storeName\":\"Sniper-Sumatera\",\"id\":18317,\"email\":\"greentechpalembang@gmail.com\",\"npwp\":null,\"agentName\":\"Deny Riski Pratama\",\"grossAmount\":\"2,664,000\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"29 Aug 2023\",\"phone\":\"08985325510\",\"isHasExtendedExpiryDate\":true,\"name\":\"Fenny Firdaus\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19674}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"}]}");
+
+

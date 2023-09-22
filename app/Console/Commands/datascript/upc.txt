@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":7251,\"billedEntityType\":null,\"billedTo\":\"PT GANGSAR GROUP\",\"expiryDate\":\"14 Apr 2022\",\"number\":\"2316094081\",\"nik\":null,\"agentUid\":\"LWDRKL4G\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":2270,\"email\":\"gangsargroupcompany@gmail.com\",\"npwp\":null,\"agentName\":\"Endi Sudianto\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Apr 2022\",\"phone\":\"085856296261\",\"isHasExtendedExpiryDate\":true,\"name\":\"APRILLIA DEVI RIMBA UTAMI\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2320}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

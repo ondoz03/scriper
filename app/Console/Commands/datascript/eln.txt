@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":34609,\"billedEntityType\":null,\"billedTo\":\"Ngo Michael Natanael\",\"expiryDate\":\"01 Sep 2022\",\"number\":\"5099300459\",\"nik\":null,\"agentUid\":\"RG3NMZ8G\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":5903,\"email\":\"michaelnathanael1025@gmail.com\",\"npwp\":null,\"agentName\":\"Fatha Firmansyah\",\"grossAmount\":\"2,442,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Aug 2022\",\"phone\":\"081290539791\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ngo Michael Natanael\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6063}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"}]}");
+
+

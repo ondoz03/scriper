@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38854,\"billedEntityType\":null,\"billedTo\":\"Zlamoda\",\"expiryDate\":\"01 Sep 2023\",\"number\":\"6833990661\",\"nik\":null,\"agentUid\":\"X25W5PLG\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":18135,\"email\":\"zlamoda278@gmail.com\",\"npwp\":null,\"agentName\":\"BERAMANAH CONSULTING\",\"grossAmount\":\"2,664,000\",\"storeId\":151,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Aug 2023\",\"phone\":\"081111112601\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Asri\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19489}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GLX\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

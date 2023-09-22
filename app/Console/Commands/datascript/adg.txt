@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":37404,\"billedEntityType\":null,\"billedTo\":\"PT Badger Sukses Jaya\",\"expiryDate\":\"27 Feb 2023\",\"number\":\"0642200045\",\"nik\":null,\"agentUid\":\"PD0YLQ8G\",\"storeName\":\"ABC Kota\",\"id\":10805,\"email\":\"siti@badgerservice.com\",\"npwp\":null,\"agentName\":\"Sugito ID\",\"grossAmount\":\"2,220,000\",\"storeId\":150,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"20 Feb 2023\",\"phone\":\"085691852378\",\"isHasExtendedExpiryDate\":true,\"name\":\"Siti Rokhayati\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11555}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GMP\"}]}");
+
+

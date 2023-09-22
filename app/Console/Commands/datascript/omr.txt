@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,300,000\",\"agentId\":34053,\"billedEntityType\":null,\"billedTo\":\"PT OFAFA DUTA MEDIKA\",\"expiryDate\":\"21 Apr 2023\",\"number\":\"5474287715\",\"nik\":null,\"agentUid\":\"X26359V2\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":13471,\"email\":\"yoyo_wijoyomr@yahoo.com\",\"npwp\":null,\"agentName\":\"Syahdef zuhdy\",\"grossAmount\":\"3,663,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"14 Apr 2023\",\"phone\":\"081319922000\",\"isHasExtendedExpiryDate\":true,\"name\":\"Pak Wijoyo\",\"detailList\":[{\"amount\":3300000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 5 pengguna tambahan selama 1 tahun + 3 bulan\",\"promotionCode\":\"THRLEBARANBERKAH\",\"description\":\"Accurate Online (1 tahun + 3 bulan) + 5 Pengguna Tambahan\",\"id\":14334}],\"shippingAddress\":null,\"taxAmount\":\"363,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33405,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Pak Theo\",\"expiryDate\":\"18 Feb 2023\",\"number\":\"8363381439\",\"nik\":\"3172021205750009\",\"agentUid\":\"WGRP6YMD\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":10388,\"email\":\"xtracom01@gmail.com\",\"npwp\":null,\"agentName\":\"Wahyu Giri Pratama\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":\"Harco Mangga Dua\",\"billedZipCode\":\"10730\",\"billedProvince\":\"Jakarta\",\"createTime\":\"11 Feb 2023\",\"phone\":\"08111000966\",\"isHasExtendedExpiryDate\":true,\"name\":\"THEO\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11163}],\"shippingAddress\":null,\"invoice\":{\"number\":\"38280122879\",\"couponAmount\":0,\"createTime\":\"18\/02\/2023 23:58:34\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3BPP812523\",\"id\":392278},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33405,\"billedEntityType\":null,\"billedTo\":\"Pak Theo\",\"expiryDate\":\"18 Oct 2022\",\"number\":\"2231528822\",\"nik\":null,\"agentUid\":\"WGRP6YMD\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":7166,\"email\":\"Xtracom001@gmail.com\",\"npwp\":null,\"agentName\":\"Wahyu Giri Pratama\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"11 Oct 2022\",\"phone\":\"0817100717\",\"isHasExtendedExpiryDate\":true,\"name\":\"Pak Theo\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7418}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,640,000\",\"agentId\":37805,\"billedEntityType\":null,\"billedTo\":\"LUUCA\",\"expiryDate\":\"13 Jul 2023\",\"number\":\"0721885330\",\"nik\":null,\"agentUid\":\"WGRYPXLD\",\"storeName\":\"Sniper-KalSul\",\"id\":16619,\"email\":\"luuca.idn@gmail.com\",\"npwp\":null,\"agentName\":\"WELLY KENT SEN\",\"grossAmount\":\"2,930,400\",\"storeId\":3000,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"06 Jul 2023\",\"phone\":\"081345733166\",\"isHasExtendedExpiryDate\":true,\"name\":\"Asmako\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17729},{\"amount\":240000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":17730}],\"shippingAddress\":null,\"taxAmount\":\"290,400\",\"status\":\"PENDING\",\"storeCode\":\"AS-KLS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

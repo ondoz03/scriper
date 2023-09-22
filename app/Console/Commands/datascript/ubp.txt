@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,120,000\",\"agentId\":38005,\"billedEntityType\":\"Yayasan\",\"billedTo\":\"Universitas Buana Perjuangan Karawang\",\"expiryDate\":\"17 Aug 2023\",\"number\":\"2823408643\",\"nik\":\"3214121160189000\",\"agentUid\":\"WGRYP5MD\",\"storeName\":\"Sniper-JBN\",\"id\":17399,\"email\":\"hendri.ardiansyah@ubpkarawang.ac.id\",\"npwp\":null,\"agentName\":\"Luqman Kurniawan\",\"grossAmount\":\"3,463,200\",\"storeId\":2950,\"billedAddress\":\"Jl. HS.Ronggo Waluyo, Puseurjaya, Telukjambe Timur, Karawang\",\"billedZipCode\":\"41361\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"10 Aug 2023\",\"phone\":\"085797074740\",\"isHasExtendedExpiryDate\":true,\"name\":\"Hendri Nur Ardiansyah\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18734},{\"amount\":720000,\"quantity\":3,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":18735}],\"shippingAddress\":null,\"invoice\":{\"number\":\"56131791079\",\"couponAmount\":0,\"createTime\":\"10\/08\/2023 09:46:48\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3744LLKM86\",\"id\":475450},\"taxAmount\":\"343,200\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"3,120,000\",\"agentId\":38005,\"billedEntityType\":\"Yayasan\",\"billedTo\":\"Universitas Buana Perjuangan Karawang\",\"expiryDate\":\"20 Jul 2023\",\"number\":\"6338647385\",\"nik\":\"3214121160189000\",\"agentUid\":\"WGRYP5MD\",\"storeName\":\"Sniper-JBN\",\"id\":16846,\"email\":\"hendri.ardiansyah@ubpkarawang.ac.id\",\"npwp\":null,\"agentName\":\"Luqman Kurniawan\",\"grossAmount\":\"3,463,200\",\"storeId\":2950,\"billedAddress\":\"Jl. HS.Ronggo Waluyo, Puseurjaya, Telukjambe Timur, Karawang, Jawa Barat\",\"billedZipCode\":\"41361\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"13 Jul 2023\",\"phone\":\"085797074740\",\"isHasExtendedExpiryDate\":true,\"name\":\"Hendri Nur Ardiansyah\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18064},{\"amount\":720000,\"quantity\":3,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":18065}],\"shippingAddress\":null,\"invoice\":{\"number\":\"81873626489\",\"couponAmount\":0,\"createTime\":\"13\/07\/2023 20:24:07\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":461571},\"taxAmount\":\"343,200\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

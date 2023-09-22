@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35252,\"billedEntityType\":null,\"billedTo\":\"AFGAN ROOF\",\"expiryDate\":\"13 Sep 2022\",\"number\":\"9782872817\",\"nik\":null,\"agentUid\":\"VDNN4P9D\",\"storeName\":\"Accurate Sniper\",\"id\":6323,\"email\":\"afganroof540@gmail.com\",\"npwp\":null,\"agentName\":\"Muhammad ridwan\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"06 Sep 2022\",\"phone\":\"087717388489\",\"isHasExtendedExpiryDate\":true,\"name\":\"AFGAN ROOF\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6526}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

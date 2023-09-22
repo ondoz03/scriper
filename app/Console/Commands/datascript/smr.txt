@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"900,000\",\"agentId\":30771,\"billedEntityType\":null,\"billedTo\":\"TSM Resto Indo\",\"expiryDate\":\"03 Jul 2023\",\"number\":\"3814680293\",\"nik\":null,\"agentUid\":\"R2W9W4X2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":16209,\"email\":\"robin@tsmrestoindo.com\",\"npwp\":null,\"agentName\":\"Cindy Aprilya\",\"grossAmount\":\"999,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Jun 2023\",\"phone\":\"085697330302\",\"isHasExtendedExpiryDate\":true,\"name\":\"Robin\",\"detailList\":[{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":17328}],\"shippingAddress\":null,\"taxAmount\":\"99,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"},{\"amountBeforeTax\":\"23,300,000\",\"agentId\":30771,\"billedEntityType\":\"PT\",\"billedTo\":\"PT. TSM RESTO INDO\",\"expiryDate\":\"23 Apr 2023\",\"number\":\"4049231853\",\"nik\":null,\"agentUid\":\"R2W9W4X2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":13492,\"email\":\"robin@tsmrestoindo.com\",\"npwp\":\"032810855041000\",\"agentName\":\"Cindy Aprilya\",\"grossAmount\":\"25,863,000\",\"storeId\":100,\"billedAddress\":\"Jl. Pantai Indah Selatan 1 Ruko Elang Laut Blok B No 17\",\"billedZipCode\":\"14470\",\"billedProvince\":\"Jakarta\",\"createTime\":\"16 Apr 2023\",\"phone\":\"085697330302\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bpk Robin\",\"detailList\":[{\"amount\":3300000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 5 pengguna tambahan selama 1 tahun + 3 bulan\",\"promotionCode\":\"THRLEBARANBERKAH\",\"description\":\"Accurate Online (1 tahun + 3 bulan) + 5 Pengguna Tambahan\",\"id\":14407},{\"amount\":20000000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Manufaktur 1 tahun\",\"id\":14408}],\"shippingAddress\":null,\"invoice\":{\"number\":\"70253194574\",\"couponAmount\":0,\"createTime\":\"17\/04\/2023 10:06:00\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6744L1M153\",\"id\":419161},\"taxAmount\":\"2,563,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

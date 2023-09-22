@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,700,000\",\"agentId\":18154,\"billedEntityType\":null,\"billedTo\":\"PT. Grup Karya Investasi\",\"expiryDate\":\"01 Sep 2023\",\"number\":\"5080907340\",\"nik\":null,\"agentUid\":\"X254JLLD\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":18144,\"email\":\"grupkaryainvestasi@gmail.com\",\"npwp\":null,\"agentName\":\"ivan tandywijaya\",\"grossAmount\":\"2,997,000\",\"storeId\":151,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Aug 2023\",\"phone\":\"081212726008\",\"isHasExtendedExpiryDate\":true,\"name\":\"Syfa\",\"detailList\":[{\"amount\":2700000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSBEKASI\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":19499}],\"shippingAddress\":null,\"taxAmount\":\"297,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GLX\"},{\"amountBeforeTax\":\"2,700,901\",\"agentId\":18154,\"billedEntityType\":\"PT\",\"billedTo\":\"PT. Grup Karya Investasi\",\"expiryDate\":\"28 Jul 2023\",\"number\":\"8560847131\",\"nik\":\"0000000000000000\",\"agentUid\":\"X254JLLD\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":17024,\"email\":\"grupkaryainvestasi@gmail.com\",\"npwp\":null,\"agentName\":\"ivan tandywijaya\",\"grossAmount\":\"2,998,000\",\"storeId\":151,\"billedAddress\":\"-\",\"billedZipCode\":\"000000\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"21 Jul 2023\",\"phone\":\"081212726008\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT. Grup Karya Investasi\",\"detailList\":[{\"amount\":2700901,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSMEDAN\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":18283}],\"shippingAddress\":null,\"invoice\":{\"number\":\"90631449316\",\"couponAmount\":0,\"createTime\":\"27\/07\/2023 19:28:26\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":468292},\"taxAmount\":\"297,099\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-GLX\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

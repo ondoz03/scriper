@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":20603,\"billedEntityType\":null,\"billedTo\":\"PT. Waralaba Voss Indonesia \",\"expiryDate\":\"30 Aug 2022\",\"number\":\"5274890898\",\"nik\":null,\"agentUid\":\"5DL03XKG\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":5832,\"email\":\"waralabavossindonesia@gmail.com\",\"npwp\":null,\"agentName\":\"Sholeh Patiraja\",\"grossAmount\":\"2,442,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 Aug 2022\",\"phone\":\"0822609-4240\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT. Waralaba Voss Indonesia \",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":5992}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+

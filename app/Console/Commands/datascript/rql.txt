@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"5,600,000\",\"agentId\":2107,\"billedEntityType\":\"Yayasan\",\"billedTo\":\"IBNU SINA\",\"expiryDate\":\"30 Sep 2022\",\"number\":\"0492941251\",\"nik\":null,\"agentUid\":\"PXD6EMQD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":6668,\"email\":\"jndthrql@gmail.com\",\"npwp\":\"021273438008000\",\"agentName\":\"Rendy Laksmana\",\"grossAmount\":\"6,216,000\",\"storeId\":153,\"billedAddress\":\"JL.MADRASAH I - KOTA ADM. JAKARTA TIMUR\",\"billedZipCode\":\"13440\",\"billedProvince\":\"Jakarta\",\"createTime\":\"23 Sep 2022\",\"phone\":\"08118807132\",\"isHasExtendedExpiryDate\":true,\"name\":\"Juandi\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6921},{\"amount\":3600000,\"quantity\":4,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":6922}],\"shippingAddress\":null,\"invoice\":{\"number\":\"09250590236\",\"couponAmount\":0,\"createTime\":\"23\/09\/2022 10:57:30\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":328013},\"taxAmount\":\"616,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

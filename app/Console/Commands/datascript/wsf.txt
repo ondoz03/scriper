@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":34453,\"billedEntityType\":null,\"billedTo\":\"CV Wahana Sejahtera Foods\",\"expiryDate\":\"28 Mar 2022\",\"number\":\"2682789961\",\"nik\":null,\"agentUid\":\"X26343M2\",\"storeName\":\"Accurate Sniper\",\"id\":1521,\"email\":\"purchase22wsf@gmail.com\",\"npwp\":null,\"agentName\":\"Edo Setiawan\",\"grossAmount\":\"1,980,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Mar 2022\",\"phone\":\"081230546788\",\"isHasExtendedExpiryDate\":true,\"name\":\"CV Wahana Sejahtera Foods\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Lite (1 database + 1 user) selama 12 bulan dengan harga khusus\",\"promotionCode\":null,\"description\":\"Paket langganan Accurate Lite 12 bulan\",\"id\":1522}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

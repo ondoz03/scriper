@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,600,000\",\"agentId\":2353,\"billedEntityType\":null,\"billedTo\":\"PT Pudji Utama Sejahtera\",\"expiryDate\":\"30 Jun 2023\",\"number\":\"5729823095\",\"nik\":null,\"agentUid\":\"PX26ZP02\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":16067,\"email\":\"wpurwanto@pudjiutqma.com\",\"npwp\":null,\"agentName\":\"Yopi Arsopian\",\"grossAmount\":\"3,996,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 Jun 2023\",\"phone\":\"0818186111\",\"isHasExtendedExpiryDate\":true,\"name\":\"Wawan Purwanto\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17180},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":17181}],\"shippingAddress\":null,\"taxAmount\":\"396,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

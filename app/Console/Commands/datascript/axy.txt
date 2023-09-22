@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38013,\"billedEntityType\":null,\"billedTo\":\"Ade Irawan\",\"expiryDate\":\"28 Jun 2023\",\"number\":\"1573354959\",\"nik\":null,\"agentUid\":\"7GJJRE4G\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":16025,\"email\":\"cvgalaxydental20@gmail.com\",\"npwp\":null,\"agentName\":\"M Zaidan Arrasyid\",\"grossAmount\":\"2,664,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Jun 2023\",\"phone\":\"081298599600\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ade Irawan\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17134}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+

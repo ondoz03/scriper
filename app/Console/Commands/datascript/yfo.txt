@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":35569,\"billedEntityType\":null,\"billedTo\":\"Pt jaya healthy food\",\"expiryDate\":\"27 Jun 2023\",\"number\":\"2458839488\",\"nik\":null,\"agentUid\":\"VGE70MLD\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":15963,\"email\":\"Ptjayahealthyfood@gmail.com\",\"npwp\":null,\"agentName\":\"Rifki\",\"grossAmount\":\"2,664,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"20 Jun 2023\",\"phone\":\"08127147980\",\"isHasExtendedExpiryDate\":true,\"name\":\"Dicky Gunawan \",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17063}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

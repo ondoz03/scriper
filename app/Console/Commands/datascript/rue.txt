@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35311,\"billedEntityType\":null,\"billedTo\":\"SUKANDAR\",\"expiryDate\":\"18 Aug 2022\",\"number\":\"5833827845\",\"nik\":null,\"agentUid\":\"NGXZKJ72\",\"storeName\":\"Accurate Sniper\",\"id\":5607,\"email\":\"tunasbaruelektrikpusat@gmail.com\",\"npwp\":null,\"agentName\":\"Dion Aji Utama\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"11 Aug 2022\",\"phone\":\"08127902416\",\"isHasExtendedExpiryDate\":true,\"name\":\"SUKANDAR\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":5813}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

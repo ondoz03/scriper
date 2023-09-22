@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,300,000\",\"agentId\":31654,\"billedEntityType\":null,\"billedTo\":\"WEFITNESS BALI\",\"expiryDate\":\"20 Apr 2023\",\"number\":\"3660541819\",\"nik\":null,\"agentUid\":\"X25RVMYD\",\"storeName\":\"Sniper-JBN\",\"id\":13417,\"email\":\"finance.wefitnessbali@gmail.com\",\"npwp\":null,\"agentName\":\"I MADE RAMA WIJAYA\",\"grossAmount\":\"3,663,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"13 Apr 2023\",\"phone\":\"081805447627\",\"isHasExtendedExpiryDate\":true,\"name\":\"Made Slamet Supriyadi\",\"detailList\":[{\"amount\":3300000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 5 pengguna tambahan selama 1 tahun + 3 bulan\",\"promotionCode\":\"THRLEBARANBERKAH\",\"description\":\"Accurate Online (1 tahun + 3 bulan) + 5 Pengguna Tambahan\",\"id\":14282}],\"shippingAddress\":null,\"taxAmount\":\"363,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

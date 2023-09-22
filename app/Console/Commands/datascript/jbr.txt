@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30711,\"billedEntityType\":null,\"billedTo\":\"TJ Bros\",\"expiryDate\":\"01 Jun 2022\",\"number\":\"8107722911\",\"nik\":null,\"agentUid\":\"NGXZL572\",\"storeName\":\"Accurate Sniper\",\"id\":3282,\"email\":\"adm.tjbros@gmail.com\",\"npwp\":null,\"agentName\":\"Rizka Yuninda Cahya\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 May 2022\",\"phone\":\"081907223350\",\"isHasExtendedExpiryDate\":true,\"name\":\"Meilan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":3336}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

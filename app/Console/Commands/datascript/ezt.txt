@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":34555,\"billedEntityType\":null,\"billedTo\":\"Rodeztyan\",\"expiryDate\":\"29 May 2022\",\"number\":\"5882856032\",\"nik\":null,\"agentUid\":\"RD3NMQZD\",\"storeName\":\"Accurate Sniper\",\"id\":3218,\"email\":\"ty.primanda@gmail.com\",\"npwp\":null,\"agentName\":\"Ficky Ardiansyah\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 May 2022\",\"phone\":\"081222205115\",\"isHasExtendedExpiryDate\":true,\"name\":\"Rodeztyan Primanda\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3269}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

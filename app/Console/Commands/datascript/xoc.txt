@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35653,\"billedEntityType\":null,\"billedTo\":\"BAPAK ADIT\",\"expiryDate\":\"18 Aug 2022\",\"number\":\"3220601052\",\"nik\":null,\"agentUid\":\"X2638KE2\",\"storeName\":\"Accurate Sniper\",\"id\":5602,\"email\":\"exocleanlaundry@gmail.com\",\"npwp\":null,\"agentName\":\"romi sepriadi chandra\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"11 Aug 2022\",\"phone\":\"081991913948\",\"isHasExtendedExpiryDate\":true,\"name\":\"BAPAK ADIT\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan untuk nasabah UOB\",\"promotionCode\":null,\"description\":\"Paket khusus nasabah UOB berlangganan AOL 1thn + 2bln ( + 2 pengguna tambahan)\",\"id\":5803}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

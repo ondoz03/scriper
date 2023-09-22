@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":30711,\"billedEntityType\":null,\"billedTo\":\"Sintoro\",\"expiryDate\":\"04 Jul 2023\",\"number\":\"9237326383\",\"nik\":null,\"agentUid\":\"NGXZL572\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":16172,\"email\":\"samokidswear@gmail.com\",\"npwp\":null,\"agentName\":\"Rizka Yuninda Cahya\",\"grossAmount\":\"2,664,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"27 Jun 2023\",\"phone\":\"08119779790\",\"isHasExtendedExpiryDate\":true,\"name\":\"sintoro lee\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17296}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+

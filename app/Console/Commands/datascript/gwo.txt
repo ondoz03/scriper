@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30711,\"billedEntityType\":null,\"billedTo\":\"Sum Ting Wong Kitchen & Brew Bar\",\"expiryDate\":\"01 Jun 2022\",\"number\":\"8161344299\",\"nik\":null,\"agentUid\":\"NGXZL572\",\"storeName\":\"Accurate Sniper\",\"id\":3283,\"email\":\"ops.sumtingwong@gmail.com\",\"npwp\":null,\"agentName\":\"Rizka Yuninda Cahya\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 May 2022\",\"phone\":\"081280768882\",\"isHasExtendedExpiryDate\":true,\"name\":\"Taufan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3337}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

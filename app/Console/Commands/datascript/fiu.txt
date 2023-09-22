@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":37208,\"billedEntityType\":null,\"billedTo\":\"PT. RISFI SALSA UTAMA\",\"expiryDate\":\"10 Mar 2023\",\"number\":\"0880026294\",\"nik\":null,\"agentUid\":\"XD5W4LK2\",\"storeName\":\"Sniper-KalSul\",\"id\":11181,\"email\":\"risfiutama@gmail.com\",\"npwp\":null,\"agentName\":\"Brian Paulus laoh\",\"grossAmount\":\"2,220,000\",\"storeId\":3000,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"03 Mar 2023\",\"phone\":\"082155051650\",\"isHasExtendedExpiryDate\":true,\"name\":\"Faizal\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":12005}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-KLS\"}]}");
+
+

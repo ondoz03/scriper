@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":32861,\"billedEntityType\":\"CV\",\"billedTo\":\"SUMBER SEJAHTERA JAYA ABADI\",\"expiryDate\":\"01 Sep 2022\",\"number\":\"9251121056\",\"nik\":null,\"agentUid\":\"4D9L8LP2\",\"storeName\":\"ABC Pusat\",\"id\":5901,\"email\":\"admssja@gmail.com\",\"npwp\":\"844039214453000\",\"agentName\":\"Wachyu Hidayat\",\"grossAmount\":\"2,442,000\",\"storeId\":159,\"billedAddress\":\"JL. CEGER RAYA - KOTA TANGERANG SELATAN\",\"billedZipCode\":\"15225\",\"billedProvince\":\"Banten\",\"createTime\":\"25 Aug 2022\",\"phone\":\"085719866356\",\"isHasExtendedExpiryDate\":true,\"name\":\"SUMBER SEJAHTERA JAYA ABADI\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6061}],\"shippingAddress\":null,\"invoice\":{\"number\":\"26825358030\",\"couponAmount\":0,\"createTime\":\"25\/08\/2022 10:58:50\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3X229XRG13\",\"id\":316709},\"taxAmount\":\"242,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-PUS\"},{\"amountBeforeTax\":\"2,200,000\",\"agentId\":32861,\"billedEntityType\":null,\"billedTo\":\"SUMBER SEJAHTERA JAYA ABADI\",\"expiryDate\":\"25 Aug 2022\",\"number\":\"2569806219\",\"nik\":null,\"agentUid\":\"4D9L8LP2\",\"storeName\":\"ABC Pusat\",\"id\":5700,\"email\":\"admssja@gmail.com\",\"npwp\":null,\"agentName\":\"Wachyu Hidayat\",\"grossAmount\":\"2,442,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"18 Aug 2022\",\"phone\":\"085719866356\",\"isHasExtendedExpiryDate\":true,\"name\":\"SUMBER SEJAHTERA JAYA ABADI\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":5857}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

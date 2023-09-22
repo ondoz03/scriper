@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38057,\"billedEntityType\":null,\"billedTo\":\"mimifood and fresh\",\"expiryDate\":\"27 Jun 2023\",\"number\":\"6140788422\",\"nik\":null,\"agentUid\":\"NDX8ZW12\",\"storeName\":\"Sniper-JBN\",\"id\":15982,\"email\":\"mimieqkekinian@gmail.com\",\"npwp\":null,\"agentName\":\"Verdian Tri Yuniar\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"20 Jun 2023\",\"phone\":\"081227222629\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Endang\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17086}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+

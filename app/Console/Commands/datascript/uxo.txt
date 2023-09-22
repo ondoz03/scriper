@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30771,\"billedEntityType\":\"CV\",\"billedTo\":\"CV Royal Bersama Abadi\",\"expiryDate\":\"12 Dec 2022\",\"number\":\"8244194248\",\"nik\":\"3173082611755001\",\"agentUid\":\"R2W9W4X2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":8582,\"email\":\"roger@luxolite.sg\",\"npwp\":null,\"agentName\":\"Cindy Aprilya\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":\"The Vida building Lt6 unit no 7 jln Raya Perjuangan no 8 Kebon jeruk \",\"billedZipCode\":\"11530\",\"billedProvince\":\"Jakarta\",\"createTime\":\"05 Dec 2022\",\"phone\":\"081388776658\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bpk Roger\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS4\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":8934}],\"shippingAddress\":null,\"invoice\":{\"number\":\"61458306180\",\"couponAmount\":0,\"createTime\":\"05\/12\/2022 15:24:46\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6X2297D5K6\",\"id\":358047},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

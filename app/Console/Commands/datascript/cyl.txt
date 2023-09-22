@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":37003,\"billedEntityType\":null,\"billedTo\":\"PT. ASA SEJAHTERA AUTOPART\",\"expiryDate\":\"23 Feb 2023\",\"number\":\"9187939980\",\"nik\":null,\"agentUid\":\"5DL7ZXWD\",\"storeName\":\"Sniper-KalSul\",\"id\":10610,\"email\":\"impecylin@gmail.com\",\"npwp\":null,\"agentName\":\"Dwi Risnawati\",\"grossAmount\":\"2,220,000\",\"storeId\":3000,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Feb 2023\",\"phone\":\"081350587878\",\"isHasExtendedExpiryDate\":true,\"name\":\"muhsi\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11363}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-KLS\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"4,200,000\",\"agentId\":38010,\"billedEntityType\":null,\"billedTo\":\"PT INFINITY INVESTASI INDONESIA\",\"expiryDate\":\"12 Sep 2023\",\"number\":\"6878698233\",\"nik\":null,\"agentUid\":\"PG84XQL2\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":18660,\"email\":\"accsupervisor@infinityinvestasi.com\",\"npwp\":null,\"agentName\":\"Niko\",\"grossAmount\":\"4,662,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Sep 2023\",\"phone\":\"089678881135\",\"isHasExtendedExpiryDate\":true,\"name\":\"LULU\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20012},{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":20013},{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Accurate POS 1 outlet 1 tahun\",\"id\":20014}],\"shippingAddress\":null,\"taxAmount\":\"462,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38010,\"billedEntityType\":null,\"billedTo\":\"PT INFINITY INVESTASI INDONESIA\",\"expiryDate\":\"12 Sep 2023\",\"number\":\"0227141918\",\"nik\":null,\"agentUid\":\"PG84XQL2\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":18659,\"email\":\"accsupervisor@infinityinvestasi.com\",\"npwp\":null,\"agentName\":\"Niko\",\"grossAmount\":\"2,664,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Sep 2023\",\"phone\":\"089678881135\",\"isHasExtendedExpiryDate\":true,\"name\":\"LULU\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":20011}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

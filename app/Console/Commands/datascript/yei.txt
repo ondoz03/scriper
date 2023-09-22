@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2107,\"billedEntityType\":\"CV\",\"billedTo\":\"CV. CV. Pernak Pernik\",\"expiryDate\":\"11 May 2023\",\"number\":\"7439614004\",\"nik\":null,\"agentUid\":\"PXD6EMQD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":13918,\"email\":\"audreyeileen171099@gmail.com\",\"npwp\":\"614557098713000\",\"agentName\":\"Rendy Laksmana\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":\"iskandar, 87, madurejo, arut selatan, kab. kotawaringin barat, kalimantan tengah, 75151\",\"billedZipCode\":\"75151\",\"billedProvince\":\"Kalimantan Tengah\",\"createTime\":\"04 May 2023\",\"phone\":\"085850381888\",\"isHasExtendedExpiryDate\":true,\"name\":\"Audrey Eileen Santoso\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14825}],\"shippingAddress\":null,\"invoice\":{\"number\":\"38881919177\",\"couponAmount\":0,\"createTime\":\"04\/05\/2023 12:56:40\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3KNN8X1GE6\",\"id\":427208},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

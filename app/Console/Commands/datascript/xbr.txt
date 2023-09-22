@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"6,500,000\",\"agentId\":18926,\"billedEntityType\":null,\"billedTo\":\"Johan\",\"expiryDate\":\"29 May 2022\",\"number\":\"0194332419\",\"nik\":null,\"agentUid\":\"5GL0LQE2\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":3196,\"email\":\"maxbrand.co@gmail.com\",\"npwp\":null,\"agentName\":\"Erik Indriyanto\",\"grossAmount\":\"7,215,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 May 2022\",\"phone\":\"08125633633\",\"isHasExtendedExpiryDate\":true,\"name\":\"Johan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3249},{\"amount\":4500000,\"quantity\":5,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":3300}],\"shippingAddress\":null,\"taxAmount\":\"715,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"6,500,000\",\"agentId\":18926,\"billedEntityType\":null,\"billedTo\":\"Johan\",\"expiryDate\":\"20 May 2022\",\"number\":\"7174457941\",\"nik\":null,\"agentUid\":\"5GL0LQE2\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":2972,\"email\":\"maxbrand.co@gmail.com\",\"npwp\":null,\"agentName\":\"Erik Indriyanto\",\"grossAmount\":\"7,215,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"13 May 2022\",\"phone\":\"08125633633\",\"isHasExtendedExpiryDate\":true,\"name\":\"Johan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":3026},{\"amount\":4500000,\"quantity\":5,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":3027}],\"shippingAddress\":null,\"taxAmount\":\"715,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

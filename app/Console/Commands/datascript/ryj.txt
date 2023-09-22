@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,300,000\",\"agentId\":2200,\"billedEntityType\":\"PT\",\"billedTo\":\"PT. PT. INDOTHAI CIPTA INDONESIA\",\"expiryDate\":\"24 Apr 2023\",\"number\":\"3296553831\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":13497,\"email\":\"ferryjakson@huayii.co.id\",\"npwp\":\"637397597408000\",\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"3,663,000\",\"storeId\":156,\"billedAddress\":\"RAYA KOSAMBI BLOK. 00 NO. 00 RT. 020 RW. 006 DUREN KLARI KAB. KARAWANG JAWA BARAT\",\"billedZipCode\":\"-\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"17 Apr 2023\",\"phone\":\"085256789012\",\"isHasExtendedExpiryDate\":true,\"name\":\"FERRY JACKSON\",\"detailList\":[{\"amount\":3300000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 5 pengguna tambahan selama 1 tahun + 3 bulan\",\"promotionCode\":\"THRLEBARANBERKAH\",\"description\":\"Accurate Online (1 tahun + 3 bulan) + 5 Pengguna Tambahan\",\"id\":14415}],\"shippingAddress\":null,\"invoice\":{\"number\":\"54502722304\",\"couponAmount\":0,\"createTime\":\"17\/04\/2023 12:40:41\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":419275},\"taxAmount\":\"363,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

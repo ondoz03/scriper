@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":2108,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Edy Bapak\",\"expiryDate\":\"01 Sep 2022\",\"number\":\"7883714931\",\"nik\":\"0000000000000000\",\"agentUid\":\"5XD5W1Q2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":5897,\"email\":\"edyyen7138@gmail.com\",\"npwp\":null,\"agentName\":\"Hizkia Sulaeman\",\"grossAmount\":\"2,442,000\",\"storeId\":100,\"billedAddress\":\"Jakarta\",\"billedZipCode\":\"000000\",\"billedProvince\":\"Jakarta\",\"createTime\":\"25 Aug 2022\",\"phone\":\"087861957138\",\"isHasExtendedExpiryDate\":true,\"name\":\"Edy Bapak\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6113}],\"shippingAddress\":null,\"invoice\":{\"number\":\"22323281300\",\"couponAmount\":0,\"createTime\":\"25\/08\/2022 13:37:34\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3X229MD2L3\",\"id\":316748},\"taxAmount\":\"242,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

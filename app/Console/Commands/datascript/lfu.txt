@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,840,000\",\"agentId\":2202,\"billedEntityType\":null,\"billedTo\":\"PT. BANGUN IDEAL FURNINDO\",\"expiryDate\":\"07 Feb 2022\",\"number\":\"0523561895\",\"nik\":null,\"agentUid\":\"ZR2WP4KD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":328,\"email\":\"bangunidealfurnindo@gmail.com\",\"npwp\":null,\"agentName\":\"Anto\",\"grossAmount\":\"2,024,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Jan 2022\",\"phone\":\"081220025225\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT. BANGUN IDEAL FURNINDO\",\"detailList\":[{\"amount\":1840000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"IMLEK\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":328}],\"shippingAddress\":null,\"taxAmount\":\"184,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

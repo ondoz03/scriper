@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"7,800,000\",\"agentId\":31509,\"billedEntityType\":null,\"billedTo\":\"DAMARU IKAN HIAS\",\"expiryDate\":\"23 Jun 2023\",\"number\":\"8498652870\",\"nik\":null,\"agentUid\":\"RG3NVWYG\",\"storeName\":\"ABC Surabaya (Galaxy Mall)\",\"id\":15850,\"email\":\"damaruikanhias@gmail.com\",\"npwp\":null,\"agentName\":\"Mifta\",\"grossAmount\":\"8,658,000\",\"storeId\":151,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Jun 2023\",\"phone\":\"082242400091\",\"isHasExtendedExpiryDate\":true,\"name\":\"DAMAR\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17002},{\"amount\":2700000,\"quantity\":3,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":17003},{\"amount\":2700000,\"quantity\":3,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Accurate POS 1 outlet 1 tahun\",\"id\":17004}],\"shippingAddress\":null,\"taxAmount\":\"858,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-GLX\"},{\"amountBeforeTax\":\"1,800,000\",\"agentId\":32213,\"billedEntityType\":\"CV\",\"billedTo\":\"Muliandi\",\"expiryDate\":\"28 Jan 2022\",\"number\":\"6038193280\",\"nik\":\"2102032510900002\",\"agentUid\":\"7GJR9102\",\"storeName\":\"Accurate Sniper\",\"id\":61,\"email\":\"angkuikc8@gmail.com\",\"npwp\":null,\"agentName\":\"Endah Triana Dewi\",\"grossAmount\":\"1,980,000\",\"storeId\":2650,\"billedAddress\":\"Jalan binaloka lampu satu,kab,merauke papua,kec samkai\",\"billedZipCode\":\"99615\",\"billedProvince\":\"Papua\",\"createTime\":\"21 Jan 2022\",\"phone\":\"081375147777\",\"isHasExtendedExpiryDate\":true,\"name\":\"Asiang\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":65}],\"shippingAddress\":null,\"invoice\":{\"number\":\"14683473152\",\"couponAmount\":0,\"createTime\":\"21\/01\/2022 12:31:48\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"32GGELEPD6\",\"id\":233716},\"taxAmount\":\"180,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

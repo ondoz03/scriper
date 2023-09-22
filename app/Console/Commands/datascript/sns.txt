@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,700,000\",\"agentId\":32213,\"billedEntityType\":null,\"billedTo\":\"PELAYARAN GUNTUR LINE\",\"expiryDate\":\"31 Aug 2023\",\"number\":\"0724054279\",\"nik\":null,\"agentUid\":\"7GJR9102\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":18117,\"email\":\"wallensns@gmail.com\",\"npwp\":null,\"agentName\":\"Endah Triana Dewi\",\"grossAmount\":\"2,997,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Aug 2023\",\"phone\":\"081995308108\",\"isHasExtendedExpiryDate\":true,\"name\":\"Virgo\",\"detailList\":[{\"amount\":2700000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSBEKASI\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":19468}],\"shippingAddress\":null,\"taxAmount\":\"297,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"},{\"amountBeforeTax\":\"2,700,000\",\"agentId\":32213,\"billedEntityType\":null,\"billedTo\":\"PT PELAYARAN GUNTUR LINE\",\"expiryDate\":\"29 Aug 2023\",\"number\":\"3730987740\",\"nik\":null,\"agentUid\":\"7GJR9102\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":17877,\"email\":\"wallensns@gmail.com\",\"npwp\":null,\"agentName\":\"Endah Triana Dewi\",\"grossAmount\":\"2,997,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 Aug 2023\",\"phone\":\"081995308108\",\"isHasExtendedExpiryDate\":true,\"name\":\"Virgo\",\"detailList\":[{\"amount\":2700000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSBEKASI\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":19308}],\"shippingAddress\":null,\"taxAmount\":\"297,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"Medan2\",\"expiryDate\":\"06 Apr 2023\",\"number\":\"8355989852\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":12942,\"email\":\"rhpsns.medan@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"30 Mar 2023\",\"phone\":\"08126051018\",\"isHasExtendedExpiryDate\":true,\"name\":\"Medan2\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":13817}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

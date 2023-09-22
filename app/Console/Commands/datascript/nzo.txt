@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,400,000\",\"agentId\":2202,\"billedEntityType\":null,\"billedTo\":\"PT Kenzo\",\"expiryDate\":\"08 Jul 2023\",\"number\":\"0562754984\",\"nik\":null,\"agentUid\":\"ZR2WP4KD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":16382,\"email\":\"kenzorahandika@gmail.com\",\"npwp\":null,\"agentName\":\"Anto\",\"grossAmount\":\"3,774,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"01 Jul 2023\",\"phone\":\"081315440984\",\"isHasExtendedExpiryDate\":true,\"name\":\"Kenzo\",\"detailList\":[{\"amount\":3400000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Device POS M2 Max (Device Only)\",\"id\":17485}],\"shippingAddress\":null,\"taxAmount\":\"374,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

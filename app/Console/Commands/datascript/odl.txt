@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,000,000\",\"agentId\":35577,\"billedEntityType\":null,\"billedTo\":\"Prop Noodle Bar\",\"expiryDate\":\"23 Jun 2023\",\"number\":\"1522553959\",\"nik\":null,\"agentUid\":\"XD5R38MG\",\"storeName\":\"Sniper-JBN\",\"id\":15858,\"email\":\"prop.noodlebar@gmail.com\",\"npwp\":null,\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"3,330,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Jun 2023\",\"phone\":\"081213487078\",\"isHasExtendedExpiryDate\":true,\"name\":\"Arya\",\"detailList\":[{\"amount\":3000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 4 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"PROMOIIFEX01\",\"description\":\"Accurate Online (1 tahun) + 4 Pengguna Tambahan\",\"id\":17012}],\"shippingAddress\":null,\"taxAmount\":\"330,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+

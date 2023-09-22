@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35606,\"billedEntityType\":null,\"billedTo\":\"PT Duta Medika Pratama\",\"expiryDate\":\"02 Feb 2023\",\"number\":\"1913721926\",\"nik\":null,\"agentUid\":\"VGNNJENG\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":10009,\"email\":\"ptdmp2021@gmail.com\",\"npwp\":null,\"agentName\":\"Riski Aryanto\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Jan 2023\",\"phone\":\"085817184624\",\"isHasExtendedExpiryDate\":true,\"name\":\"PUTY ZELLA AULIA CHANIAGO\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10624}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30816,\"billedEntityType\":null,\"billedTo\":\"astrid\",\"expiryDate\":\"07 Apr 2022\",\"number\":\"6214599449\",\"nik\":null,\"agentUid\":\"EGP16K42\",\"storeName\":\"Accurate Sniper\",\"id\":1850,\"email\":\"hansel2508hazel@gmail.com\",\"npwp\":null,\"agentName\":\"Igo Syahputra\",\"grossAmount\":\"2,200,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"31 Mar 2022\",\"phone\":\"082360205590\",\"isHasExtendedExpiryDate\":true,\"name\":\"Astrid\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"GREGET\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 1 Pengguna Tambahan\",\"id\":1900}],\"shippingAddress\":null,\"taxAmount\":\"200,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

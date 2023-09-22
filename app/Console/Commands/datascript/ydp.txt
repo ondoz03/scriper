@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2351,\"billedEntityType\":\"PT\",\"billedTo\":\"DAYA PRATAMA LESTARI\",\"expiryDate\":\"25 Jul 2022\",\"number\":\"6729754502\",\"nik\":null,\"agentUid\":\"LWDRWXVG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":4820,\"email\":\"jennydpl88@gmail.com\",\"npwp\":\"018827816441000\",\"agentName\":\"Wida\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":\"JL. INDUSTRI BATUJAJAR PERMAI II NO.29, LAKSANA M\",\"billedZipCode\":\"40553\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"18 Jul 2022\",\"phone\":\"081809992439\",\"isHasExtendedExpiryDate\":true,\"name\":\"Jenny\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":4923}],\"shippingAddress\":null,\"invoice\":{\"number\":\"92289570799\",\"couponAmount\":0,\"createTime\":\"19\/07\/2022 10:05:19\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":302672},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

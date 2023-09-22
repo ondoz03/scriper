@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":34752,\"billedEntityType\":\"PT\",\"billedTo\":\"BE-TECH\",\"expiryDate\":\"24 Jul 2023\",\"number\":\"6991858702\",\"nik\":null,\"agentUid\":\"VDNN0XWD\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":16919,\"email\":\"fsevrano@gmail.com\",\"npwp\":\"668372618309000\",\"agentName\":\"Maulana Eka Prasetya\",\"grossAmount\":\"2,664,000\",\"storeId\":158,\"billedAddress\":\"Jln Kapten Sanap No 05 Simpang Duspa RT.001 RW.003 Pagaralam\",\"billedZipCode\":\"31512\",\"billedProvince\":\"Sumatra Selatan\",\"createTime\":\"17 Jul 2023\",\"phone\":\"085378884884\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ferdi Sevrano\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18137}],\"shippingAddress\":null,\"invoice\":{\"number\":\"84169219847\",\"couponAmount\":0,\"createTime\":\"19\/07\/2023 12:56:27\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":464233},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

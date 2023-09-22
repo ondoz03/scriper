@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2350,\"billedEntityType\":\"PT\",\"billedTo\":\"PT ABC\",\"expiryDate\":\"18 Jan 2023\",\"number\":\"5998111893\",\"nik\":\"0000000000000000\",\"agentUid\":\"VP207P7G\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":9574,\"email\":\"crvcified@yahoo.com\",\"npwp\":null,\"agentName\":\"Handry Liem\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":\"ABC\",\"billedZipCode\":\"00000\",\"billedProvince\":\"Jakarta\",\"createTime\":\"11 Jan 2023\",\"phone\":\"087865356777\",\"isHasExtendedExpiryDate\":true,\"name\":\"handry\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10082}],\"shippingAddress\":null,\"invoice\":{\"number\":\"32188957313\",\"couponAmount\":0,\"createTime\":\"11\/01\/2023 09:16:36\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":374954},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2350,\"billedEntityType\":null,\"billedTo\":\"Handry\",\"expiryDate\":\"28 Apr 2022\",\"number\":\"4339019163\",\"nik\":null,\"agentUid\":\"VP207P7G\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":2661,\"email\":\"crvcified@yahoo.com\",\"npwp\":null,\"agentName\":\"Handry Liem\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Apr 2022\",\"phone\":\"087865356777\",\"isHasExtendedExpiryDate\":true,\"name\":\"handry\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2711}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":35506,\"billedEntityType\":null,\"billedTo\":\"Anwar\",\"expiryDate\":\"02 Sep 2022\",\"number\":\"7060158823\",\"nik\":null,\"agentUid\":\"VGNNJNLG\",\"storeName\":\"Accurate Sniper\",\"id\":6030,\"email\":\"anwardd3@gmail.com\",\"npwp\":null,\"agentName\":\"Gabriela Esther Alfania Zebua\",\"grossAmount\":\"2,442,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Aug 2022\",\"phone\":\"082120425626\",\"isHasExtendedExpiryDate\":true,\"name\":\"Anwar\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6194}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,200,000\",\"agentId\":35506,\"billedEntityType\":null,\"billedTo\":\"Anwar\",\"expiryDate\":\"28 Aug 2022\",\"number\":\"7093237170\",\"nik\":null,\"agentUid\":\"VGNNJNLG\",\"storeName\":\"Accurate Sniper\",\"id\":5786,\"email\":\"anwardd3@gmail.com\",\"npwp\":null,\"agentName\":\"Gabriela Esther Alfania Zebua\",\"grossAmount\":\"2,442,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Aug 2022\",\"phone\":\"082120425626\",\"isHasExtendedExpiryDate\":true,\"name\":\"Anwar\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6000}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35506,\"billedEntityType\":null,\"billedTo\":\"Anwar\",\"expiryDate\":\"14 Aug 2022\",\"number\":\"8988241180\",\"nik\":null,\"agentUid\":\"VGNNJNLG\",\"storeName\":\"Accurate Sniper\",\"id\":5563,\"email\":\"anwardd3@gmail.com\",\"npwp\":null,\"agentName\":\"Gabriela Esther Alfania Zebua\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Aug 2022\",\"phone\":\"082120425626\",\"isHasExtendedExpiryDate\":true,\"name\":\"Anwar\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"ASYIK\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5717}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

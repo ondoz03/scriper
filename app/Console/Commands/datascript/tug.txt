@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":10501,\"billedEntityType\":null,\"billedTo\":\"Tugiman\",\"expiryDate\":\"13 Sep 2022\",\"number\":\"7431378336\",\"nik\":null,\"agentUid\":\"4JDQ66XD\",\"storeName\":\"ABC Bekasi (Mall Metropolitan Bekasi)\",\"id\":6371,\"email\":\"imanbanjarnegara95@gmail.com\",\"npwp\":null,\"agentName\":\"Agus Riadi\",\"grossAmount\":\"2,220,000\",\"storeId\":158,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"06 Sep 2022\",\"phone\":\"085712613833\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tugiman\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6574}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2167,\"billedEntityType\":null,\"billedTo\":\"Koperasi Islamicity\",\"expiryDate\":\"01 Jul 2022\",\"number\":\"9714093886\",\"nik\":null,\"agentUid\":\"7PGV5PNG\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":4301,\"email\":\"tugas.sella@gmail.com\",\"npwp\":null,\"agentName\":\"Rika Angraini\",\"grossAmount\":\"2,220,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Jun 2022\",\"phone\":\"08978375787\",\"isHasExtendedExpiryDate\":true,\"name\":\"Sella\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HEBAT2\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":4401}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":13852,\"billedEntityType\":null,\"billedTo\":\"HASTA PRIMA\",\"expiryDate\":\"28 Apr 2022\",\"number\":\"0796242204\",\"nik\":null,\"agentUid\":\"VDN7KV82\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":2708,\"email\":\"tugiman.dulmanan@hastaprima.co.id\",\"npwp\":null,\"agentName\":\"PT. Ultima Tekno Solusindo\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Apr 2022\",\"phone\":\"08119109679\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tugiman\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2758}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

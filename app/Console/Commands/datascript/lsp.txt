@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":38314,\"billedEntityType\":null,\"billedTo\":\"PT. Excelindo Perkasa Jaya\",\"expiryDate\":\"07 Jul 2023\",\"number\":\"9330142011\",\"nik\":null,\"agentUid\":\"7DYPPK9D\",\"storeName\":\"Sniper-Sumatera\",\"id\":16371,\"email\":\"excelsport.yonexconceptstore@gmail.com\",\"npwp\":null,\"agentName\":\"Rikson Manurung\",\"grossAmount\":\"2,664,000\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"30 Jun 2023\",\"phone\":\"085372568818\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bapak Teryadin\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17474}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"}]}");
+
+

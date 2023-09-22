@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35617,\"billedEntityType\":null,\"billedTo\":\"Language Center\",\"expiryDate\":\"11 Feb 2023\",\"number\":\"6974359188\",\"nik\":null,\"agentUid\":\"9G7JXRVD\",\"storeName\":\"Sniper-JBN\",\"id\":10245,\"email\":\"LCfinanceparekediri@gmail.com\",\"npwp\":null,\"agentName\":\"Kevin Lastario Putra Manusama\",\"grossAmount\":\"2,220,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 Feb 2023\",\"phone\":\"085850979321\",\"isHasExtendedExpiryDate\":true,\"name\":\"M Arifai Wibowo\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10932}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+

@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35502,\"billedEntityType\":null,\"billedTo\":\"PT Maltty Balga Sejahtera\",\"expiryDate\":\"22 Nov 2022\",\"number\":\"4131268339\",\"nik\":null,\"agentUid\":\"R2W9Q902\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":8010,\"email\":\"Info@malttybalgasejahtera.com\",\"npwp\":null,\"agentName\":\"Asep Priyoto\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"15 Nov 2022\",\"phone\":\"08111555135\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ari MH\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS1\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8334}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

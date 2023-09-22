@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"PUTRI NOOR HALIZA\",\"expiryDate\":\"23 Mar 2023\",\"number\":\"2232396593\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":12197,\"email\":\"halizaputri94@gmail.com\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"16 Mar 2023\",\"phone\":\"085647175400\",\"isHasExtendedExpiryDate\":true,\"name\":\"PUTRI NOOR HALIZA\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":13062}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"3,200,000\",\"agentId\":35577,\"billedEntityType\":\"PT\",\"billedTo\":\"CITRA SEMBADA ABADI\",\"expiryDate\":\"11 Feb 2023\",\"number\":\"1580597245\",\"nik\":null,\"agentUid\":\"XD5R38MG\",\"storeName\":\"Sniper-JBN\",\"id\":10247,\"email\":\"acct.citrasembada@gmail.com\",\"npwp\":\"928485481612000\",\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"3,552,000\",\"storeId\":2950,\"billedAddress\":\"JL. SYECH ABDUL QADIR JAELANI BB 05PERUMAHAN BUKI\",\"billedZipCode\":\"61121\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"04 Feb 2023\",\"phone\":\"081233045267\",\"isHasExtendedExpiryDate\":true,\"name\":\"Anggi Rizki Zaputri\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10935},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":10936}],\"shippingAddress\":null,\"invoice\":{\"number\":\"26592643805\",\"couponAmount\":0,\"createTime\":\"06\/02\/2023 11:03:12\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3GRRD5Y5E6\",\"id\":387228},\"taxAmount\":\"352,000\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

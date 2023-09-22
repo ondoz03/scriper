@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":13852,\"billedEntityType\":null,\"billedTo\":\"LPTM\",\"expiryDate\":\"11 Mar 2022\",\"number\":\"1157889448\",\"nik\":null,\"agentUid\":\"VDN7KV82\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":1202,\"email\":\"t.adliah@lptm.co.id\",\"npwp\":null,\"agentName\":\"PT. Ultima Tekno Solusindo\",\"grossAmount\":\"1,980,000\",\"storeId\":2200,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 Mar 2022\",\"phone\":\"08111017811\",\"isHasExtendedExpiryDate\":true,\"name\":\"Adlliah\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":1202}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"UTS-HQ\"}]}");
+
+

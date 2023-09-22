@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":36950,\"billedEntityType\":null,\"billedTo\":\"PT EUPFIN ELEKTRONIK INDONESIA\",\"expiryDate\":\"19 May 2023\",\"number\":\"2142970982\",\"nik\":null,\"agentUid\":\"P20Y1M9D\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":14194,\"email\":\"finance.eupfin@gmail.com\",\"npwp\":null,\"agentName\":\"Yuan Hayyu Al Kaafi\",\"grossAmount\":\"2,664,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 May 2023\",\"phone\":\"083815295991\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Evi Chartika\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":15159}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+

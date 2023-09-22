@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36954,\"billedEntityType\":\"UD\",\"billedTo\":\"WG BUAH\",\"expiryDate\":\"14 Jan 2023\",\"number\":\"0943945895\",\"nik\":\"3273030408930002\",\"agentUid\":\"X25WXMNG\",\"storeName\":\"Sniper-JBN\",\"id\":9531,\"email\":\"wgbuahcaringin@gmail.com\",\"npwp\":null,\"agentName\":\"Hari Arifin\",\"grossAmount\":\"2,220,000\",\"storeId\":2950,\"billedAddress\":\"Cemara Regency jl. Cemara 2 no 21\",\"billedZipCode\":\"40218\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"07 Jan 2023\",\"phone\":\"089623181708\",\"isHasExtendedExpiryDate\":true,\"name\":\"Jemmy Gunawan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10033}],\"shippingAddress\":null,\"invoice\":{\"number\":\"76082175518\",\"couponAmount\":0,\"createTime\":\"07\/01\/2023 12:07:27\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":373131},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

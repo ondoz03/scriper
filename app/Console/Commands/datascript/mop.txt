@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":30712,\"billedEntityType\":null,\"billedTo\":\"CV. fren Mega cleantex\",\"expiryDate\":\"26 Jul 2023\",\"number\":\"7366051005\",\"nik\":null,\"agentUid\":\"MGKNWJ0G\",\"storeName\":\"ABC Pusat\",\"id\":16947,\"email\":\"mopindo2@gmail.com\",\"npwp\":null,\"agentName\":\"vasko edo gultom\",\"grossAmount\":\"2,664,000\",\"storeId\":159,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Jul 2023\",\"phone\":\"082132192247\",\"isHasExtendedExpiryDate\":true,\"name\":\"CV. fren Mega cleantex\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18225}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-PUS\"}]}");
+
+

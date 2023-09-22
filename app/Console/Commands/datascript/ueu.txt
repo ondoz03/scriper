@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":35577,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Rukun Sukses Bersama\",\"expiryDate\":\"22 Jun 2023\",\"number\":\"5479077467\",\"nik\":\"5171016003970002\",\"agentUid\":\"XD5R38MG\",\"storeName\":\"Sniper-JBN\",\"id\":15833,\"email\":\"mixueunsursda@gmail.com\",\"npwp\":null,\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":\"Jl. Untung Suropati no. 21, Sidoarjo\",\"billedZipCode\":\"61212\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"15 Jun 2023\",\"phone\":\"081239991321\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bianca Evangeline\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":16940}],\"shippingAddress\":null,\"invoice\":{\"number\":\"92272087130\",\"couponAmount\":0,\"createTime\":\"15\/06\/2023 16:10:08\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":447540},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

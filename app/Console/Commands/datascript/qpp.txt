@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"47,400,000\",\"agentId\":36658,\"billedEntityType\":null,\"billedTo\":\"PT INDI PLATFORM PERKASA\",\"expiryDate\":\"11 Jan 2023\",\"number\":\"6362139902\",\"nik\":null,\"agentUid\":\"MDK7M4Q2\",\"storeName\":\"Sniper-JBN\",\"id\":9382,\"email\":\"adhiqpp@gmail.com\",\"npwp\":null,\"agentName\":\"Pramadya Setyo Puji Raharjo\",\"grossAmount\":\"52,614,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 Jan 2023\",\"phone\":\"08112330610\",\"isHasExtendedExpiryDate\":true,\"name\":\"Adhi Wiratama\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":9840},{\"amount\":19200000,\"quantity\":80,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":9841},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":9842},{\"amount\":25000000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Aktivasi Private Cloud\",\"id\":9843}],\"shippingAddress\":null,\"taxAmount\":\"5,214,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"22,400,000\",\"agentId\":36658,\"billedEntityType\":null,\"billedTo\":\"PT INDI PLATFORM PERKASA\",\"expiryDate\":\"11 Jan 2023\",\"number\":\"3632926479\",\"nik\":null,\"agentUid\":\"MDK7M4Q2\",\"storeName\":\"Sniper-JBN\",\"id\":9381,\"email\":\"adhiqpp@gmail.com\",\"npwp\":null,\"agentName\":\"Pramadya Setyo Puji Raharjo\",\"grossAmount\":\"24,864,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"04 Jan 2023\",\"phone\":\"08112330610\",\"isHasExtendedExpiryDate\":true,\"name\":\"Adhi Wiratama\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":9837},{\"amount\":19200000,\"quantity\":80,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":9838},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":9839}],\"shippingAddress\":null,\"taxAmount\":\"2,464,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

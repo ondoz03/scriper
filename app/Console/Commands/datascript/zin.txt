@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30600,\"billedEntityType\":\"PT\",\"billedTo\":\"EMAZING KULINER INDONESIA\",\"expiryDate\":\"04 Jan 2023\",\"number\":\"9857294398\",\"nik\":null,\"agentUid\":\"VGE7LYZD\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":9198,\"email\":\"amelia.gita@emazingfood.com\",\"npwp\":\"609129077004000\",\"agentName\":\"Yulyanto\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":\"Sedayu City, Jalan Boulevard Selatan Blok A No. 55, RT. 008, Cakung Barat, Cakung, Jakarta Timur\",\"billedZipCode\":\"13910\",\"billedProvince\":\"Jakarta\",\"createTime\":\"28 Dec 2022\",\"phone\":\"081295435048\",\"isHasExtendedExpiryDate\":true,\"name\":\"Amelia Gita Kurniawan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS5\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9657}],\"shippingAddress\":null,\"invoice\":{\"number\":\"04472509020\",\"couponAmount\":0,\"createTime\":\"28\/12\/2022 09:17:21\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3PYYEG9GK6\",\"id\":368082},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

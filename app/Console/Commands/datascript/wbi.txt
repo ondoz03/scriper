@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"4,000,000\",\"agentId\":30713,\"billedEntityType\":\"PT\",\"billedTo\":\"PT WIKATAMA BINA MARGA\",\"expiryDate\":\"08 Oct 2022\",\"number\":\"2727926205\",\"nik\":\"3674064610900016\",\"agentUid\":\"7GJRQZN2\",\"storeName\":\"Accurate Sniper\",\"id\":6858,\"email\":\"wbibinamarga@gmail.com\",\"npwp\":null,\"agentName\":\"Ifan Djuliawan Fadillah\",\"grossAmount\":\"4,440,000\",\"storeId\":2650,\"billedAddress\":\" jl binamarga Jaktim\",\"billedZipCode\":\"13840\",\"billedProvince\":\"Jakarta\",\"createTime\":\"01 Oct 2022\",\"phone\":\"081223137464\",\"isHasExtendedExpiryDate\":true,\"name\":\"ADMIN BINA MARGA\",\"detailList\":[{\"amount\":4000000,\"quantity\":2,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB300\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7161}],\"shippingAddress\":null,\"invoice\":{\"number\":\"97506262257\",\"couponAmount\":0,\"createTime\":\"01\/10\/2022 18:08:12\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6GRR2YNDY3\",\"id\":331294},\"taxAmount\":\"440,000\",\"status\":\"PROCESSED\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"4,000,000\",\"agentId\":30713,\"billedEntityType\":null,\"billedTo\":\"PT WIKATAMA BINA MARGA\",\"expiryDate\":\"28 Sep 2022\",\"number\":\"1529066987\",\"nik\":null,\"agentUid\":\"7GJRQZN2\",\"storeName\":\"Accurate Sniper\",\"id\":6650,\"email\":\"wbibinamarga@gmail.com\",\"npwp\":null,\"agentName\":\"Ifan Djuliawan Fadillah\",\"grossAmount\":\"4,440,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Sep 2022\",\"phone\":\"0812-2313-7464\",\"isHasExtendedExpiryDate\":true,\"name\":\"Johannes\",\"detailList\":[{\"amount\":4000000,\"quantity\":2,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6901}],\"shippingAddress\":null,\"taxAmount\":\"440,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":35577,\"billedEntityType\":\"PT\",\"billedTo\":\"GENTHAYU PRANATA ACARA\",\"expiryDate\":\"14 Jul 2023\",\"number\":\"7155365370\",\"nik\":null,\"agentUid\":\"XD5R38MG\",\"storeName\":\"Sniper-JBN\",\"id\":16633,\"email\":\"genthayuorganizer@gmail.com\",\"npwp\":\"627178304647000\",\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":\"KH. AHMAD DAHLAN 82A - KAB. PONOROGO\",\"billedZipCode\":\"63419\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"07 Jul 2023\",\"phone\":\"085331388800\",\"isHasExtendedExpiryDate\":true,\"name\":\"Agung Faris Fauzi\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17747}],\"shippingAddress\":null,\"invoice\":{\"number\":\"33180106926\",\"couponAmount\":0,\"createTime\":\"07\/07\/2023 11:19:19\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3MKK4B8XE3\",\"id\":458142},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

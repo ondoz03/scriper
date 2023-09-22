@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":30816,\"billedEntityType\":null,\"billedTo\":\"HDL Partner\",\"expiryDate\":\"29 Aug 2022\",\"number\":\"6780126456\",\"nik\":null,\"agentUid\":\"EGP16K42\",\"storeName\":\"Accurate Sniper\",\"id\":5808,\"email\":\"hdlpartner11@gmail.com\",\"npwp\":null,\"agentName\":\"Igo Syahputra\",\"grossAmount\":\"2,442,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 Aug 2022\",\"phone\":\"081263908080\",\"isHasExtendedExpiryDate\":true,\"name\":\"HDL Partner\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":5966}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

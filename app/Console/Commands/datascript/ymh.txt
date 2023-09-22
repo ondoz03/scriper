@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2202,\"billedEntityType\":null,\"billedTo\":\"PT ASshidiq Cater Indonesia\",\"expiryDate\":\"26 Sep 2022\",\"number\":\"3411079198\",\"nik\":null,\"agentUid\":\"ZR2WP4KD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":6633,\"email\":\"mhymhay@gmail.com\",\"npwp\":null,\"agentName\":\"Anto\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Sep 2022\",\"phone\":\"081287300256\",\"isHasExtendedExpiryDate\":true,\"name\":\"Maya Damayanti\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6884}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"22,000,000\",\"agentId\":2202,\"billedEntityType\":null,\"billedTo\":\"PT ASshidiq Cater Indonesia\",\"expiryDate\":\"26 Sep 2022\",\"number\":\"5927507363\",\"nik\":null,\"agentUid\":\"ZR2WP4KD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":6632,\"email\":\"mhymhay@gmail.com\",\"npwp\":null,\"agentName\":\"Anto\",\"grossAmount\":\"24,420,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Sep 2022\",\"phone\":\"081287300256\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Maya Damayanti\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6882},{\"amount\":20000000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Manufaktur 1 tahun\",\"id\":6883}],\"shippingAddress\":null,\"taxAmount\":\"2,420,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

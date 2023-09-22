@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35108,\"billedEntityType\":\"PT\",\"billedTo\":\"BINTANG SAMUDERA MANDIRI LINE\",\"expiryDate\":\"22 Jun 2022\",\"number\":\"5138377875\",\"nik\":null,\"agentUid\":\"XD5R79PG\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":3881,\"email\":\"bintangsamudera@bsmlines.com\",\"npwp\":\"026935312064000\",\"agentName\":\"Ana Mariana\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":\"RASUNA OFFICE PARK  JL TAMAN RASUNA TIMUR - KOTA\",\"billedZipCode\":\"12960\",\"billedProvince\":\"Jakarta\",\"createTime\":\"15 Jun 2022\",\"phone\":\"08118054006\",\"isHasExtendedExpiryDate\":true,\"name\":\"PT Bintang Samudera Mandiri Lines Tbk\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":3931}],\"shippingAddress\":null,\"invoice\":{\"number\":\"01242190291\",\"couponAmount\":0,\"createTime\":\"15\/06\/2022 14:09:45\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6PYYED8LK3\",\"id\":289649},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

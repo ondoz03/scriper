@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,640,000\",\"agentId\":10590,\"billedEntityType\":null,\"billedTo\":\"PT ASIATEC LINK\",\"expiryDate\":\"09 Aug 2023\",\"number\":\"4046287005\",\"nik\":null,\"agentUid\":\"7P2V8Y72\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":17276,\"email\":\"accounting@atcjkt.co.id\",\"npwp\":null,\"agentName\":\"Rachmat Martanto\",\"grossAmount\":\"2,930,400\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"02 Aug 2023\",\"phone\":\"0816107517\",\"isHasExtendedExpiryDate\":true,\"name\":\"BPK VIKTOR\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18595},{\"amount\":240000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":18596}],\"shippingAddress\":null,\"taxAmount\":\"290,400\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

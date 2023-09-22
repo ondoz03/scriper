@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":13852,\"billedEntityType\":\"PT\",\"billedTo\":\"TRI GUNA PRAKARSA\",\"expiryDate\":\"03 Jun 2022\",\"number\":\"8927097506\",\"nik\":null,\"agentUid\":\"VDN7KV82\",\"storeName\":\"Ultima Tekno Solusindo\",\"id\":3338,\"email\":\"budi@tgpid.com\",\"npwp\":\"437609951413000\",\"agentName\":\"PT. Ultima Tekno Solusindo\",\"grossAmount\":\"2,220,000\",\"storeId\":2200,\"billedAddress\":\"JL. KARNASIA 2 BLOK A.7 NOMOR 23 CIKARANG BARU -\",\"billedZipCode\":\"17530\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"27 May 2022\",\"phone\":\"081388322463\",\"isHasExtendedExpiryDate\":true,\"name\":\"M BUDI PRASETYAWAN\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"MEI2022\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":3389}],\"shippingAddress\":null,\"invoice\":{\"number\":\"57346260324\",\"couponAmount\":0,\"createTime\":\"27\/05\/2022 13:55:02\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3744ELBXX6\",\"id\":282027},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"UTS-HQ\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

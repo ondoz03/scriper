@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30771,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Unity School\",\"expiryDate\":\"23 Nov 2022\",\"number\":\"0959826971\",\"nik\":\"3172021402900013\",\"agentUid\":\"R2W9W4X2\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":8020,\"email\":\"unityschool.adm@gmail.com\",\"npwp\":null,\"agentName\":\"Cindy Aprilya\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":\"bekasi\",\"billedZipCode\":\"13175\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"16 Nov 2022\",\"phone\":\"089520163345\",\"isHasExtendedExpiryDate\":true,\"name\":\"Ibu Lin\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS1\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8345}],\"shippingAddress\":null,\"invoice\":{\"number\":\"87510346977\",\"couponAmount\":0,\"createTime\":\"16\/11\/2022 09:03:39\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3MKKBN58L3\",\"id\":350000},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

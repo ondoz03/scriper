@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36950,\"billedEntityType\":null,\"billedTo\":\"RPS94\",\"expiryDate\":\"25 Apr 2023\",\"number\":\"5013230231\",\"nik\":null,\"agentUid\":\"P20Y1M9D\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":13654,\"email\":\"xaquillerasendriaatmaja@gmail.com\",\"npwp\":null,\"agentName\":\"Yuan Hayyu Al Kaafi\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"18 Apr 2023\",\"phone\":\"0895359895995\",\"isHasExtendedExpiryDate\":true,\"name\":\"Boy\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14504}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

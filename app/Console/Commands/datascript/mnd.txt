@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35502,\"billedEntityType\":null,\"billedTo\":\"PT Artamakmur\",\"expiryDate\":\"04 Oct 2022\",\"number\":\"3961773444\",\"nik\":null,\"agentUid\":\"R2W9Q902\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":6813,\"email\":\"artamakmur0@gmail.com\",\"npwp\":null,\"agentName\":\"Asep Priyoto\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"27 Sep 2022\",\"phone\":\"08116707177\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bp hamndani\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7063}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"}]}");
+
+

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"26,000,000\",\"agentId\":35569,\"billedEntityType\":null,\"billedTo\":\"Maju Jaya Putra \",\"expiryDate\":\"15 May 2023\",\"number\":\"1580743464\",\"nik\":null,\"agentUid\":\"VGE70MLD\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":14150,\"email\":\"wlys77@gmail.com\",\"npwp\":null,\"agentName\":\"Rifki\",\"grossAmount\":\"28,860,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"08 May 2023\",\"phone\":\"0811805417\",\"isHasExtendedExpiryDate\":true,\"name\":\"Willy\",\"detailList\":[{\"amount\":26000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) dan Add-on Manufaktur dengan 5 pengguna tambahan selama 1 tahun. BONUS: Voucher Implementasi AOL senilai Rp 6.000.000,-\",\"promotionCode\":null,\"description\":\"Accurate Online + Add-on Manufaktur (1 tahun) + 5 Pengguna Tambahan + Voucher Implementasi Rp 6.000.000,-\",\"id\":15050}],\"shippingAddress\":null,\"taxAmount\":\"2,860,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":35569,\"billedEntityType\":null,\"billedTo\":\"Maju Jaya Putra \",\"expiryDate\":\"15 May 2023\",\"number\":\"1394655033\",\"nik\":null,\"agentUid\":\"VGE70MLD\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":14102,\"email\":\"wlys77@gmail.com\",\"npwp\":null,\"agentName\":\"Rifki\",\"grossAmount\":\"2,664,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"08 May 2023\",\"phone\":\"0811805417\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bapak Willy \",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":15002}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

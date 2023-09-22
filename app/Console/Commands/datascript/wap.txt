@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":37805,\"billedEntityType\":null,\"billedTo\":\"PT KHATULISTIWA EKA PRATAMA\",\"expiryDate\":\"30 May 2023\",\"number\":\"3683036877\",\"nik\":null,\"agentUid\":\"WGRYPXLD\",\"storeName\":\"Sniper-KalSul\",\"id\":14503,\"email\":\"khatulistiwapratama@gmail.com\",\"npwp\":null,\"agentName\":\"WELLY KENT SEN\",\"grossAmount\":\"2,664,000\",\"storeId\":3000,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 May 2023\",\"phone\":\"08115667878\",\"isHasExtendedExpiryDate\":true,\"name\":\"Dewi Rahmawati\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":15453}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-KLS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":34202,\"billedEntityType\":null,\"billedTo\":\"TOLONG ABAIKAN SAJA\",\"expiryDate\":\"27 Apr 2022\",\"number\":\"1577405670\",\"nik\":null,\"agentUid\":\"R2W9R162\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":2553,\"email\":\"finance@swap.id\",\"npwp\":null,\"agentName\":\"Sugiartono\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"20 Apr 2022\",\"phone\":\"087874142213\",\"isHasExtendedExpiryDate\":true,\"name\":\"Andreas\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":2605}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"1,800,000\",\"agentId\":2163,\"billedEntityType\":null,\"billedTo\":\"Hastawa \",\"expiryDate\":\"03 Apr 2022\",\"number\":\"4859227985\",\"nik\":null,\"agentUid\":\"P9D78J62\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":1629,\"email\":\"hastawaputrautama@gmail.com\",\"npwp\":null,\"agentName\":\"Agus Fadhil \",\"grossAmount\":\"1,980,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"27 Mar 2022\",\"phone\":\"082333333773\",\"isHasExtendedExpiryDate\":true,\"name\":\"Hastawa putra\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":1681}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

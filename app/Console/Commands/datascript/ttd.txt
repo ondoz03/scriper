@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":34751,\"billedEntityType\":null,\"billedTo\":\"PT. NTT Data Business Solutions\",\"expiryDate\":\"14 Jun 2022\",\"number\":\"1471866984\",\"nik\":null,\"agentUid\":\"WDRP5172\",\"storeName\":\"Accurate Sniper\",\"id\":3661,\"email\":\"Dewi.Fatmawati@nttdata.com\",\"npwp\":null,\"agentName\":\"Danang Putra Hardiansyah\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Jun 2022\",\"phone\":\"087700136113\",\"isHasExtendedExpiryDate\":true,\"name\":\"Dewi Fatmawati\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":3713}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

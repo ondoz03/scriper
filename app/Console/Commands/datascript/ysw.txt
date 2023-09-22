@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33908,\"billedEntityType\":null,\"billedTo\":\"PT. YOUNG SHIN WORLD ZZIPPER\",\"expiryDate\":\"16 Jan 2023\",\"number\":\"5352622103\",\"nik\":null,\"agentUid\":\"XD5R6RYG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":9552,\"email\":\"yswaccurate@gmail.com\",\"npwp\":null,\"agentName\":\"oryza sativa gogot vandia\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"09 Jan 2023\",\"phone\":\"081320066231\",\"isHasExtendedExpiryDate\":true,\"name\":\"CHOI LE SEOP\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10055}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33908,\"billedEntityType\":null,\"billedTo\":\"Feny\",\"expiryDate\":\"14 Jan 2023\",\"number\":\"6722589817\",\"nik\":null,\"agentUid\":\"XD5R6RYG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":9532,\"email\":\"yswaccurate@gmail.com\",\"npwp\":null,\"agentName\":\"oryza sativa gogot vandia\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Jan 2023\",\"phone\":\"081320066231\",\"isHasExtendedExpiryDate\":true,\"name\":\"Feny\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10034}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

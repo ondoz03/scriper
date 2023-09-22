@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35562,\"billedEntityType\":null,\"billedTo\":\"mupti mirtal hapid\",\"expiryDate\":\"12 Aug 2022\",\"number\":\"5052369666\",\"nik\":null,\"agentUid\":\"EDP19KEG\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":5468,\"email\":\"mexshamall@gmail.com\",\"npwp\":null,\"agentName\":\"Astrid claudya ismanto\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Aug 2022\",\"phone\":\"082130480317\",\"isHasExtendedExpiryDate\":true,\"name\":\"mupti mirtal hapid\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"ASYIK\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5619}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35562,\"billedEntityType\":null,\"billedTo\":\"MexShamall\",\"expiryDate\":\"29 Jul 2022\",\"number\":\"7054641240\",\"nik\":null,\"agentUid\":\"EDP19KEG\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":4953,\"email\":\"mexshamall@gmail.com\",\"npwp\":null,\"agentName\":\"Astrid claudya ismanto\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 Jul 2022\",\"phone\":\"082130480317\",\"isHasExtendedExpiryDate\":true,\"name\":\"mupti mirtal hapid\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":5058}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

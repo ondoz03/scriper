@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":2104,\"billedEntityType\":null,\"billedTo\":\"admin pilarsuvarna\",\"expiryDate\":\"28 Aug 2023\",\"number\":\"8610955108\",\"nik\":null,\"agentUid\":\"VPD0Y5JG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":17867,\"email\":\"admin@pilarsuvarna.co.id\",\"npwp\":null,\"agentName\":\"Doni Irvan Susanto\",\"grossAmount\":\"2,664,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"21 Aug 2023\",\"phone\":\"0813245667980\",\"isHasExtendedExpiryDate\":true,\"name\":\"admin pilarsuvarna\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19246}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,400,000\",\"agentId\":36608,\"billedEntityType\":\"PT\",\"billedTo\":\"APCA TIRTA ENGINEERING\",\"expiryDate\":\"27 Jun 2023\",\"number\":\"5333855980\",\"nik\":null,\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":16010,\"email\":\"esuviani9@gmail.com\",\"npwp\":\"023790405005000\",\"agentName\":\"Wendi\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":\"RUKO NEO ARCADE BLOK C - KAB. TANGERANG\",\"billedZipCode\":\"15811\",\"billedProvince\":\"Banten\",\"createTime\":\"20 Jun 2023\",\"phone\":\"082210170125\",\"isHasExtendedExpiryDate\":true,\"name\":\" Evi Suviani\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17115}],\"shippingAddress\":null,\"invoice\":{\"number\":\"81604158220\",\"couponAmount\":0,\"createTime\":\"20\/06\/2023 12:46:05\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6Y99KB2X56\",\"id\":449875},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36950,\"billedEntityType\":null,\"billedTo\":\"PT. Biroklasifikasi Inonesia\",\"expiryDate\":\"03 Mar 2023\",\"number\":\"9280180025\",\"nik\":null,\"agentUid\":\"P20Y1M9D\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":10963,\"email\":\"bayumw.2020@gmail.com\",\"npwp\":null,\"agentName\":\"Yuan Hayyu Al Kaafi\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Feb 2023\",\"phone\":\"081289888084\",\"isHasExtendedExpiryDate\":true,\"name\":\"Pak Bayu Mahardika\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11721}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

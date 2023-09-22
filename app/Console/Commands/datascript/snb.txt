@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":32701,\"billedEntityType\":null,\"billedTo\":\"Steve\",\"expiryDate\":\"02 Sep 2022\",\"number\":\"7070532154\",\"nik\":null,\"agentUid\":\"JDQKY77D\",\"storeName\":\"Accurate Sniper\",\"id\":6013,\"email\":\"snboneforforever@gmail.com\",\"npwp\":null,\"agentName\":\"Farid Ridhoni\",\"grossAmount\":\"2,442,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Aug 2022\",\"phone\":\"081288089709\",\"isHasExtendedExpiryDate\":true,\"name\":\"Steve\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6175}],\"shippingAddress\":null,\"taxAmount\":\"242,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2162,\"billedEntityType\":\"CV\",\"billedTo\":\"SNB JAYA ABADI\",\"expiryDate\":\"21 Apr 2022\",\"number\":\"4569120037\",\"nik\":null,\"agentUid\":\"3EDPE1Z2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":2421,\"email\":\"snbjayaabadi@gmail.com\",\"npwp\":\"630662609033000\",\"agentName\":\"Saripin\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":\"KRENDANG BARAT - KOTA ADM. JAKARTA BARAT\",\"billedZipCode\":\"11260\",\"billedProvince\":\"Jakarta\",\"createTime\":\"14 Apr 2022\",\"phone\":\"081311405196\",\"isHasExtendedExpiryDate\":true,\"name\":\"andy\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"UNTUNG\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":2471}],\"shippingAddress\":null,\"invoice\":{\"number\":\"77324063558\",\"couponAmount\":0,\"createTime\":\"15\/04\/2022 12:55:55\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6DEE22K2B3\",\"id\":265469},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

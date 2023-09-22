@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":30816,\"billedEntityType\":null,\"billedTo\":\"Rental Networks Indonesia\",\"expiryDate\":\"14 Sep 2022\",\"number\":\"5658087147\",\"nik\":null,\"agentUid\":\"EGP16K42\",\"storeName\":\"Accurate Sniper\",\"id\":6377,\"email\":\"charles.lim@rentalworks.com.my\",\"npwp\":null,\"agentName\":\"Igo Syahputra\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Sep 2022\",\"phone\":\"08164859008\",\"isHasExtendedExpiryDate\":true,\"name\":\"Charles Lim\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":6582}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+

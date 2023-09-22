@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2162,\"billedEntityType\":\"PT\",\"billedTo\":\"WAHANA MIZU ENERGI\",\"expiryDate\":\"05 Dec 2022\",\"number\":\"4485358448\",\"nik\":null,\"agentUid\":\"3EDPE1Z2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":8400,\"email\":\"Wahanamizuenergi@gmail.com\",\"npwp\":\"962207783402000\",\"agentName\":\"Saripin\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":\"RUKO PLAZZA DE ESPANA JALAN KALIMANTAN LIPPO KARAWACI NOMOR 12\",\"billedZipCode\":\"15138\",\"billedProvince\":\"Banten\",\"createTime\":\"28 Nov 2022\",\"phone\":\"089652522015\",\"isHasExtendedExpiryDate\":true,\"name\":\"Liset Darmayanti\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"HARBOLNAS2\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":8753}],\"shippingAddress\":null,\"invoice\":{\"number\":\"13899489971\",\"couponAmount\":0,\"createTime\":\"28\/11\/2022 15:41:09\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6744EB5Y13\",\"id\":354827},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2202,\"billedEntityType\":\"PT\",\"billedTo\":\"LENTERA CAMILAN NUSANTARA\",\"expiryDate\":\"07 Nov 2022\",\"number\":\"1625736380\",\"nik\":null,\"agentUid\":\"ZR2WP4KD\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":7671,\"email\":\"suchangyuen2009@gmail.com\",\"npwp\":\"638562405403000\",\"agentName\":\"Anto\",\"grossAmount\":\"2,220,000\",\"storeId\":153,\"billedAddress\":\"JLN. RAYA BOGOR KM 41,2 - KAB. BOGOR\",\"billedZipCode\":\"16916\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"31 Oct 2022\",\"phone\":\"08118171163\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bpk Soekianto Sosrodjojo\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB750\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":7979}],\"shippingAddress\":null,\"invoice\":{\"number\":\"66194167958\",\"couponAmount\":0,\"createTime\":\"31\/10\/2022 15:09:33\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3KNNRGPR96\",\"id\":343368},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-MAG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

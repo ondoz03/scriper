@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":18926,\"billedEntityType\":null,\"billedTo\":\"Kacang Mosp\",\"expiryDate\":\"17 Nov 2022\",\"number\":\"2477062227\",\"nik\":null,\"agentUid\":\"5GL0LQE2\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":7895,\"email\":\"mospkacang@gmail.com\",\"npwp\":null,\"agentName\":\"Erik Indriyanto\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"10 Nov 2022\",\"phone\":\"082123456789\",\"isHasExtendedExpiryDate\":true,\"name\":\"Kacang Mosp\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":8216}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35259,\"billedEntityType\":null,\"billedTo\":\"Yayasan Sam Poo Kong\",\"expiryDate\":\"30 Jul 2022\",\"number\":\"0636709339\",\"nik\":null,\"agentUid\":\"7DJR167G\",\"storeName\":\"Accurate Sniper\",\"id\":4968,\"email\":\"yayasan.sampookong@spk-inc.co.id\",\"npwp\":null,\"agentName\":\"Agatha Mawar\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"23 Jul 2022\",\"phone\":\"08112611927\",\"isHasExtendedExpiryDate\":true,\"name\":\"Wahyu\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"SERBU\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5074}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":35259,\"billedEntityType\":null,\"billedTo\":\"Yayasan Sampookong\",\"expiryDate\":\"19 Jul 2022\",\"number\":\"9882381846\",\"nik\":null,\"agentUid\":\"7DJR167G\",\"storeName\":\"Accurate Sniper\",\"id\":4710,\"email\":\"Yayasan.sampookong@spk-inc.co.id\",\"npwp\":null,\"agentName\":\"Agatha Mawar\",\"grossAmount\":\"2,220,000\",\"storeId\":2650,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"12 Jul 2022\",\"phone\":\"08112611927\",\"isHasExtendedExpiryDate\":true,\"name\":\"Wahyu\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":4811}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"CPS-AS\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36950,\"billedEntityType\":null,\"billedTo\":\"PT risacorps\",\"expiryDate\":\"06 Mar 2023\",\"number\":\"2384473995\",\"nik\":null,\"agentUid\":\"P20Y1M9D\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":10978,\"email\":\"rudy@risacorps.com\",\"npwp\":null,\"agentName\":\"Yuan Hayyu Al Kaafi\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"27 Feb 2023\",\"phone\":\"08118168308\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bpk Rudy\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11739}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2200,\"billedEntityType\":\"PT\",\"billedTo\":\"PT. ARTHA INFOTAMA\",\"expiryDate\":\"02 Jan 2023\",\"number\":\"9211287534\",\"nik\":null,\"agentUid\":\"WVGE6EWG\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":9131,\"email\":\"angelina.winata@rps-indonesia.co.id\",\"npwp\":\"020700142028000\",\"agentName\":\"Khairiah Katsir\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":\"KOMPLEK ROXY MAS BLOK E2\/28, JL KH. HASYIM ASHARI, CIDENG, GAMBIR, KOTA ADM. JAKARTA PUSAT, DKI JAKARTA, 10150\",\"billedZipCode\":\"10150\",\"billedProvince\":\"Jakarta\",\"createTime\":\"26 Dec 2022\",\"phone\":\"0818706968\",\"isHasExtendedExpiryDate\":true,\"name\":\"Angelina Anindya Winata\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"HARBOLNAS5\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":9542}],\"shippingAddress\":null,\"invoice\":{\"number\":\"80618812623\",\"couponAmount\":0,\"createTime\":\"26\/12\/2022 10:50:38\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6PYYEGG8D3\",\"id\":367101},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

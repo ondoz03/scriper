@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"3,120,000\",\"agentId\":37169,\"billedEntityType\":null,\"billedTo\":\"PT Saudara Inti Makmur \",\"expiryDate\":\"26 Jun 2023\",\"number\":\"8831102425\",\"nik\":null,\"agentUid\":\"VGEE3V3G\",\"storeName\":\"Sniper-Sumatera\",\"id\":16003,\"email\":\"lydsim85@gmail.com\",\"npwp\":null,\"agentName\":\"Marture Silaban\",\"grossAmount\":\"3,463,200\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Jun 2023\",\"phone\":\"081275578333\",\"isHasExtendedExpiryDate\":true,\"name\":\"Bapak Kasim\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":17104},{\"amount\":720000,\"quantity\":3,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":17105}],\"shippingAddress\":null,\"taxAmount\":\"343,200\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

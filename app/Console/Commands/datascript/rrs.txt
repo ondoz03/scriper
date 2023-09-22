@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,720,000\",\"agentId\":2350,\"billedEntityType\":\"PT\",\"billedTo\":\"LAMINAR REKAYASA SOLUSINDO\",\"expiryDate\":\"26 Jan 2023\",\"number\":\"2727152992\",\"nik\":null,\"agentUid\":\"VP207P7G\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":9858,\"email\":\"pt.laminarrs@gmail.com\",\"npwp\":\"863447538453000\",\"agentName\":\"Handry Liem\",\"grossAmount\":\"3,019,200\",\"storeId\":156,\"billedAddress\":\"RUKO VILA DAGO BLOK AB NO.5 JL. SILIWANGI - KOTA\",\"billedZipCode\":\"15416\",\"billedProvince\":\"Banten\",\"createTime\":\"19 Jan 2023\",\"phone\":\"082122501303\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tina\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10461},{\"amount\":240000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":10462},{\"amount\":240000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":10463},{\"amount\":240000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":10464}],\"shippingAddress\":null,\"invoice\":{\"number\":\"24119985737\",\"couponAmount\":0,\"createTime\":\"19\/01\/2023 18:14:35\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6GRR2LLMR3\",\"id\":379133},\"taxAmount\":\"299,200\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2350,\"billedEntityType\":null,\"billedTo\":\"PT LAMINAR REKAYASA SOLUSINDO\",\"expiryDate\":\"26 Jan 2023\",\"number\":\"3046723021\",\"nik\":null,\"agentUid\":\"VP207P7G\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":9909,\"email\":\"pt.laminarrs@gmail.com\",\"npwp\":null,\"agentName\":\"Handry Liem\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"19 Jan 2023\",\"phone\":\"082122501303\",\"isHasExtendedExpiryDate\":true,\"name\":\"Tina\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":10517}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

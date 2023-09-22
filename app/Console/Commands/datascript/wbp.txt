@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2350,\"billedEntityType\":\"PT\",\"billedTo\":\"PT WIJAYA BERKAH PERKASA\",\"expiryDate\":\"24 Feb 2023\",\"number\":\"5424662942\",\"nik\":null,\"agentUid\":\"VP207P7G\",\"storeName\":\"ABC Semanggi (Plaza Semanggi)\",\"id\":10656,\"email\":\"wbperkasa@gmail.com\",\"npwp\":\"749466975721000\",\"agentName\":\"Handry Liem\",\"grossAmount\":\"2,220,000\",\"storeId\":156,\"billedAddress\":\"JL DUA (SAMPING GANG NURI) NO.7 RT.21 GUNUNG SAMARINDA, BALIKPAPAN UTARA, KOTA BALIKPAPAN KALIMANTAN TIMUR\",\"billedZipCode\":\"76125\",\"billedProvince\":\"Kalimantan Timur\",\"createTime\":\"17 Feb 2023\",\"phone\":\"081346202049\",\"isHasExtendedExpiryDate\":true,\"name\":\"Asri Ayu\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":11407}],\"shippingAddress\":null,\"invoice\":{\"number\":\"26612892266\",\"couponAmount\":0,\"createTime\":\"17\/02\/2023 12:43:55\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3LGG95NGG6\",\"id\":392150},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-SMG\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

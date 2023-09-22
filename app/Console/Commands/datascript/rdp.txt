@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"7,320,000\",\"agentId\":37808,\"billedEntityType\":null,\"billedTo\":\"Bali Bird Park\",\"expiryDate\":\"08 Aug 2023\",\"number\":\"1122220562\",\"nik\":null,\"agentUid\":\"XD5WRPM2\",\"storeName\":\"Sniper-JBN\",\"id\":17306,\"email\":\"fc@balibirdpark.com\",\"npwp\":null,\"agentName\":\"Ade Saputra\",\"grossAmount\":\"8,125,200\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"01 Aug 2023\",\"phone\":\"087888031462\",\"isHasExtendedExpiryDate\":true,\"name\":\"David Lee\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18521},{\"amount\":1800000,\"quantity\":2,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":18522},{\"amount\":1200000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Cost & Profit Center 1 database 1 tahun\",\"id\":18523},{\"amount\":1920000,\"quantity\":8,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":18524}],\"shippingAddress\":null,\"taxAmount\":\"805,200\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":2210,\"billedEntityType\":null,\"billedTo\":\"Vincent\",\"expiryDate\":\"01 Aug 2022\",\"number\":\"2118855185\",\"nik\":null,\"agentUid\":\"RPG8MMXG\",\"storeName\":\"ABC Medan\",\"id\":5060,\"email\":\"hrdphpmedan@gmail.com\",\"npwp\":null,\"agentName\":\"Desi Permatasari\",\"grossAmount\":\"2,220,000\",\"storeId\":157,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"25 Jul 2022\",\"phone\":\"082267054640\",\"isHasExtendedExpiryDate\":true,\"name\":\"hrd phpmedan\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"SERBU\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5210}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MDN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

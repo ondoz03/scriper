@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"4,800,000\",\"agentId\":33154,\"billedEntityType\":null,\"billedTo\":\"HBJ\",\"expiryDate\":\"31 Aug 2023\",\"number\":\"7453815690\",\"nik\":null,\"agentUid\":\"X25RNQJD\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":18053,\"email\":\"giandyhbj@gmail.com\",\"npwp\":null,\"agentName\":\"Dea Weningsari\",\"grossAmount\":\"5,328,000\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Aug 2023\",\"phone\":\"0811108832\",\"isHasExtendedExpiryDate\":true,\"name\":\"Giandy\",\"detailList\":[{\"amount\":2700000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"ATALKSBEKASI\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":19405},{\"amount\":1200000,\"quantity\":5,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":19406},{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":19407}],\"shippingAddress\":null,\"taxAmount\":\"528,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"},{\"amountBeforeTax\":\"4,320,000\",\"agentId\":33154,\"billedEntityType\":null,\"billedTo\":\"HBJ\",\"expiryDate\":\"16 Aug 2023\",\"number\":\"6893222700\",\"nik\":null,\"agentUid\":\"X25RNQJD\",\"storeName\":\"Sniper-Jabodetabek\",\"id\":17438,\"email\":\"giandyhbj@gmail.com\",\"npwp\":null,\"agentName\":\"Dea Weningsari\",\"grossAmount\":\"4,795,200\",\"storeId\":3001,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"09 Aug 2023\",\"phone\":\"0811108832\",\"isHasExtendedExpiryDate\":true,\"name\":\"Giandy\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18779},{\"amount\":1920000,\"quantity\":8,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Tambahan 1 Akses Pengguna AOL 1 tahun\",\"id\":18780}],\"shippingAddress\":null,\"taxAmount\":\"475,200\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBD\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

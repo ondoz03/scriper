@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,200,000\",\"agentId\":33908,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Robby Rhamdhani\",\"expiryDate\":\"29 Aug 2022\",\"number\":\"8351173114\",\"nik\":\"3273240103930002\",\"agentUid\":\"XD5R6RYG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":5790,\"email\":\"admutamarjr@gmail.com\",\"npwp\":null,\"agentName\":\"oryza sativa gogot vandia\",\"grossAmount\":\"2,442,000\",\"storeId\":2400,\"billedAddress\":\"Jl laswi no 93, kel samoja, kecamatan batununggal, kota bandung\",\"billedZipCode\":\"40273\",\"billedProvince\":\"Jawa Barat\",\"createTime\":\"22 Aug 2022\",\"phone\":\"085721542983\",\"isHasExtendedExpiryDate\":true,\"name\":\"Robby Rhamdhani\",\"detailList\":[{\"amount\":2200000,\"quantity\":1,\"subDescription\":\"aol-14m-2u-Cashback 1Jt\",\"promotionCode\":\"PESTA\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 2 Pengguna Tambahan\",\"id\":6004}],\"shippingAddress\":null,\"invoice\":{\"number\":\"48451316037\",\"couponAmount\":0,\"createTime\":\"22\/08\/2022 09:48:41\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"3499EXD8L6\",\"id\":315404},\"taxAmount\":\"242,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-AMB\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":33908,\"billedEntityType\":null,\"billedTo\":\"Robby Rhamdhani\",\"expiryDate\":\"12 Aug 2022\",\"number\":\"4828479119\",\"nik\":null,\"agentUid\":\"XD5R6RYG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":5407,\"email\":\"admutamarjr@gmail.com\",\"npwp\":null,\"agentName\":\"oryza sativa gogot vandia\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"05 Aug 2022\",\"phone\":\"085721542983\",\"isHasExtendedExpiryDate\":true,\"name\":\"Robby Rhamdhani\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 2 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"ASYIK\",\"description\":\"Accurate Online (1 tahun) + 2 Pengguna Tambahan\",\"id\":5557}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

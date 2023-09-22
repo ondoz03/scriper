@@ -1,0 +1,5 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":11959,\"billedEntityType\":null,\"billedTo\":\"PT. ARCHIE BANGUN CIPTA\",\"expiryDate\":\"29 May 2023\",\"number\":\"8110805333\",\"nik\":null,\"agentUid\":\"K7DJP0PD\",\"storeName\":\"ABC Lebakbulus (Poins Square)\",\"id\":14374,\"email\":\"archiebck_info@yahoo.com\",\"npwp\":null,\"agentName\":\"Siti Fadlilah\",\"grossAmount\":\"2,664,000\",\"storeId\":155,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 May 2023\",\"phone\":\"08161115698\",\"isHasExtendedExpiryDate\":true,\"name\":\"Christianto\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":15331}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MGK\"}]}");
+
+

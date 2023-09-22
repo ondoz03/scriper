@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":36608,\"billedEntityType\":null,\"billedTo\":\"5 Star Holiday\",\"expiryDate\":\"08 Sep 2023\",\"number\":\"6428705431\",\"nik\":null,\"agentUid\":\"XD5WX5Q2\",\"storeName\":\"ABC Mal Artha Gading\",\"id\":18356,\"email\":\"dwi.tjua@gmail.com\",\"npwp\":null,\"agentName\":\"Wendi\",\"grossAmount\":\"2,664,000\",\"storeId\":153,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"01 Sep 2023\",\"phone\":\"085364426224\",\"isHasExtendedExpiryDate\":true,\"name\":\"Dwi Meliana\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":19717}],\"shippingAddress\":null,\"taxAmount\":\"264,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MAG\"},{\"amountBeforeTax\":\"2,900,000\",\"agentId\":31654,\"billedEntityType\":null,\"billedTo\":\"Novilia Tjugito\",\"expiryDate\":\"01 May 2023\",\"number\":\"0662384048\",\"nik\":null,\"agentUid\":\"X25RVMYD\",\"storeName\":\"Sniper-JBN\",\"id\":13685,\"email\":\"noviliatj@gmail.com\",\"npwp\":null,\"agentName\":\"I Made Rama Wijaya\",\"grossAmount\":\"3,219,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"24 Apr 2023\",\"phone\":\"082147144195\",\"isHasExtendedExpiryDate\":true,\"name\":\"Novilia Tjugito\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":14538},{\"amount\":900000,\"quantity\":1,\"subDescription\":null,\"promotionCode\":null,\"description\":\"Paket Add-on Multi Cabang 1 cabang 1 tahun\",\"id\":14539}],\"shippingAddress\":null,\"taxAmount\":\"319,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

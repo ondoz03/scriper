@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":20603,\"billedEntityType\":null,\"billedTo\":\"Hoje Tea\",\"expiryDate\":\"27 Jul 2022\",\"number\":\"1255822971\",\"nik\":null,\"agentUid\":\"5DL03XKG\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":4899,\"email\":\"hoje.tea@gmail.com\",\"npwp\":null,\"agentName\":\"Sholeh Patiraja\",\"grossAmount\":\"2,220,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"20 Jul 2022\",\"phone\":\"081387429352\",\"isHasExtendedExpiryDate\":true,\"name\":\"Gilang Norman Rizesa\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":5008}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

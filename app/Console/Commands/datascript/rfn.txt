@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"1,800,000\",\"agentId\":34162,\"billedEntityType\":null,\"billedTo\":\"PT. Cantika prima utama\",\"expiryDate\":\"29 Mar 2022\",\"number\":\"7701279689\",\"nik\":null,\"agentUid\":\"EDP1P8WG\",\"storeName\":\"ABC Mall Taman Palem\",\"id\":1535,\"email\":\"hrd@cantikaprimautama.com\",\"npwp\":null,\"agentName\":\"Kharisma bimo aji seno\",\"grossAmount\":\"1,980,000\",\"storeId\":100,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"22 Mar 2022\",\"phone\":\"08118109189\",\"isHasExtendedExpiryDate\":true,\"name\":\"RFN\",\"detailList\":[{\"amount\":1800000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) selama 1 tahun\",\"promotionCode\":null,\"description\":\"Paket Spesial Accurate Online 1 Tahun\",\"id\":1536}],\"shippingAddress\":null,\"taxAmount\":\"180,000\",\"status\":\"PENDING\",\"storeCode\":\"ABC-MTP\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

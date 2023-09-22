@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,600,000\",\"agentId\":34555,\"billedEntityType\":null,\"billedTo\":\"CV. SLAMET MANDIRI\",\"expiryDate\":\"02 Apr 2023\",\"number\":\"3876391912\",\"nik\":null,\"agentUid\":\"RD3NMQZD\",\"storeName\":\"Sniper-JBN\",\"id\":12814,\"email\":\"edycua@yahoo.com\",\"npwp\":null,\"agentName\":\"Ficky Ardiansyah\",\"grossAmount\":\"2,886,000\",\"storeId\":2950,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"26 Mar 2023\",\"phone\":\"0818304225\",\"isHasExtendedExpiryDate\":true,\"name\":\"Edy\",\"detailList\":[{\"amount\":2600000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 4 pengguna tambahan selama 1 tahun + 2 bulan\",\"promotionCode\":\"THRLEBARANHEMAT\",\"description\":\"Accurate Online (1 tahun + 2 bulan) + 4 Pengguna Tambahan\",\"id\":13625}],\"shippingAddress\":null,\"taxAmount\":\"286,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-JBN\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

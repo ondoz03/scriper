@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,000,000\",\"agentId\":37169,\"billedEntityType\":null,\"billedTo\":\"PT. Inter Premier Azraqi\",\"expiryDate\":\"14 Mar 2023\",\"number\":\"2464540477\",\"nik\":null,\"agentUid\":\"VGEE3V3G\",\"storeName\":\"Sniper-Sumatera\",\"id\":11389,\"email\":\"ipa.interpremier.azraqi@gmail.com\",\"npwp\":null,\"agentName\":\"Marture Silaban\",\"grossAmount\":\"2,220,000\",\"storeId\":2951,\"billedAddress\":null,\"billedZipCode\":null,\"billedProvince\":null,\"createTime\":\"07 Mar 2023\",\"phone\":\"6285267764177\",\"isHasExtendedExpiryDate\":true,\"name\":\"Mbak Dila\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":null,\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":12197}],\"shippingAddress\":null,\"taxAmount\":\"220,000\",\"status\":\"PENDING\",\"storeCode\":\"AS-SMT\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	

@@ -1,0 +1,16 @@
+
+	var sessionData = {"nickname":"SUPPORT","userId":6850,"username":"support@cpssoft.com"};
+	var contentData = JSON.parse("{\"dataList\":[{\"amountBeforeTax\":\"2,400,000\",\"agentId\":35577,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"TOKO SINAR ELEKTRONIK\",\"expiryDate\":\"09 Aug 2023\",\"number\":\"1237051007\",\"nik\":\"3515114312810006\",\"agentUid\":\"XD5R38MG\",\"storeName\":\"Sniper-JBN\",\"id\":17277,\"email\":\"tksinarekrian@gmail.com\",\"npwp\":null,\"agentName\":\"Yanuar Ainul Furqon\",\"grossAmount\":\"2,664,000\",\"storeId\":2950,\"billedAddress\":\"Jl. Basuki Rahmat No. 210, Krian, Sidoarjo\",\"billedZipCode\":\"61262\",\"billedProvince\":\"Jawa Timur\",\"createTime\":\"02 Aug 2023\",\"phone\":\"081803083266\",\"isHasExtendedExpiryDate\":true,\"name\":\"Darmawati Jong\",\"detailList\":[{\"amount\":2400000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":18597}],\"shippingAddress\":null,\"invoice\":{\"number\":\"74145683375\",\"couponAmount\":0,\"createTime\":\"02\/08\/2023 11:48:07\",\"billedFullAddress\":\"\",\"invoiceNumber\":\"6PYYMMY9P3\",\"id\":471075},\"taxAmount\":\"264,000\",\"status\":\"PROCESSED\",\"storeCode\":\"AS-JBN\"},{\"amountBeforeTax\":\"2,000,000\",\"agentId\":36902,\"billedEntityType\":\"Perorangan\",\"billedTo\":\"Adi\",\"expiryDate\":\"02 Apr 2023\",\"number\":\"0024398148\",\"nik\":\"1371012901800007\",\"agentUid\":\"R2W4VKEG\",\"storeName\":\"ABC Kuningan (Mall Ambassador)\",\"id\":12819,\"email\":\"tks4ady@gmail.com\",\"npwp\":null,\"agentName\":\"Hilmy Fadhly\",\"grossAmount\":\"2,220,000\",\"storeId\":2400,\"billedAddress\":\"jalan pasa gadang, padang, Sumbar\",\"billedZipCode\":\"25213\",\"billedProvince\":\"Sulawesi Barat\",\"createTime\":\"26 Mar 2023\",\"phone\":\"08116666388\",\"isHasExtendedExpiryDate\":true,\"name\":\"Adi\",\"detailList\":[{\"amount\":2000000,\"quantity\":1,\"subDescription\":\"Paket berlangganan Accurate Online (termasuk 1 pengguna) + 1 pengguna tambahan selama 1 tahun\",\"promotionCode\":\"CB500\",\"description\":\"Accurate Online (1 tahun) + 1 Pengguna Tambahan\",\"id\":13630}],\"shippingAddress\":null,\"invoice\":{\"number\":\"52993531578\",\"couponAmount\":0,\"createTime\":\"27\/03\/2023 14:15:50\",\"billedFullAddress\":\"\",\"invoiceNumber\":null,\"id\":408878},\"taxAmount\":\"220,000\",\"status\":\"PROCESSED\",\"storeCode\":\"ABC-AMB\"}]}");
+
+	$('.content-wrapper').show();
+
+	if (window.PageModel) {
+		var $contentEl = $('.content');
+
+		var model = new PageModel();
+		model._init();
+		model._beforeBind();
+		ko.applyBindings(model, $contentEl[0]);
+		model._afterBind();
+	}
+	
